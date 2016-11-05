@@ -1,0 +1,21 @@
+Relatório:
+
+Extração de NE's:
+
+Extração normal, chunker...
+2048 entidades
+
+Removi as entidades que aparecem apenas uma vez no arquivo txt
+748 entidades
+
+Removendo subentidades a cada capítulo
+688 entidades
+
+Removendo subentidades só no final
+495 entidades
+
+pronome de tratamento:
+['king', 'lord commander', 'lord', 'maester', 'master', 'prince', 'princess', 'queen', 'ser']
+
+Removendo estes pronomes das entidades:
+470 entidades
