@@ -84,15 +84,23 @@ def generate_batch(batch_size, num_skips, skip_window, data):
     data_index = (data_index + 1) % len(data)
   return batch, labels
 
-# Step 6: Visualize the embeddings.
 import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
 
-def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):
+def plot_with_labels(low_dim_embs, labels, filename='tsne.png', y_pred=None):
   assert low_dim_embs.shape[0] >= len(labels), "More labels than embeddings"
-  plt.figure(figsize=(18, 18))  #in inches
+  plt.figure(figsize=(24, 24))  #in inches
+  colors = ["blue","green","red","yellow","black","purple"]
+  flag = 1
+  if y_pred is None:
+  	flag = 0
   for i, label in enumerate(labels):
     x, y = low_dim_embs[i,:]
-    plt.scatter(x, y)
+    if flag == 0:
+    	plt.scatter(x, y, color="green")
+    else:
+		plt.scatter(x, y, color=colors[y_pred[i]])
+
     plt.annotate(label,
                  xy=(x, y),
                  xytext=(5, 2),
@@ -218,25 +226,34 @@ def word2vec(filename, vocabulary_size, num_steps):
 	  final_embeddings = normalized_embeddings.eval()
 	  print(final_embeddings.shape)
 
-	save("words_vector.json")
+	y_pred = saveTSNE()
+	save("wordEMBEDDINGS/word_space/words_labels.json", "y_pred")
+	save("wordEMBEDDINGS/word_space/words_vector.json", "final_embeddings")
 
+def saveTSNE():
 	try:
 	  from sklearn.manifold import TSNE
 
 	  tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
 	  plot_only = 500
-	  low_dim_embs = tsne.fit_transform(final_embeddings[:plot_only,:])
+	  low_dim_embs = tsne.fit_transform(final_embeddings)
+	  y_pred = KMeans(n_clusters=6, random_state=170).fit_predict(low_dim_embs)
+	  low_dim_embs = low_dim_embs[:plot_only,:]
 	  labels = [reverse_dictionary[i] for i in xrange(plot_only)]
-	  plot_with_labels(low_dim_embs, labels)
+	  if y_pred is None:
+	  	plot_with_labels(low_dim_embs, labels, filename="tsne.png")
+	  else:
+	  	plot_with_labels(low_dim_embs, labels, filename='tsne.png', y_pred=y_pred)
 
 	except ImportError:
 	  print("Please install sklearn, matplotlib, and scipy to visualize embeddings.")
+	return y_pred
 
 import json
-def save(filename):
+def save(filename,name):
     """Salva os valores do vies e dos pesos da rede num arquivo."""
-    filename = "wordEMBEDDINGS/word_space/" + filename
-    data = {"final_embeddings": [v.tolist() for v in final_embeddings]}
+    filename = filename
+    data = {name: [v.tolist() for v in final_embeddings]}
     f = open(filename, "w")
     json.dump(data, f)
     f.close()
@@ -259,9 +276,33 @@ if __name__ == '__main__':
 	data, count, dictionary, reverse_dictionary = build_dataset(words, vocabulary_size)
 	del words
 
-
-	words = [dictionary["cersei"],dictionary["arya"],dictionary["jaime"],dictionary["tyrion"], dictionary["theon"], dictionary["jon"], dictionary["sansa"],dictionary["tywin"],dictionary["brienne"],dictionary["hodor"],dictionary["joffrey"],dictionary["ramsay"],dictionary["robert"],dictionary["daenerys"],dictionary["eddard"]]
+# 	ids = [winterfell
+# dreadfort
+# castle black
+# craster's keep
+# mole's town
+# moat cailin
+# the twins
+# the eyrie
+# braavos
+# kings landing
+# inn at the crossroads
+# pyke
+# dragonstone
+# sunspear]
+	words = [dictionary["cersei"],dictionary["arya"],
+			dictionary["jaime"],dictionary["tyrion"], 
+			dictionary["theon"], dictionary["jon"],
+			dictionary["sansa"],dictionary["tywin"],
+			dictionary["brienne"],dictionary["hodor"],
+			dictionary["joffrey"],dictionary["ramsay"],
+			dictionary["robert"],dictionary["daenerys"],
+			dictionary["eddard"],dictionary["oberyn"],
+			dictionary["bran"],dictionary["jorah"],
+			dictionary["myrcella"],dictionary["melisandre"],
+			dictionary["bronn"],dictionary["margaery"]]
 	
+	y_pred = saveTSNE()
 	# target = final_embeddings[words]
 	# dist = final_embeddings.dot(target.T)
 	# # nearest = dist.argsort()[-10:]
@@ -276,16 +317,18 @@ if __name__ == '__main__':
 		dist = final_embeddings.dot(target.T)
 		dist = dist*dist
 	  	nearest = dist[:].argsort()[-20:]
-	  	log_str = "Nearest to %s:" % valid_word
-	        for k in xrange(19):
-	          close_word = reverse_dictionary[nearest[-k-1]]
-	          log_str = "%s %s," % (log_str, close_word)
-	        print(log_str)
+	  	# log_str = "Nearest to %s:" % valid_word
+	   #      for k in xrange(19):
+	   #        close_word = reverse_dictionary[nearest[-k-1]]
+	   #        log_str = "%s %s," % (log_str, close_word)
+	   #      print(log_str)
 		hedist = target.dot(he.T)
 		hedist *= hedist
 		shedist = target.dot(she.T)
 		shedist *= shedist
+		log_str = "%s Class: %s" % (valid_word,y_pred[i])
 		if hedist > shedist:
-			print('Macho Alpha')
+			log_str += " macho"
 		else:
-			print('Femea Betha')
+			log_str += " femea"
+		print(log_str)

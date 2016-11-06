@@ -6,8 +6,55 @@ HOUSES : house lannister
 HOUSES : house of black
 HOUSES : house stark
 HOUSES : house tyrell
-NP : 
-NP : a
+LOCATION : at the battle
+LOCATION : at the dock
+LOCATION : at the dragon
+LOCATION : at the end
+LOCATION : at the fist
+LOCATION : at the hands
+LOCATION : at the statue
+LOCATION : at the twins
+LOCATION : between the crown
+LOCATION : from the battle
+LOCATION : from the capital
+LOCATION : from the crossroads inn
+LOCATION : from the house
+LOCATION : from the sea
+LOCATION : from the stormlands
+LOCATION : in the battle
+LOCATION : in the castle
+LOCATION : in the cave
+LOCATION : in the city
+LOCATION : in the courtyard
+LOCATION : in the dungeon
+LOCATION : in the eyrie
+LOCATION : in the great sept
+LOCATION : in the group
+LOCATION : in the kingsguard
+LOCATION : in the middle
+LOCATION : in the mood
+LOCATION : in the north
+LOCATION : in the past
+LOCATION : in the practice
+LOCATION : in the riverlands
+LOCATION : in the sand
+LOCATION : in the streets
+LOCATION : in the throne
+LOCATION : in the vale
+LOCATION : in the war
+LOCATION : in the woods
+LOCATION : in the world
+LOCATION : into the cave
+LOCATION : into the dirt
+LOCATION : into the throne
+LOCATION : on the floor
+LOCATION : on the grounds
+LOCATION : on the iron throne
+LOCATION : on the king
+LOCATION : on the other
+LOCATION : on the small council
+LOCATION : on the streets
+LOCATION : on the wall
 NP : a dothraki
 NP : a lannister
 NP : a stark
@@ -16,81 +63,61 @@ NP : a white walker
 NP : aegon
 NP : aemon
 NP : aeron
-NP : aerys
 NP : aerys targaryen
 NP : afterward
 NP : akho
-NP : alliser
 NP : alliser thorne
-NP : alton
 NP : alton lannister
-NP : amory
 NP : amory lorch
 NP : an unsullied
 NP : anguy
 NP : april
 NP : areo
 NP : army
-NP : arry
 NP : arryn
-NP : arya
 NP : arya stark
 NP : astapor
-NP : b
 NP : baelish
 NP : baelor
-NP : balon
 NP : balon greyjoy
 NP : bank
-NP : baratheon
 NP : baratheons
-NP : barristan
 NP : barristan selmy
 NP : bastard
 NP : battle
 NP : bay
-NP : bear
 NP : bear island
 NP : benjen
 NP : beric
 NP : bert
 NP : beyond
 NP : biter
-NP : black
 NP : black walder
 NP : blackfish
 NP : blackwater
-NP : bolton
 NP : bolton's
 NP : boltons
 NP : bones
 NP : book
 NP : both thorne
 NP : bowen
-NP : braavos
 NP : braavosi
-NP : bran
 NP : bran stark
 NP : brienne
 NP : broken tower
 NP : bronn
-NP : brotherhood
 NP : brotherhood without banners
 NP : brothers
 NP : brynden
 NP : castamere
 NP : casterly rock
-NP : castle
 NP : castle black
-NP : cat
-NP : catelyn
 NP : catelyn stark
 NP : cersei
 NP : children
 NP : citadel
 NP : city watch
 NP : clegane
-NP : commander
 NP : commander jeor mormont
 NP : commander mormont
 NP : conquer
@@ -102,7 +129,6 @@ NP : cripples
 NP : crossroads inn
 NP : crown
 NP : daario
-NP : daenerys
 NP : daenerys targaryen
 NP : daenerys'
 NP : dagmer
@@ -122,28 +148,21 @@ NP : dorne
 NP : dornish
 NP : dosh khaleen
 NP : dothraki
-NP : dragons
 NP : dragonstone
 NP : dreadfort
-NP : drogo
 NP : drogon
 NP : drowned god
 NP : duur
-NP : edd
-NP : eddard
 NP : eddard stark
 NP : eddison
 NP : edmure
 NP : egg
 NP : elia
-NP : ellaria
 NP : ellaria sand
-NP : euron
 NP : euron greyjoy
 NP : eyrie
 NP : faceless men
 NP : faces
-NP : faith
 NP : faith militant
 NP : fennesz
 NP : fingers
@@ -156,9 +175,7 @@ NP : ford
 NP : forest
 NP : free cities
 NP : free folk
-NP : frey
 NP : freys
-NP : garden
 NP : gardens
 NP : gared
 NP : gendry
@@ -167,26 +184,23 @@ NP : gift
 NP : gilly
 NP : gods
 NP : grand
-NP : great
 NP : great houses
 NP : great masters
 NP : great sept
 NP : greatjon
-NP : gregor
 NP : gregor clegane
 NP : grenn
 NP : grey wind
 NP : grey worm
 NP : greyjoy
 NP : halfhand
-NP : hall
 NP : hallyne
 NP : hand
 NP : hardhome
 NP : harpy
 NP : harrenhal
+NP : hbo
 NP : her khalasar
-NP : high
 NP : high hall
 NP : high septon
 NP : high sparrow
@@ -194,7 +208,6 @@ NP : highgarden
 NP : hizdahr
 NP : hobb
 NP : hodor
-NP : hoster
 NP : hoster tully
 NP : hot pie
 NP : hotah
@@ -205,57 +218,41 @@ NP : iggo
 NP : illyrio
 NP : ilyn payne
 NP : imp
-NP : iron
 NP : iron bank
 NP : iron islands
 NP : iron throne
 NP : ironborn
 NP : irri
-NP : jaime
 NP : jaime lannister
 NP : jamie
-NP : janos
 NP : janos slynt
-NP : jaqen
 NP : jaqen h'ghar
-NP : jeor
 NP : jeor mormont
-NP : joffrey
 NP : joffrey baratheon
 NP : jojen
-NP : jon
 NP : jon arryn
-NP : jon sn
 NP : jon snow
-NP : jorah
 NP : jorah mormont
-NP : jory
 NP : jory cassel
 NP : joyeuse
 NP : karl
 NP : karsi
-NP : karstark
 NP : karstarks
 NP : keep
 NP : kevan
-NP : khal
 NP : khal drogo
 NP : khal moro
-NP : kin
 NP : kingdom
 NP : kingsguard
 NP : kingsroad
 NP : kinvara
 NP : kraznys
-NP : lady
 NP : lady crane
 NP : lady lysa arryn
 NP : lady olenna
-NP : lancel
 NP : lancel lannister
 NP : landing
 NP : lanna
-NP : lannister
 NP : lannisters
 NP : last targaryen
 NP : later
@@ -275,25 +272,19 @@ NP : lorch
 NP : lorren
 NP : lothar
 NP : luwin
-NP : lyanna
 NP : lyanna stark
-NP : lys
 NP : lysa
 NP : mace
 NP : mad
-NP : mag
 NP : maggy
 NP : mago
 NP : maiden fair
 NP : main lannister
-NP : mance
 NP : mance rayder
 NP : mandon
-NP : margaery
 NP : margaery tyrell
 NP : marillion
 NP : martell
-NP : martyn
 NP : martyn lannister
 NP : matthos
 NP : meera
@@ -304,7 +295,6 @@ NP : men
 NP : mero
 NP : meryn
 NP : mhaegen
-NP : mighdal
 NP : mighdal's
 NP : mirri maz duur
 NP : missandei
@@ -321,23 +311,17 @@ NP : mountain
 NP : mud gate
 NP : mummer
 NP : mycah
-NP : myr
 NP : myranda
 NP : myrcella
 NP : naharis
 NP : narrow sea
 NP : neck
-NP : ned
 NP : ned stark
 NP : needle
-NP : night
 NP : night lands
 NP : nightfort
-NP : north
-NP : northern
 NP : northerners
 NP : norvosi
-NP : nym
 NP : nymeria
 NP : oathkeeper
 NP : obara
@@ -345,7 +329,6 @@ NP : oberyn
 NP : old gods
 NP : old nan
 NP : oldtown
-NP : olenna
 NP : olenna tyrell
 NP : olly
 NP : olyvar
@@ -354,14 +337,11 @@ NP : orell
 NP : ornela
 NP : orson
 NP : osha
-NP : outside
 NP : oxcross
-NP : pentos
 NP : pentoshi
 NP : petyr
 NP : piggy
 NP : pit
-NP : pod
 NP : podrick
 NP : polliver
 NP : pree
@@ -369,11 +349,9 @@ NP : prendahl
 NP : priestess
 NP : protector
 NP : punishment
-NP : pyat
 NP : pyat pree
 NP : pycelle
 NP : pyke
-NP : pyp
 NP : pypar
 NP : qarth
 NP : qhorin
@@ -382,7 +360,6 @@ NP : quaithe
 NP : qyburn
 NP : rains
 NP : rakharo
-NP : ramsay
 NP : ramsay bolton
 NP : ramsay snow
 NP : rast
@@ -403,69 +380,53 @@ NP : regent
 NP : renly
 NP : reyne
 NP : rhaegal
-NP : rhaegar
 NP : rhaegar targaryen
 NP : rhaego
 NP : rhaenyra
-NP : rickard
 NP : rickard karstark
 NP : rickon
 NP : riverlands
 NP : riverrun
-NP : robb
 NP : robb stark
-NP : robert
 NP : robert baratheon
 NP : robert's
 NP : robin
 NP : rodrik
-NP : roose
 NP : roose bolton
-NP : ros
 NP : roslin
 NP : royce
 NP : sack
 NP : salladhor
 NP : salt throne
-NP : sam
-NP : samwell
 NP : samwell tarly
 NP : sand snakes
-NP : sandor
 NP : sandor clegane
-NP : sansa
 NP : sansa stark
 NP : savo
 NP : second sons
 NP : selmy
 NP : selwyn
 NP : selyse
-NP : sept
 NP : septa mordane
 NP : septa unella
 NP : ser alliser
 NP : ser amory
 NP : ser arthur
-NP : ser barristan
 NP : ser barristan selmy
 NP : ser beric
 NP : ser davos
 NP : ser gerold
 NP : ser gregor
 NP : ser hugh
-NP : ser ilyn
 NP : ser ilyn payne
 NP : ser jorah
 NP : ser kevan
 NP : ser loras
 NP : ser mandon
-NP : ser meryn
 NP : ser meryn trant
-NP : ser rodrik
 NP : ser rodrik cassel
 NP : ser vardis egen
 NP : ser waymar
-NP : seven
 NP : seven kingdoms
 NP : several bolton
 NP : shae
@@ -480,29 +441,21 @@ NP : slynt
 NP : small council
 NP : smalljon
 NP : snow
-NP : son
 NP : sons
 NP : south
-NP : sparrow
 NP : sparrows
 NP : square
-NP : stannis
 NP : stannis baratheon
-NP : stark
 NP : starks
 NP : steelshanks
 NP : stone mill
-NP : storm
 NP : stormlands
 NP : stranger
-NP : styr
 NP : styr's
 NP : summer
 NP : sunspear
-NP : syrio
 NP : syrio forel
 NP : talisa
-NP : targaryen
 NP : targaryens
 NP : tarly
 NP : tarth
@@ -524,9 +477,7 @@ NP : that tyrion
 NP : that tywin
 NP : that yunkai
 NP : thenn
-NP : theon
 NP : theon greyjoy
-NP : thin
 NP : thin man
 NP : thirteen
 NP : thorne
@@ -536,31 +487,24 @@ NP : tickler
 NP : titan
 NP : tommen
 NP : tormund
-NP : torrhen
 NP : torrhen karstark
 NP : tower
 NP : town
 NP : trant
 NP : trident
-NP : trystane
 NP : trystane martell
 NP : tully
 NP : twins
 NP : tycho
 NP : tyene
-NP : tyrell
 NP : tyrells
-NP : tyrion
 NP : tyrion lannister
-NP : tywin
 NP : tywin lannister
 NP : umber
 NP : unsullied
 NP : vaes dothrak
-NP : vala
 NP : valar morghulis
 NP : vale
-NP : valyria
 NP : valyrian
 NP : vardis
 NP : varys
@@ -569,11 +513,8 @@ NP : viserys
 NP : volantis
 NP : waif
 NP : walda
-NP : walder
 NP : walder frey
 NP : walder's
-NP : walk
-NP : walker
 NP : walkers
 NP : wall
 NP : war
@@ -585,14 +526,10 @@ NP : weirwood
 NP : weiss
 NP : westeros
 NP : whispering wood
-NP : white
-NP : white walker
 NP : white walkers
 NP : wildfire
 NP : wildlings
-NP : will
 NP : willem
-NP : winter
 NP : winterfell
 NP : wise masters
 NP : wun wun
@@ -613,620 +550,3 @@ ORGANIZATION : mother of dragons
 ORGANIZATION : rains of castamere
 ORGANIZATION : thoros of myr
 ORGANIZATION : walk of punishment
-PEOPLE : 
-PEOPLE : a
-PEOPLE : a dothraki
-PEOPLE : a lannister
-PEOPLE : a stark
-PEOPLE : a tyrell
-PEOPLE : a white walker
-PEOPLE : aegon
-PEOPLE : aemon
-PEOPLE : aeron
-PEOPLE : aerys
-PEOPLE : aerys targaryen
-PEOPLE : afterward
-PEOPLE : akho
-PEOPLE : alliser
-PEOPLE : alliser thorne
-PEOPLE : alton
-PEOPLE : alton lannister
-PEOPLE : amory
-PEOPLE : amory lorch
-PEOPLE : an unsullied
-PEOPLE : anguy
-PEOPLE : april
-PEOPLE : areo
-PEOPLE : army
-PEOPLE : arry
-PEOPLE : arryn
-PEOPLE : arya
-PEOPLE : arya stark
-PEOPLE : astapor
-PEOPLE : b
-PEOPLE : baelish
-PEOPLE : baelor
-PEOPLE : balon
-PEOPLE : balon greyjoy
-PEOPLE : bank
-PEOPLE : baratheon
-PEOPLE : baratheons
-PEOPLE : barristan
-PEOPLE : barristan selmy
-PEOPLE : bastard
-PEOPLE : battle
-PEOPLE : bay
-PEOPLE : bear
-PEOPLE : bear island
-PEOPLE : benjen
-PEOPLE : beric
-PEOPLE : bert
-PEOPLE : biter
-PEOPLE : black walder
-PEOPLE : blackfish
-PEOPLE : blackwater
-PEOPLE : bolton
-PEOPLE : boltons
-PEOPLE : bones
-PEOPLE : book
-PEOPLE : both thorne
-PEOPLE : bowen
-PEOPLE : braavos
-PEOPLE : braavosi
-PEOPLE : bran
-PEOPLE : bran stark
-PEOPLE : brienne
-PEOPLE : broken tower
-PEOPLE : bronn
-PEOPLE : brotherhood
-PEOPLE : brotherhood without banners
-PEOPLE : brothers
-PEOPLE : brynden
-PEOPLE : casterly rock
-PEOPLE : castle
-PEOPLE : castle black
-PEOPLE : cat
-PEOPLE : catelyn
-PEOPLE : catelyn stark
-PEOPLE : cersei
-PEOPLE : children
-PEOPLE : citadel
-PEOPLE : city watch
-PEOPLE : clegane
-PEOPLE : commander
-PEOPLE : conquer
-PEOPLE : corbray
-PEOPLE : council
-PEOPLE : craster
-PEOPLE : cressen
-PEOPLE : cripples
-PEOPLE : crossroads inn
-PEOPLE : crown
-PEOPLE : daario
-PEOPLE : daenerys
-PEOPLE : daenerys targaryen
-PEOPLE : daenerys'
-PEOPLE : dagmer
-PEOPLE : daisy
-PEOPLE : dance
-PEOPLE : dany
-PEOPLE : david benioff
-PEOPLE : davos
-PEOPLE : dayne
-PEOPLE : dead
-PEOPLE : deepwood motte
-PEOPLE : dondarrion
-PEOPLE : dontos
-PEOPLE : doran
-PEOPLE : doreah
-PEOPLE : dorne
-PEOPLE : dornish
-PEOPLE : dosh khaleen
-PEOPLE : dothraki
-PEOPLE : dragons
-PEOPLE : dragonstone
-PEOPLE : dreadfort
-PEOPLE : drogo
-PEOPLE : drogon
-PEOPLE : drowned god
-PEOPLE : duur
-PEOPLE : edd
-PEOPLE : eddard
-PEOPLE : eddard stark
-PEOPLE : eddison
-PEOPLE : edmure
-PEOPLE : egg
-PEOPLE : elia
-PEOPLE : ellaria
-PEOPLE : ellaria sand
-PEOPLE : euron
-PEOPLE : euron greyjoy
-PEOPLE : eyrie
-PEOPLE : faceless men
-PEOPLE : faith
-PEOPLE : faith militant
-PEOPLE : fennesz
-PEOPLE : fingers
-PEOPLE : first men
-PEOPLE : first white walker
-PEOPLE : fist
-PEOPLE : five kings
-PEOPLE : flea bottom
-PEOPLE : ford
-PEOPLE : forest
-PEOPLE : free cities
-PEOPLE : free folk
-PEOPLE : frey
-PEOPLE : freys
-PEOPLE : gardens
-PEOPLE : gared
-PEOPLE : gendry
-PEOPLE : ghost
-PEOPLE : gift
-PEOPLE : gilly
-PEOPLE : gods
-PEOPLE : grand
-PEOPLE : great
-PEOPLE : great houses
-PEOPLE : great masters
-PEOPLE : great sept
-PEOPLE : greatjon
-PEOPLE : gregor
-PEOPLE : gregor clegane
-PEOPLE : grenn
-PEOPLE : grey wind
-PEOPLE : grey worm
-PEOPLE : greyjoy
-PEOPLE : halfhand
-PEOPLE : hallyne
-PEOPLE : hand
-PEOPLE : hardhome
-PEOPLE : harpy
-PEOPLE : harrenhal
-PEOPLE : her khalasar
-PEOPLE : high
-PEOPLE : high hall
-PEOPLE : high septon
-PEOPLE : high sparrow
-PEOPLE : highgarden
-PEOPLE : hizdahr
-PEOPLE : hobb
-PEOPLE : hodor
-PEOPLE : hoster
-PEOPLE : hoster tully
-PEOPLE : hot pie
-PEOPLE : hotah
-PEOPLE : hound
-PEOPLE : howland
-PEOPLE : ice
-PEOPLE : iggo
-PEOPLE : illyrio
-PEOPLE : ilyn payne
-PEOPLE : imp
-PEOPLE : iron
-PEOPLE : iron bank
-PEOPLE : iron islands
-PEOPLE : iron throne
-PEOPLE : ironborn
-PEOPLE : irri
-PEOPLE : jaime
-PEOPLE : jaime lannister
-PEOPLE : jamie
-PEOPLE : janos
-PEOPLE : janos slynt
-PEOPLE : jaqen
-PEOPLE : jaqen h'ghar
-PEOPLE : jeor
-PEOPLE : jeor mormont
-PEOPLE : joffrey
-PEOPLE : jojen
-PEOPLE : jon
-PEOPLE : jon arryn
-PEOPLE : jon sn
-PEOPLE : jon snow
-PEOPLE : jorah
-PEOPLE : jorah mormont
-PEOPLE : jory
-PEOPLE : jory cassel
-PEOPLE : joyeuse
-PEOPLE : karl
-PEOPLE : karsi
-PEOPLE : karstark
-PEOPLE : karstarks
-PEOPLE : keep
-PEOPLE : kevan
-PEOPLE : khal
-PEOPLE : khal drogo
-PEOPLE : khal moro
-PEOPLE : kin
-PEOPLE : king aerys
-PEOPLE : king joffrey
-PEOPLE : king joffrey baratheon
-PEOPLE : king renly
-PEOPLE : king robb
-PEOPLE : king robert
-PEOPLE : king robert baratheon
-PEOPLE : king stannis
-PEOPLE : kingdom
-PEOPLE : kingsguard
-PEOPLE : kingsroad
-PEOPLE : kinvara
-PEOPLE : kraznys
-PEOPLE : lady
-PEOPLE : lady crane
-PEOPLE : lady lysa arryn
-PEOPLE : lady olenna
-PEOPLE : lancel
-PEOPLE : lancel lannister
-PEOPLE : landing
-PEOPLE : lanna
-PEOPLE : lannister
-PEOPLE : lannisters
-PEOPLE : last targaryen
-PEOPLE : later
-PEOPLE : leaf
-PEOPLE : lhazareen
-PEOPLE : light
-PEOPLE : littlefinger
-PEOPLE : loboda
-PEOPLE : locke
-PEOPLE : lollys
-PEOPLE : lommy
-PEOPLE : long bridge
-PEOPLE : longclaw
-PEOPLE : loraq
-PEOPLE : loras
-PEOPLE : lorch
-PEOPLE : lord bolton
-PEOPLE : lord commander
-PEOPLE : lord commander jeor mormont
-PEOPLE : lord commander mormont
-PEOPLE : lord eddard
-PEOPLE : lord eddard stark
-PEOPLE : lord protector
-PEOPLE : lord renly
-PEOPLE : lord rickard
-PEOPLE : lord royce
-PEOPLE : lord selwyn
-PEOPLE : lord snow
-PEOPLE : lord tywin
-PEOPLE : lord walder
-PEOPLE : lord yohn
-PEOPLE : lorren
-PEOPLE : lothar
-PEOPLE : luwin
-PEOPLE : lyanna
-PEOPLE : lyanna stark
-PEOPLE : lysa
-PEOPLE : mace
-PEOPLE : mad
-PEOPLE : maester aemon
-PEOPLE : maester luwin
-PEOPLE : maester pycelle
-PEOPLE : mag
-PEOPLE : maggy
-PEOPLE : mago
-PEOPLE : maiden fair
-PEOPLE : main lannister
-PEOPLE : mance
-PEOPLE : mance rayder
-PEOPLE : mandon
-PEOPLE : margaery
-PEOPLE : margaery tyrell
-PEOPLE : marillion
-PEOPLE : martell
-PEOPLE : martyn
-PEOPLE : martyn lannister
-PEOPLE : master mighdal
-PEOPLE : master mighdal's
-PEOPLE : matthos
-PEOPLE : meera
-PEOPLE : meereen
-PEOPLE : melara
-PEOPLE : melisandre
-PEOPLE : men
-PEOPLE : mero
-PEOPLE : meryn
-PEOPLE : mhaegen
-PEOPLE : mighdal
-PEOPLE : mirri maz duur
-PEOPLE : missandei
-PEOPLE : moat cailin
-PEOPLE : mole
-PEOPLE : moon door
-PEOPLE : mord
-PEOPLE : mormont
-PEOPLE : moro
-PEOPLE : mossador
-PEOPLE : mother
-PEOPLE : mott
-PEOPLE : mountain
-PEOPLE : mud gate
-PEOPLE : mummer
-PEOPLE : mycah
-PEOPLE : myr
-PEOPLE : myranda
-PEOPLE : myrcella
-PEOPLE : naharis
-PEOPLE : narrow sea
-PEOPLE : neck
-PEOPLE : ned
-PEOPLE : ned stark
-PEOPLE : needle
-PEOPLE : night
-PEOPLE : night lands
-PEOPLE : nightfort
-PEOPLE : north
-PEOPLE : northern
-PEOPLE : northerners
-PEOPLE : norvosi
-PEOPLE : nym
-PEOPLE : nymeria
-PEOPLE : oathkeeper
-PEOPLE : obara
-PEOPLE : oberyn
-PEOPLE : old gods
-PEOPLE : old nan
-PEOPLE : oldtown
-PEOPLE : olenna
-PEOPLE : olenna tyrell
-PEOPLE : olly
-PEOPLE : olyvar
-PEOPLE : onion knight
-PEOPLE : orell
-PEOPLE : ornela
-PEOPLE : orson
-PEOPLE : osha
-PEOPLE : outside
-PEOPLE : oxcross
-PEOPLE : pentos
-PEOPLE : pentoshi
-PEOPLE : petyr
-PEOPLE : piggy
-PEOPLE : pit
-PEOPLE : pod
-PEOPLE : podrick
-PEOPLE : polliver
-PEOPLE : pree
-PEOPLE : prendahl
-PEOPLE : priestess
-PEOPLE : prince doran
-PEOPLE : prince oberyn
-PEOPLE : prince rhaegar
-PEOPLE : prince trystane
-PEOPLE : princess myrcella
-PEOPLE : protector
-PEOPLE : punishment
-PEOPLE : pyat
-PEOPLE : pyat pree
-PEOPLE : pycelle
-PEOPLE : pyke
-PEOPLE : pyp
-PEOPLE : pypar
-PEOPLE : qarth
-PEOPLE : qhorin
-PEOPLE : qotho
-PEOPLE : quaithe
-PEOPLE : queen cersei
-PEOPLE : queen regent
-PEOPLE : queen talisa
-PEOPLE : qyburn
-PEOPLE : rakharo
-PEOPLE : ramsay
-PEOPLE : ramsay bolton
-PEOPLE : ramsay snow
-PEOPLE : rast
-PEOPLE : raven
-PEOPLE : rayder
-PEOPLE : razdal
-PEOPLE : realm
-PEOPLE : rebellion
-PEOPLE : red comet
-PEOPLE : red fork
-PEOPLE : red keep
-PEOPLE : red priestess
-PEOPLE : red waste
-PEOPLE : red wedding
-PEOPLE : reed
-PEOPLE : reek
-PEOPLE : renly
-PEOPLE : rhaegal
-PEOPLE : rhaegar
-PEOPLE : rhaegar targaryen
-PEOPLE : rhaego
-PEOPLE : rhaenyra
-PEOPLE : rickard
-PEOPLE : rickard karstark
-PEOPLE : rickon
-PEOPLE : riverlands
-PEOPLE : riverrun
-PEOPLE : robb
-PEOPLE : robb stark
-PEOPLE : robert
-PEOPLE : robert baratheon
-PEOPLE : robert's
-PEOPLE : robin
-PEOPLE : rodrik
-PEOPLE : roose
-PEOPLE : roose bolton
-PEOPLE : ros
-PEOPLE : roslin
-PEOPLE : royce
-PEOPLE : sack
-PEOPLE : salladhor
-PEOPLE : salt throne
-PEOPLE : sam
-PEOPLE : samwell
-PEOPLE : samwell tarly
-PEOPLE : sand snakes
-PEOPLE : sandor
-PEOPLE : sandor clegane
-PEOPLE : sansa
-PEOPLE : sansa stark
-PEOPLE : savo
-PEOPLE : second sons
-PEOPLE : selmy
-PEOPLE : selyse
-PEOPLE : sept
-PEOPLE : septa mordane
-PEOPLE : septa unella
-PEOPLE : ser alliser
-PEOPLE : ser amory
-PEOPLE : ser arthur
-PEOPLE : ser barristan
-PEOPLE : ser barristan selmy
-PEOPLE : ser beric
-PEOPLE : ser davos
-PEOPLE : ser gerold
-PEOPLE : ser gregor
-PEOPLE : ser hugh
-PEOPLE : ser ilyn
-PEOPLE : ser ilyn payne
-PEOPLE : ser jorah
-PEOPLE : ser kevan
-PEOPLE : ser loras
-PEOPLE : ser mandon
-PEOPLE : ser meryn
-PEOPLE : ser meryn trant
-PEOPLE : ser rodrik
-PEOPLE : ser rodrik cassel
-PEOPLE : ser vardis egen
-PEOPLE : ser waymar
-PEOPLE : seven
-PEOPLE : seven kingdoms
-PEOPLE : several bolton
-PEOPLE : shae
-PEOPLE : shagga
-PEOPLE : shaggydog
-PEOPLE : shireen
-PEOPLE : sight
-PEOPLE : silent sisters
-PEOPLE : slaver
-PEOPLE : slynt
-PEOPLE : small council
-PEOPLE : smalljon
-PEOPLE : snow
-PEOPLE : son
-PEOPLE : sons
-PEOPLE : south
-PEOPLE : sparrow
-PEOPLE : sparrows
-PEOPLE : square
-PEOPLE : stannis
-PEOPLE : stannis baratheon
-PEOPLE : stark
-PEOPLE : starks
-PEOPLE : steelshanks
-PEOPLE : stone mill
-PEOPLE : storm
-PEOPLE : stormlands
-PEOPLE : stranger
-PEOPLE : styr
-PEOPLE : styr's
-PEOPLE : summer
-PEOPLE : sunspear
-PEOPLE : syrio
-PEOPLE : syrio forel
-PEOPLE : talisa
-PEOPLE : targaryen
-PEOPLE : targaryens
-PEOPLE : tarly
-PEOPLE : tarth
-PEOPLE : that arya
-PEOPLE : that baelish
-PEOPLE : that bran
-PEOPLE : that bronn
-PEOPLE : that daenerys
-PEOPLE : that eddard
-PEOPLE : that euron
-PEOPLE : that frey
-PEOPLE : that jaime
-PEOPLE : that jorah
-PEOPLE : that myrcella
-PEOPLE : that robb
-PEOPLE : that sansa
-PEOPLE : that stannis
-PEOPLE : that tyrion
-PEOPLE : that tywin
-PEOPLE : that yunkai
-PEOPLE : thenn
-PEOPLE : theon
-PEOPLE : theon greyjoy
-PEOPLE : thin
-PEOPLE : thin man
-PEOPLE : thirteen
-PEOPLE : thorne
-PEOPLE : thoros
-PEOPLE : throne
-PEOPLE : tickler
-PEOPLE : titan
-PEOPLE : tommen
-PEOPLE : tormund
-PEOPLE : torrhen
-PEOPLE : torrhen karstark
-PEOPLE : tower
-PEOPLE : town
-PEOPLE : trant
-PEOPLE : trident
-PEOPLE : trystane
-PEOPLE : trystane martell
-PEOPLE : tully
-PEOPLE : twins
-PEOPLE : tycho
-PEOPLE : tyene
-PEOPLE : tyrell
-PEOPLE : tyrells
-PEOPLE : tyrion
-PEOPLE : tyrion lannister
-PEOPLE : tywin
-PEOPLE : tywin lannister
-PEOPLE : umber
-PEOPLE : unsullied
-PEOPLE : vaes dothrak
-PEOPLE : vala
-PEOPLE : valar morghulis
-PEOPLE : vale
-PEOPLE : valyria
-PEOPLE : valyrian
-PEOPLE : vardis
-PEOPLE : varys
-PEOPLE : viper
-PEOPLE : viserys
-PEOPLE : volantis
-PEOPLE : waif
-PEOPLE : walda
-PEOPLE : walder
-PEOPLE : walder frey
-PEOPLE : walder's
-PEOPLE : walker
-PEOPLE : walkers
-PEOPLE : wall
-PEOPLE : war
-PEOPLE : watch
-PEOPLE : water dancer
-PEOPLE : water gardens
-PEOPLE : waynwood
-PEOPLE : weirwood
-PEOPLE : weiss
-PEOPLE : westeros
-PEOPLE : whispering wood
-PEOPLE : white
-PEOPLE : white walker
-PEOPLE : white walkers
-PEOPLE : wildfire
-PEOPLE : wildlings
-PEOPLE : will
-PEOPLE : willem
-PEOPLE : winter
-PEOPLE : winterfell
-PEOPLE : wise masters
-PEOPLE : wun wun
-PEOPLE : wylis
-PEOPLE : xaro
-PEOPLE : yara
-PEOPLE : yarwyck
-PEOPLE : yezzan
-PEOPLE : ygritte
-PEOPLE : yoren
-PEOPLE : young cersei
-PEOPLE : yunkai

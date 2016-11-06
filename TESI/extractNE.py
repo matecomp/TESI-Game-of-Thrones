@@ -52,8 +52,8 @@ def TaggerText(text):
 	tagged_sentences = [nltk.pos_tag(wordlist) for wordlist in tokenized_words]
 	#Renomear tags
 	temp = []
-	places = ["at","near","on","along","into","inside",
-				"in","from"]
+	places = ["at","near","on","along","into","inside","between",
+				"in","from","outside","go","went"]
 	humans = ['king','lord commander','lord','maester',
 				'master','prince','princess','queen','sir']
 	for sent in tagged_sentences:
@@ -62,7 +62,7 @@ def TaggerText(text):
 			aux_word = word.lower()
 			if aux_word == "of":
 				tag = "OF"
-			if aux_word == "the":
+			elif aux_word == "the":
 				tag = "DA"
 			elif word == "House":
 				tag = "HOUSE"
@@ -101,17 +101,15 @@ def Chunker(tagged_sentences):
 	  NP:
 	    {<DT|PRP\$>?<JJ>*<NNP|NNPS>+}   # chunk determiner/possessive, adjectives and noun
 	    }<VBD|IN>+{      # Chink sequences of VBD and IN
-	    }<POS>{
+	  ASSETS:
+	  	{<NP><POS><.*>?}
+	  LOCATION:
+	  	{<LOC><DA><NP\+|.*>}
 	  ORGANIZATION:
 	  	{<NP><OF><NP>}
 	  HOUSES:
-	  	{<HOUSE><OF>?<NP>}
-	  PEOPLE:
-	  	{<STATUS>?<NP>+}
-	  NPA:
-	  	{<NP><POS>}
-	  LOCATION:
-	  	{<LOC><DA>?<NPA>}
+	  	{<HOUSE><OF>?<.*>}
+
 	  """
 	cp = nltk.RegexpParser(grammar)
 	NE = set()
@@ -123,8 +121,9 @@ def Chunker(tagged_sentences):
 				entity = Subtree2Text(subtree)
 				lower_entity = entity.lower() + ": "
 				class_entity = subtree.label() + ": "
+				text = class_entity + lower_entity + entity
 				if text not in NE:
-					NE.add(class_entity + lower_entity + entity)
+					NE.add(text)
 	return NE
 
 def extractNE(data_json):
@@ -181,7 +180,7 @@ if __name__ == '__main__':
 	# f.close()
 
 	#Remove entidades que estão contidas em outras
-	# NE = removeSubstring(NE)
+	NE = removeSubstring(NE)
 	NE = sorted(NE)
 
 
