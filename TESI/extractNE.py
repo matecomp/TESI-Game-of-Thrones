@@ -52,10 +52,9 @@ def TaggerText(text):
 	tagged_sentences = [nltk.pos_tag(wordlist) for wordlist in tokenized_words]
 	#Renomear tags
 	temp = []
-	places = ["at","near","on","along","into","inside","between",
-				"in","from","outside","go","went"]
-	humans = ['king','lord commander','lord','maester',
-				'master','prince','princess','queen','sir']
+	places = ["into","between","in","from"]
+	humans = ['king','lord commander','commander','lord','maester',
+				'master','prince','princess','queen','sir','ser']
 	for sent in tagged_sentences:
 		aux = []
 		for word,tag in sent:
@@ -101,14 +100,14 @@ def Chunker(tagged_sentences):
 	  NP:
 	    {<DT|PRP\$>?<JJ>*<NNP|NNPS>+}   # chunk determiner/possessive, adjectives and noun
 	    }<VBD|IN>+{      # Chink sequences of VBD and IN
-	  ASSETS:
-	  	{<NP><POS><.*>?}
+	  PEOPLE:
+	  	{<STATUS><NP>+}
 	  LOCATION:
 	  	{<LOC><DA><NP\+|.*>}
 	  ORGANIZATION:
-	  	{<NP><OF><NP>}
+	  	{<NP>+<OF><NP>+}
 	  HOUSES:
-	  	{<HOUSE><OF>?<.*>}
+	  	{<HOUSE><OF>?<NP>+}		# NP is better than anyway tag in this case
 
 	  """
 	cp = nltk.RegexpParser(grammar)
@@ -121,7 +120,7 @@ def Chunker(tagged_sentences):
 				entity = Subtree2Text(subtree)
 				lower_entity = entity.lower() + ": "
 				class_entity = subtree.label() + ": "
-				text = class_entity + lower_entity + entity
+				text = entity #class_entity + lower_entity + entity
 				if text not in NE:
 					NE.add(text)
 	return NE
@@ -133,10 +132,17 @@ def extractNE(data_json):
 	NE = set()
 	#Remove entidades que apareceram uma unica vez
 	for n in NE_aux:
-		n = n.split(': ')
-		if episode_text.count(n[2]) > 1:
-			NE.add(n[0] +" : "+ n[1])
+		freq_n = episode_text.count(n)
+		if freq_n > 1 or "house " in n.lower():
+			NE.add(n)
 
+	uNE = sorted(NE, reverse=True)
+	for n in uNE:
+		newstring = re.sub(r" +","_", n)
+		newstring = newstring.upper()
+		episode_text = episode_text.replace( n+" " , "["+newstring+"] " )
+		episode_text = episode_text.replace( " "+n , " ["+newstring+"]" )
+		episode_text = episode_text.replace( " "+n+" " , " ["+newstring+"] " )
 
 	return NE, episode_text
 
@@ -166,18 +172,19 @@ if __name__ == '__main__':
 			NE.update(tempNE)
 			text += tempText + '\n'
 
-	# ValidText = ""
-	# for line in text.split('\n'):
-	# 	if len(line) > 60:
-	# 		ValidText += "BEGIN BEGIN " + line.lower() + " END END\n"
+	ValidText = ""
+	for line in text.split('\n'):
+		if len(line) > 60:
+			ValidText += "BEGIN BEGIN " + line + " END END\n"
 
 	# ValidText = re.sub(r"'s", "", ValidText)
-	# ValidText = re.sub(r"\. ", " END END BEGIN BEGIN ", ValidText)
-	# ValidText = re.sub(r"BEGIN BEGIN END END", "", ValidText)
-	# ValidText = re.sub(u'[^a-zA-Z0-9.\n ]', '', ValidText)
-	# f = open("base_de_dados.txt", "wb")
-	# f.write(ValidText)
-	# f.close()
+	ValidText = re.sub(r"\. ", " END END BEGIN BEGIN ", ValidText)
+	ValidText = re.sub(r"BEGIN BEGIN END END", "", ValidText)
+	ValidText = re.sub(u'[^a-zA-Z0-9._[]\n \']', '', ValidText)
+	
+	f = open("base_de_dados.txt", "wb")
+	f.write(ValidText)
+	f.close()
 
 	#Remove entidades que estão contidas em outras
 	NE = removeSubstring(NE)
@@ -185,7 +192,7 @@ if __name__ == '__main__':
 
 
 	print len(NE)
-	saveNE('NER.csv', NE)
+	saveNE('Naive-NER.csv', NE)
 	print "Done"
 			
 			
