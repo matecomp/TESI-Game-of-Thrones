@@ -55,6 +55,26 @@ def openJson(archive):
 		data = json.load(data_file)
 	return data
 
+def save(filename,name,archive):
+    """Salva os valores do vies e dos pesos da rede num arquivo."""
+    filename = filename
+    data = {name: [v.tolist() for v in archive]}
+    f = open(filename, "w")
+    json.dump(data, f)
+    f.close()
+    
+def load(filename,name,numpy=False):
+    """Carrega os dados de alguma rede anteriormente treinada."""
+    f = open(filename, "r")
+    data = json.load(f)
+    f.close()
+    if numpy:
+    	data_array = [np.array(w) for w in data[name]]
+    	data_array = np.asarray(data_array)
+    else:
+    	data_array = [w for w in data[name]]
+    return np.matrix(data_array)
+
 def preprocessing(text):
 	#Remove as multiplas quebras de linha para extrair os dados iniciais
 	text = re.sub(r"\n\n+", ".\n", text)
@@ -125,16 +145,22 @@ def build_idf(matrix):
 
 if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
-	directory = "../episodesJSON/"
-	path = "../DATASET/episode_text.txt"
-	matrix_tf, episodes, dictionary, reverse_dictionary = build_tf(path, directory)
-	print "MATRIZ TF:"
-	print matrix_tf,'\n\n'
-	
-	print "MATRIZ IDF:"
-	matrix_idf = build_idf(matrix_tf)
-	print matrix_idf,'\n\n'
+	train = True
+	if train:
+		directory = "../episodesJSON/"
+		path = "../DATASET/episode_text.txt"
+		matrix_tf, episodes, dictionary, reverse_dictionary = build_tf(path, directory)
+		print "MATRIZ TF:"
+		print matrix_tf,'\n\n'
+		
+		print "MATRIZ IDF:"
+		matrix_idf = build_idf(matrix_tf)
+		print matrix_idf,'\n\n'
 
-	print "MATRIZ TF-IDF:"
-	matrix_tfidf = np.multiply(matrix_tf, matrix_idf)
-	print matrix_tfidf
+		print "MATRIZ TF-IDF:"
+		matrix_tfidf = np.multiply(matrix_tf, matrix_idf)
+		print matrix_tfidf
+
+	# save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf)
+	m_load = load("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", numpy=True)
+	print m_load
