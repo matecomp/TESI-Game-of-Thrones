@@ -111,8 +111,16 @@ def plot_with_labels(low_dim_embs, labels, filename='tsne.png', y_pred=None):
   plt.savefig(filename)
 
 final_embeddings = []
+reverse_dictionary = dict()
+dictionary = dict()
+data = []
+count = []
 def word2vec(filename, vocabulary_size, num_steps):
 	global final_embeddings
+	global reverse_dictionary
+	global dictionary
+	global data
+	global count
 	words = read_data(filename)
 	print('Data size', len(words))
 	data, count, dictionary, reverse_dictionary = build_dataset(words, vocabulary_size)
@@ -129,8 +137,8 @@ def word2vec(filename, vocabulary_size, num_steps):
 
 	# Step 4: Build and train a skip-gram model.
 
-	batch_size = 128
-	embedding_size = 128  # Dimension of the embedding vector.
+	batch_size = 256
+	embedding_size = 256  # Dimension of the embedding vector.
 	skip_window = 2       # How many words to consider left and right.
 	num_skips = 4         # How many times to reuse an input to generate a label.
 
@@ -168,7 +176,7 @@ def word2vec(filename, vocabulary_size, num_steps):
 	  # tf.nce_loss automatically draws a new sample of the negative labels each
 	  # time we evaluate the loss.
 	  loss = tf.reduce_mean(
-	      tf.nn.nce_loss(nce_weights, nce_biases, embed, train_labels,
+	      tf.nn.sampled_softmax_loss(nce_weights, nce_biases, embed, train_labels,
 	                     num_sampled, vocabulary_size))
 
 	  # Construct the SGD optimizer using a learning rate of 1.0.
@@ -226,9 +234,9 @@ def word2vec(filename, vocabulary_size, num_steps):
 	  final_embeddings = normalized_embeddings.eval()
 	  print(final_embeddings.shape)
 
+	save("wordEMBEDDINGS/wordspace/words_vector.json", "final_embeddings", final_embeddings)
 	y_pred = saveTSNE()
-	save("wordEMBEDDINGS/word_space/words_labels.json", "y_pred")
-	save("wordEMBEDDINGS/word_space/words_vector.json", "final_embeddings")
+	save("wordEMBEDDINGS/wordspace/words_labels.json", "y_pred", y_pred)
 
 def saveTSNE():
 	try:
@@ -249,60 +257,48 @@ def saveTSNE():
 	return y_pred
 
 import json
-def save(filename,name):
+def save(filename,name,archive):
     """Salva os valores do vies e dos pesos da rede num arquivo."""
     filename = filename
-    data = {name: [v.tolist() for v in final_embeddings]}
+    data = {name: [v.tolist() for v in archive]}
     f = open(filename, "w")
     json.dump(data, f)
     f.close()
     
-def load(filename):
+def load(filename,name,numpy=False):
     """Carrega os dados de alguma rede anteriormente treinada."""
-    global final_embeddings
     f = open(filename, "r")
     data = json.load(f)
     f.close()
-    final_embeddings = [np.array(w) for w in data["final_embeddings"]]
-    return np.asarray(final_embeddings)
+    if numpy:
+    	data_array = [np.array(w) for w in data[name]]
+    	data_array = np.asarray(data_array)
+    else:
+    	data_array = [w for w in data[name]]
+    return data_array
 
 if __name__ == '__main__':
 
-	vocabulary_size = 12000
-	# word2vec("base_de_dados.zip",vocabulary_size, 50001)
-	final_embeddings = load("wordEMBEDDINGS/wordspace/words_vector.json")
-	words = read_data("wordEMBEDDINGS/dataset/embeddings_data.zip")
+	vocabulary_size = 8500
+	word2vec("wordEMBEDDINGS/novo_dado.zip",vocabulary_size, 50001)
+	final_embeddings = load("wordEMBEDDINGS/wordspace/words_vector.json", "final_embeddings", numpy=True)
+	y_pred = load("wordEMBEDDINGS/wordspace/words_labels.json", "y_pred", numpy=True)
+	words = read_data("wordEMBEDDINGS/novo_dado.zip")
 	data, count, dictionary, reverse_dictionary = build_dataset(words, vocabulary_size)
 	del words
 
-# 	ids = [winterfell
-# dreadfort
-# castle black
-# craster's keep
-# mole's town
-# moat cailin
-# the twins
-# the eyrie
-# braavos
-# kings landing
-# inn at the crossroads
-# pyke
-# dragonstone
-# sunspear]
-	words = [dictionary["cersei"],dictionary["arya"],
-			dictionary["jaime"],dictionary["tyrion"], 
-			dictionary["theon"], dictionary["jon"],
-			dictionary["sansa"],dictionary["tywin"],
-			dictionary["brienne"],dictionary["hodor"],
-			dictionary["joffrey"],dictionary["ramsay"],
-			dictionary["robert"],dictionary["daenerys"],
-			dictionary["eddard"],dictionary["oberyn"],
-			dictionary["bran"],dictionary["jorah"],
-			dictionary["myrcella"],dictionary["melisandre"],
-			dictionary["bronn"],dictionary["margaery"],
-			dictionary["hate"]]
+	words = [dictionary["CERSEI"],dictionary["ARYA"],
+			dictionary["JAIME"],dictionary["TYRION"], 
+			dictionary["THEON"], dictionary["JON"],
+			dictionary["SANSA"],dictionary["TYWIN"],
+			dictionary["BRIENNE"],dictionary["HODOR"],
+			dictionary["JOFFREY"],dictionary["RAMSAY"],
+			dictionary["ROBERT"],dictionary["DAENERYS"],
+			dictionary["EDDARD"],dictionary["OBERYN"],
+			dictionary["BRAN"],dictionary["JORAH"],
+			dictionary["MYRCELLA"],dictionary["MELISANDRE"],
+			dictionary["BRONN"],dictionary["MARGAERY"]]
 	
-	y_pred = saveTSNE()
 	# target = final_embeddings[words]
 	# dist = final_embeddings.dot(target.T)
 	# # nearest = dist.argsort()[-10:]
@@ -316,9 +312,9 @@ if __name__ == '__main__':
 		she = final_embeddings[dictionary['she']]
 		dist = final_embeddings.dot(target.T)
 		dist = dist*dist
-	  	nearest = dist[:].argsort()[-10:]
+	  	nearest = dist[:].argsort()[-20:]
 	  	log_str = "Nearest to %s:" % valid_word
-	        for k in xrange(9):
+	        for k in xrange(19):
 	          close_word = reverse_dictionary[nearest[-k-1]]
 	          log_str = "%s %s," % (log_str, close_word)
 	        print(log_str)
@@ -332,4 +328,5 @@ if __name__ == '__main__':
 		else:
 			log_str += " femea"
 		print(log_str)
+		print("")
 	

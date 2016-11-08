@@ -22,3 +22,7 @@ Removendo estes pronomes das entidades:
 
 O melhor até agora teve
 505 entidades
+
+Apos marcar as entidades no texto e treinar o NCE com este novo texto, tivemos uma melhora no cluster, porém a palavra He e she mostrou ter piorado.
+Pois, apenas utilizar a distancia entre a pessoa e esta palavra apresentou piora na determinacao do sexo...
+

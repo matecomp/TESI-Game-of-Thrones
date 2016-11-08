@@ -155,22 +155,7 @@ def extractNE(data_json):
 
 	return NE, episode_text
 
-
-def saveNE(name, values):
-	#Etapas para criar o arquivo csv e escrever todo conteudo em N neste arquivo
-	target_file = open(name, "wb")
-	open_file_object = csv.writer(target_file)
-	open_file_object.writerow(["NER"])
-	for item in values:
-		open_file_object.writerow([item,])
-	target_file.close()
-
-if __name__ == '__main__':
-	#Pasta de onde os textos serao obtidos
-	mypath = "episodesJSON"
-	#Lista com o endereco de cada arquivo txt
-	seasons = list_files(mypath)
-	#Lista ordenada sem repeticao das endidades
+def allNER():
 	NE = set()
 	episode_text = ""
 	for season in seasons:
@@ -180,54 +165,93 @@ if __name__ == '__main__':
 			tempNE, tempText = extractNE(data_json)
 			NE.update(tempNE)
 			episode_text += tempText + '\n'
+	return NE, episode_text
 
-
+def markNER(text):
 	callback = lambda pat: pat.group(0).upper()
 	uNE = sorted(NE, reverse=True)
 	stopwords = nltk.corpus.stopwords.words("english")
-	stopwords.append("first")
+	stopwords.append(["first","news","three"])
 	for n in uNE:
 		n = n.lower()
 		n = n.split(" ")
 		for i in n:
 			if len(i) > 2 and i not in stopwords:
 				log_str = "( +|\.|\n)"+i+"( +|\.|\n|s|'s|')"
-				episode_text = re.sub(log_str, callback, episode_text, flags=re.IGNORECASE)
+				text = re.sub(log_str, callback, text, flags=re.IGNORECASE)
 
 	callback = lambda pat: pat.group(0).lower()
-	episode_text = re.sub(r"([A-Z])+([a-z])", callback, episode_text)
-	episode_text = re.sub(r"([a-z])([A-Z])+", callback, episode_text)
-	
-	c1 = lambda pat: pat.group(1)+"_"+pat.group(2)
-	episode_text = re.sub(r"([A-Z]) ([A-Z])", c1, episode_text)
-	episode_text = re.sub(r"'S_", "'S ", episode_text)
+	text = re.sub(r"([A-Z])+([a-z])", callback, text)
+	text = re.sub(r"([a-z])([A-Z])+", callback, text)
+	text = re.sub(r"'S", " 'S", text)
+	text = re.sub(r"'", " '", text)
+	return text
 
-	
+def pre_NCE_Classifier(marked_text):
+	valid_text = ""
+	for line in marked_text.split('\n'):
+		if len(line) > 60:
+			valid_text += "BEGIN BEGIN " + line + " END END\n"
+
+	# valid_text = re.sub(r"'s", "", valid_text)
+	valid_text = re.sub(r"\. ", " END END BEGIN BEGIN ", valid_text)
+	valid_text = re.sub(r"BEGIN BEGIN END END", "", valid_text)
+	valid_text = re.sub(u'[^a-zA-Z0-9.\n \']', '', valid_text)
+	return valid_text
 
 
+def saveCSV(name, values):
+	#Etapas para criar o arquivo csv e escrever todo conteudo em N neste arquivo
+	target_file = open(name, "wb")
+	open_file_object = csv.writer(target_file)
+	open_file_object.writerow(["NER"])
+	for item in values:
+		open_file_object.writerow([item,])
+	target_file.close()
+
+def loadCSV(archive):
+	NE = set()
+	with open(archive, 'rb') as csvfile:
+		words = csv.reader(csvfile)
+		for word in words:
+			if word[0] != "NER":
+				NE.update(word)
+	return NE
 
 
+if __name__ == '__main__':
+	#Pasta de onde os textos serao obtidos
+	mypath = "episodesJSON"
+	#Lista com o endereco de cada arquivo txt
+	seasons = list_files(mypath)
+	#Lista ordenada sem repeticao das endidades
+	# NE, episode_text = allNER()
+	NE = loadCSV("Naive-NER.csv")
 
-
-	# ValidText = ""
-	# for line in text.split('\n'):
-	# 	if len(line) > 60:
-	# 		ValidText += "BEGIN BEGIN " + line + " END END\n"
-
-	# # ValidText = re.sub(r"'s", "", ValidText)
-	# ValidText = re.sub(r"\. ", " END END BEGIN BEGIN ", ValidText)
-	# ValidText = re.sub(r"BEGIN BEGIN END END", "", ValidText)
-	# ValidText = re.sub(u'[^a-zA-Z0-9._[]\n \']', '', ValidText)
-	
 	NE = removeSubstring(NE)
 	NE = sorted(NE)
 
+	#Extrai o corpus de GoT
+	f = open("episode_text.txt", "rb")
+	episode_text = f.read()
+	f.close()
+
+	#Marca as entidades no corpus de GoT
+	marked_text = markNER(episode_text)
+
+	#Preprocessamento para o tensorflow
+	valid_text = pre_NCE_Classifier(marked_text)
+
 	f = open("base_de_dados.txt", "wb")
-	f.write(episode_text)
+	f.write(marked_text)
+	f.close()
+
+	f = open("base_de_dados_nce.txt", "wb")
+	f.write(valid_text)
 	f.close()
 
 	print len(NE)
-	saveNE('Naive-NER.csv', NE)
+	saveCSV('Naive-NER.csv', NE)
 	print "Done"
 			
 			
