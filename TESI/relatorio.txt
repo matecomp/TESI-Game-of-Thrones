@@ -15,7 +15,10 @@ Removendo subentidades só no final
 495 entidades
 
 pronome de tratamento:
-['king', 'lord commander', 'lord', 'maester', 'master', 'prince', 'princess', 'queen', 'ser']
+['king', 'lord commander', 'lord', 'maester', 'master', 'prince', 'princess', 'queen', 'sir']
 
 Removendo estes pronomes das entidades:
 470 entidades
+
+O melhor até agora teve
+505 entidades

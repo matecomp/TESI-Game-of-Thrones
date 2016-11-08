@@ -39,6 +39,21 @@ def Json2Content(data_json):
 	text += data_json['plot'] + '\n'
 	for p in paragraph:
 		text += p['content'] + '\n'
+	text = preprocessing(text)
+	return text
+
+def preprocessing(text):
+	text = text.decode("utf8")
+	#Remove as multiplas quebras de linha para extrair os dados iniciais
+	text = re.sub(r"\n\n+", ".\n", text)
+	#Remove caracteres indesejados
+	text = re.sub(u'[^a-zA-Z0-9.,\n \']', ' ', text)
+	#Separar , da palavra
+	text = re.sub(",", " , ", text)
+	#Remove espacos consecutivos
+	text = re.sub(r"  +", " ", text)
+	#Adiciona . em cada quebra de linha para ajudar a extracao de sentencas
+	text = re.sub(r"\.* *\n+", ".\n", text)
 	return text
 
 
@@ -54,7 +69,7 @@ def TaggerText(text):
 	temp = []
 	places = ["into","between","in","from"]
 	humans = ['king','lord commander','commander','lord','maester',
-				'master','prince','princess','queen','sir','ser']
+				'master','prince','princess','queen','sir','ser','regent']
 	for sent in tagged_sentences:
 		aux = []
 		for word,tag in sent:
@@ -100,16 +115,16 @@ def Chunker(tagged_sentences):
 	  NP:
 	    {<DT|PRP\$>?<JJ>*<NNP|NNPS>+}   # chunk determiner/possessive, adjectives and noun
 	    }<VBD|IN>+{      # Chink sequences of VBD and IN
-	  PEOPLE:
-	  	{<STATUS><NP>+}
-	  LOCATION:
-	  	{<LOC><DA><NP\+|.*>}
 	  ORGANIZATION:
 	  	{<NP>+<OF><NP>+}
 	  HOUSES:
 	  	{<HOUSE><OF>?<NP>+}		# NP is better than anyway tag in this case
 
 	  """
+	# PEOPLE:
+	#   	{<STATUS><NP>+}
+	#   LOCATION:
+	#   	{<LOC><DA><NP\+|.*>}
 	cp = nltk.RegexpParser(grammar)
 	NE = set()
 	
@@ -133,16 +148,10 @@ def extractNE(data_json):
 	#Remove entidades que apareceram uma unica vez
 	for n in NE_aux:
 		freq_n = episode_text.count(n)
-		if freq_n > 1 or "house " in n.lower():
+		if freq_n > 1 or "house " in n.lower() or "game " in n.lower():
 			NE.add(n)
 
-	uNE = sorted(NE, reverse=True)
-	for n in uNE:
-		newstring = re.sub(r" +","_", n)
-		newstring = newstring.upper()
-		episode_text = episode_text.replace( n+" " , "["+newstring+"] " )
-		episode_text = episode_text.replace( " "+n , " ["+newstring+"]" )
-		episode_text = episode_text.replace( " "+n+" " , " ["+newstring+"] " )
+	episode_text = episode_text.lower()
 
 	return NE, episode_text
 
@@ -163,33 +172,56 @@ if __name__ == '__main__':
 	seasons = list_files(mypath)
 	#Lista ordenada sem repeticao das endidades
 	NE = set()
-	text = ""
+	episode_text = ""
 	for season in seasons:
 		for episode in season:
 			print "Processing: ", episode
 			data_json = openJson(episode)
 			tempNE, tempText = extractNE(data_json)
 			NE.update(tempNE)
-			text += tempText + '\n'
+			episode_text += tempText + '\n'
 
-	ValidText = ""
-	for line in text.split('\n'):
-		if len(line) > 60:
-			ValidText += "BEGIN BEGIN " + line + " END END\n"
 
-	# ValidText = re.sub(r"'s", "", ValidText)
-	ValidText = re.sub(r"\. ", " END END BEGIN BEGIN ", ValidText)
-	ValidText = re.sub(r"BEGIN BEGIN END END", "", ValidText)
-	ValidText = re.sub(u'[^a-zA-Z0-9._[]\n \']', '', ValidText)
+	callback = lambda pat: pat.group(0).upper()
+	uNE = sorted(NE, reverse=True)
+	for n in uNE:
+		n = n.lower()
+		n = n.split(" ")
+		for i in n:
+			if len(i) > 2 and i != "that" and i != "first" and i != "last" and i != "her":
+				log_str = "( +|\.|\n)"+i+"( +|\.|\n|s|'s|')"
+				episode_text = re.sub(log_str, callback, episode_text, flags=re.IGNORECASE)
+
+	callback = lambda pat: pat.group(0).lower()
+	episode_text = re.sub(r"([A-Z])+([a-z])+", callback, episode_text)
+	episode_text = re.sub(r"([a-z])+([A-Z])+", callback, episode_text)
 	
-	f = open("base_de_dados.txt", "wb")
-	f.write(ValidText)
-	f.close()
+	c1 = lambda pat: pat.group(1)+"_"+pat.group(2)
+	episode_text = re.sub(r"([A-Z]) ([A-Z])", c1, episode_text)
 
-	#Remove entidades que estão contidas em outras
+	
+
+
+
+
+
+
+	# ValidText = ""
+	# for line in text.split('\n'):
+	# 	if len(line) > 60:
+	# 		ValidText += "BEGIN BEGIN " + line + " END END\n"
+
+	# # ValidText = re.sub(r"'s", "", ValidText)
+	# ValidText = re.sub(r"\. ", " END END BEGIN BEGIN ", ValidText)
+	# ValidText = re.sub(r"BEGIN BEGIN END END", "", ValidText)
+	# ValidText = re.sub(u'[^a-zA-Z0-9._[]\n \']', '', ValidText)
+	
 	NE = removeSubstring(NE)
 	NE = sorted(NE)
 
+	f = open("base_de_dados.txt", "wb")
+	f.write(episode_text)
+	f.close()
 
 	print len(NE)
 	saveNE('Naive-NER.csv', NE)
