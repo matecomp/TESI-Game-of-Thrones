@@ -299,7 +299,8 @@ if __name__ == '__main__':
 			dictionary["eddard"],dictionary["oberyn"],
 			dictionary["bran"],dictionary["jorah"],
 			dictionary["myrcella"],dictionary["melisandre"],
-			dictionary["bronn"],dictionary["margaery"]]
+			dictionary["bronn"],dictionary["margaery"],
+			dictionary["hate"]]
 	
 	y_pred = saveTSNE()
 	# target = final_embeddings[words]
@@ -315,12 +316,12 @@ if __name__ == '__main__':
 		she = final_embeddings[dictionary['she']]
 		dist = final_embeddings.dot(target.T)
 		dist = dist*dist
-	  	nearest = dist[:].argsort()[-20:]
-	  	# log_str = "Nearest to %s:" % valid_word
-	   #      for k in xrange(19):
-	   #        close_word = reverse_dictionary[nearest[-k-1]]
-	   #        log_str = "%s %s," % (log_str, close_word)
-	   #      print(log_str)
+	  	nearest = dist[:].argsort()[-10:]
+	  	log_str = "Nearest to %s:" % valid_word
+	        for k in xrange(9):
+	          close_word = reverse_dictionary[nearest[-k-1]]
+	          log_str = "%s %s," % (log_str, close_word)
+	        print(log_str)
 		hedist = target.dot(he.T)
 		hedist *= hedist
 		shedist = target.dot(she.T)

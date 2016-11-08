@@ -68,8 +68,8 @@ def TaggerText(text):
 	#Renomear tags
 	temp = []
 	places = ["into","between","in","from"]
-	humans = ['king','lord commander','commander','lord','maester',
-				'master','prince','princess','queen','sir','ser','regent']
+	humans = ['king','lord commander','commander','lord','maester','lady','son','bastard'
+				'master','prince','princess','queen','sir','ser','regent','old']
 	for sent in tagged_sentences:
 		aux = []
 		for word,tag in sent:
@@ -184,20 +184,23 @@ if __name__ == '__main__':
 
 	callback = lambda pat: pat.group(0).upper()
 	uNE = sorted(NE, reverse=True)
+	stopwords = nltk.corpus.stopwords.words("english")
+	stopwords.append("first")
 	for n in uNE:
 		n = n.lower()
 		n = n.split(" ")
 		for i in n:
-			if len(i) > 2 and i != "that" and i != "first" and i != "last" and i != "her":
+			if len(i) > 2 and i not in stopwords:
 				log_str = "( +|\.|\n)"+i+"( +|\.|\n|s|'s|')"
 				episode_text = re.sub(log_str, callback, episode_text, flags=re.IGNORECASE)
 
 	callback = lambda pat: pat.group(0).lower()
-	episode_text = re.sub(r"([A-Z])+([a-z])+", callback, episode_text)
-	episode_text = re.sub(r"([a-z])+([A-Z])+", callback, episode_text)
+	episode_text = re.sub(r"([A-Z])+([a-z])", callback, episode_text)
+	episode_text = re.sub(r"([a-z])([A-Z])+", callback, episode_text)
 	
 	c1 = lambda pat: pat.group(1)+"_"+pat.group(2)
 	episode_text = re.sub(r"([A-Z]) ([A-Z])", c1, episode_text)
+	episode_text = re.sub(r"'S_", "'S ", episode_text)
 
 	
 
