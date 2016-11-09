@@ -279,25 +279,26 @@ def load(filename,name,numpy=False):
 
 if __name__ == '__main__':
 
-	vocabulary_size = 8500
-	word2vec("novo_dado.zip",vocabulary_size, 50001)
-	final_embeddings = load("wordspace/words_vector.json", "final_embeddings", numpy=True)
-	y_pred = load("wordspace/words_labels.json", "y_pred", numpy=True)
-	words = read_data("novo_dado.zip")
+	vocabulary_size = 12000
+	# word2vec("embeddings_data.zip",vocabulary_size, 50001)
+	final_embeddings = load("wordspace/better_words_vector.json", "final_embeddings", numpy=True)
+	# y_pred = load("wordspace/words_labels.json", "y_pred", numpy=True)
+	words = read_data("embeddings_data.zip")
 	data, count, dictionary, reverse_dictionary = build_dataset(words, vocabulary_size)
 	del words
+	y_pred = saveTSNE()
 
-	words = [dictionary["CERSEI"],dictionary["ARYA"],
-			dictionary["JAIME"],dictionary["TYRION"], 
-			dictionary["THEON"], dictionary["JON"],
-			dictionary["SANSA"],dictionary["TYWIN"],
-			dictionary["BRIENNE"],dictionary["HODOR"],
-			dictionary["JOFFREY"],dictionary["RAMSAY"],
-			dictionary["ROBERT"],dictionary["DAENERYS"],
-			dictionary["EDDARD"],dictionary["OBERYN"],
-			dictionary["BRAN"],dictionary["JORAH"],
-			dictionary["MYRCELLA"],dictionary["MELISANDRE"],
-			dictionary["BRONN"],dictionary["MARGAERY"]]
+	words = [dictionary["cersei"],dictionary["arya"],
+			dictionary["jaime"],dictionary["tyrion"], 
+			dictionary["theon"], dictionary["jon"],
+			dictionary["sansa"],dictionary["tywin"],
+			dictionary["brienne"],dictionary["hodor"],
+			dictionary["joffrey"],dictionary["ramsay"],
+			dictionary["robert"],dictionary["daenerys"],
+			dictionary["eddard"],dictionary["oberyn"],
+			dictionary["bran"],dictionary["jorah"],
+			dictionary["myrcella"],dictionary["melisandre"],
+			dictionary["bronn"],dictionary["margaery"]]
 	
 	# target = final_embeddings[words]
 	# dist = final_embeddings.dot(target.T)
@@ -313,11 +314,11 @@ if __name__ == '__main__':
 		dist = final_embeddings.dot(target.T)
 		dist = dist*dist
 	  	nearest = dist[:].argsort()[-20:]
-	  	log_str = "Nearest to %s:" % valid_word
-	        for k in xrange(19):
-	          close_word = reverse_dictionary[nearest[-k-1]]
-	          log_str = "%s %s," % (log_str, close_word)
-	        print(log_str)
+	  	# log_str = "Nearest to %s:" % valid_word
+	   #      for k in xrange(19):
+	   #        close_word = reverse_dictionary[nearest[-k-1]]
+	   #        log_str = "%s %s," % (log_str, close_word)
+	   #      print(log_str)
 		hedist = target.dot(he.T)
 		hedist *= hedist
 		shedist = target.dot(she.T)

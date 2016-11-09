@@ -242,11 +242,11 @@ if __name__ == '__main__':
 	#Preprocessamento para o tensorflow
 	valid_text = pre_NCE_Classifier(marked_text)
 
-	f = open("../DATASET/base_de_dados.txt", "wb")
+	f = open("../DATASET/dataset.txt", "wb")
 	f.write(marked_text)
 	f.close()
 
-	f = open("../DATASET/base_de_dados_nce.txt", "wb")
+	f = open("../DATASET/dataset_nce.txt", "wb")
 	f.write(valid_text)
 	f.close()
 
