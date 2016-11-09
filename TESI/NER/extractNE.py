@@ -210,13 +210,13 @@ def saveCSV(name, values):
 	target_file.close()
 
 def loadCSV(archive):
-	NE = set()
+	group = set()
 	with open(archive, 'rb') as csvfile:
 		words = csv.reader(csvfile)
 		for word in words:
 			if word[0] != "NER":
-				NE.update(word)
-	return NE
+				group.update(word)
+	return group
 
 
 if __name__ == '__main__':
