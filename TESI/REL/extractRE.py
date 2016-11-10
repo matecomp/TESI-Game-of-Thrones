@@ -20,10 +20,11 @@ def normalizeNER(archive):
 	f.close()
 	
 	#Extrai as entidades nomeadas obtidas em extractNE
-	NE = loadCSV("../NER/Naive-NER.csv")
-	NE = [name.upper() for name in NE]
+	NE = loadCSV("../NER/ENTITIES/Naive-NER.csv")
+	NE = [entity.upper() for entity in NE]
+	freqNE = {entity : episode_text.count(entity) for entity in NE}
 
-	buffer = collections.deque(maxlen=100)
+	buffer = collections.deque(maxlen=200)
 	lines = episode_text.split('\n')
 	line_token = [nltk.word_tokenize(line) for line in lines]
 
@@ -32,20 +33,20 @@ def normalizeNER(archive):
 	temp_word = ""
 	for line in line_token:
 		for word in line:
-			if word.isupper() and word.isalpha() and temp_word + word in NE:
+			word = re.sub(r" ", "", word)
+			flag1 = True if temp_word + word in NE else False
+			flag2 = True if word + " " in NE else False
+			flag = flag2 if temp_word == "" else flag1
+			if word.isupper() and word.isalpha() and flag:
 				temp_word += word + " "
 			else:
 				if temp_word != "":
 					occurrences = [ent for ent in buffer if temp_word in ent and temp_word != ent]
 					if len(occurrences) > 0:
 						temp_word = occurrences[-1]
-					# else:
-					# 	candidates = [ent for ent in NE if temp_word in ent]
-					# 	candidates = sorted(candidates, reverse=True)
-					# 	if len(candidates) > 0:
-					# 		temp_word = candidates[0]
 					buffer.append(temp_word)
-					output += temp_word + " "
+					temp_word = re.sub(r" +$", "", temp_word)
+					output += " <" + temp_word + "> " if temp_word in NE else temp_word.lower() + " "
 				if word.isupper():
 					temp_word = word + " "
 				else:
@@ -58,7 +59,7 @@ def normalizeNER(archive):
 	output = re.sub(r" '","'", output)
 	output = re.sub(r" 'S","'S", output)
 	
-	f = open("../DATASET/teste.txt", "wb")
+	f = open("../DATASET/normalizeNE.txt", "wb")
 	f.write(output)
 	f.close()
 
