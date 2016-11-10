@@ -187,7 +187,7 @@ def allNER(path):
 	NE = sorted(NE)
 	return NE, episode_text
 
-def markNER(text):
+def markNER(text, NE):
 	callback = lambda pat: pat.group(0).upper()
 	uNE = sorted(NE, reverse=True)
 	stopwords = nltk.corpus.stopwords.words("english")
@@ -243,17 +243,17 @@ if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
 	mypath = "../episodesJSON/"
 	#Lista ordenada sem repeticao das endidades
-	NE, episode_text = allNER(mypath)
+	# NE, episode_text = allNER(mypath)
 	#Carregar as entidades salvas no arquivo CSV
-	# NE = loadCSV("Naive-NER.csv")
+	NE = loadCSV("ENTITIES/Naive-NER.csv")
 
 	#Extrai o corpus de GoT
-	# f = open("../DATASET/episode_text.txt", "rb")
-	# episode_text = f.read()
-	# f.close()
+	f = open("../DATASET/episode_text.txt", "rb")
+	episode_text = f.read()
+	f.close()
 
 	#Marca as entidades no corpus de GoT
-	marked_text = markNER(episode_text)
+	marked_text = markNER(episode_text, NE)
 
 	#Preprocessamento para o tensorflow
 	valid_text = pre_NCE_Classifier(marked_text)
@@ -272,7 +272,7 @@ if __name__ == '__main__':
 	f.close()
 
 	#Salvar as entidades encontradas nessa execucao e terminar o programa
-	saveCSV('Naive-NER.csv', NE)
+	saveCSV('ENTITIES/Naive-NER.csv', NE)
 	print len(NE)
 	print "Done"
 			
