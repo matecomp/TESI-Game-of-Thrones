@@ -35,10 +35,11 @@ def openJson(archive):
 
 def Json2Content(data_json):
 	paragraph = data_json['summary']
-	text = data_json['info'] + '\n'
-	text += data_json['plot'] + '\n'
+	text = ""
 	for p in paragraph:
 		text += p['content'] + '\n'
+	text += data_json['info'] + '\n'
+	text += data_json['plot'] + '\n'
 	text = preprocessing(text)
 	return text
 
@@ -68,7 +69,7 @@ def TaggerText(text):
 	#Renomear tags
 	temp = []
 	places = ["into","between","in","from"]
-	humans = ['king','lord commander','commander','lord','maester','lady','son','bastard'
+	humans = ['king','commander','lord','maester','lady','son','bastard','young',
 				'master','prince','princess','queen','sir','ser','regent','old']
 	for sent in tagged_sentences:
 		aux = []
@@ -119,7 +120,6 @@ def Chunker(tagged_sentences):
 	  	{<NP>+<OF><NP>+}
 	  HOUSES:
 	  	{<HOUSE><OF>?<NP>+}		# NP is better than anyway tag in this case
-
 	  """
 	# PEOPLE:
 	#   	{<STATUS><NP>+}
@@ -145,26 +145,46 @@ def extractNE(data_json):
 	tagged_sentences = TaggerText(episode_text)
 	NE_aux = Chunker(tagged_sentences)
 	NE = set()
+	ExNE = set()
+	NE.add(data_json["title"])
+	NE.add("Season " + data_json["season"])
+	NE.add("Episode " + data_json["episode"])
+
 	#Remove entidades que apareceram uma unica vez
 	for n in NE_aux:
 		freq_n = episode_text.count(n)
 		if freq_n > 1 or "house " in n.lower() or "game " in n.lower():
 			NE.add(n)
+		else:
+			ExNE.add(n)
 
 	episode_text = episode_text.lower()
 
-	return NE, episode_text
+	return NE, episode_text, ExNE
 
-def allNER():
+def allNER(path):
+	#Lista com o endereco de cada arquivo txt
+	seasons = list_files(path)
+	#Ordernar as pastas das seasons
+	seasons = sorted(seasons)
 	NE = set()
+	ExNE = set()
 	episode_text = ""
 	for season in seasons:
+		#Ordernar os episodeos dentro de uma pasta
+		season = sorted(season)
 		for episode in season:
 			print "Processing: ", episode
 			data_json = openJson(episode)
-			tempNE, tempText = extractNE(data_json)
+			tempNE, tempText, tempExNE = extractNE(data_json)
 			NE.update(tempNE)
+			ExNE.update(tempExNE)
 			episode_text += tempText + '\n'
+	# #Verifico se as entidades removida por frequencia aparecem em mais de um capitulo
+	# NE.update([n for n in ExNE if episode_text.count(n) > 1])
+	#Remover subentidades e ordena-las
+	NE = removeSubstring(NE)
+	NE = sorted(NE)
 	return NE, episode_text
 
 def markNER(text):
@@ -221,26 +241,27 @@ def loadCSV(archive):
 
 if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
-	mypath = "../episodesJSON"
-	#Lista com o endereco de cada arquivo txt
-	seasons = list_files(mypath)
+	mypath = "../episodesJSON/"
 	#Lista ordenada sem repeticao das endidades
-	# NE, episode_text = allNER()
-	NE = loadCSV("Naive-NER.csv")
-
-	NE = removeSubstring(NE)
-	NE = sorted(NE)
+	NE, episode_text = allNER(mypath)
+	#Carregar as entidades salvas no arquivo CSV
+	# NE = loadCSV("Naive-NER.csv")
 
 	#Extrai o corpus de GoT
-	f = open("../DATASET/episode_text.txt", "rb")
-	episode_text = f.read()
-	f.close()
+	# f = open("../DATASET/episode_text.txt", "rb")
+	# episode_text = f.read()
+	# f.close()
 
 	#Marca as entidades no corpus de GoT
 	marked_text = markNER(episode_text)
 
 	#Preprocessamento para o tensorflow
 	valid_text = pre_NCE_Classifier(marked_text)
+
+	#Salvar os arquivos utilizados nesta execucao
+	f = open("../DATASET/episode_text.txt", "wb")
+	f.write(episode_text)
+	f.close()
 
 	f = open("../DATASET/dataset.txt", "wb")
 	f.write(marked_text)
@@ -250,8 +271,9 @@ if __name__ == '__main__':
 	f.write(valid_text)
 	f.close()
 
-	print len(NE)
+	#Salvar as entidades encontradas nessa execucao e terminar o programa
 	saveCSV('Naive-NER.csv', NE)
+	print len(NE)
 	print "Done"
 			
 			

@@ -24,6 +24,7 @@ import random
 import zipfile
 
 import numpy as np
+from numpy import linalg
 from six.moves import urllib
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
@@ -245,7 +246,7 @@ def saveTSNE():
 	  tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
 	  plot_only = 500
 	  low_dim_embs = tsne.fit_transform(final_embeddings[:plot_only,:])
-	  y_pred = KMeans(n_clusters=6, random_state=170).fit_predict(low_dim_embs)
+	  y_pred = KMeans(n_clusters=6, random_state=170).fit_predict(final_embeddings[:plot_only,:])
 	  labels = [reverse_dictionary[i] for i in xrange(plot_only)]
 	  if y_pred is None:
 	  	plot_with_labels(low_dim_embs, labels, filename="tsne.png")
@@ -282,11 +283,11 @@ if __name__ == '__main__':
 	vocabulary_size = 12000
 	# word2vec("embeddings_data.zip",vocabulary_size, 50001)
 	final_embeddings = load("wordspace/better_words_vector.json", "final_embeddings", numpy=True)
-	# y_pred = load("wordspace/words_labels.json", "y_pred", numpy=True)
+	y_pred = load("wordspace/words_labels.json", "y_pred", numpy=True)
 	words = read_data("embeddings_data.zip")
 	data, count, dictionary, reverse_dictionary = build_dataset(words, vocabulary_size)
 	del words
-	y_pred = saveTSNE()
+	# y_pred = saveTSNE()
 
 	words = [dictionary["cersei"],dictionary["arya"],
 			dictionary["jaime"],dictionary["tyrion"], 
@@ -298,7 +299,8 @@ if __name__ == '__main__':
 			dictionary["eddard"],dictionary["oberyn"],
 			dictionary["bran"],dictionary["jorah"],
 			dictionary["myrcella"],dictionary["melisandre"],
-			dictionary["bronn"],dictionary["margaery"]]
+			dictionary["bronn"],dictionary["margaery"],
+			dictionary["love"],dictionary["hate"]]
 	
 	# target = final_embeddings[words]
 	# dist = final_embeddings.dot(target.T)
@@ -308,26 +310,27 @@ if __name__ == '__main__':
 	# print(dist[nearest])
 	for i in words:
 		valid_word = reverse_dictionary[i]
-		target = final_embeddings[i]
+		target = final_embeddings[i] + final_embeddings[words[-2]]
+		target = target / linalg.norm(target)
 		he = final_embeddings[dictionary['he']] 
 		she = final_embeddings[dictionary['she']]
 		dist = final_embeddings.dot(target.T)
 		dist = dist*dist
-	  	nearest = dist[:].argsort()[-20:]
-	  	# log_str = "Nearest to %s:" % valid_word
-	   #      for k in xrange(19):
-	   #        close_word = reverse_dictionary[nearest[-k-1]]
-	   #        log_str = "%s %s," % (log_str, close_word)
-	   #      print(log_str)
+	  	nearest = dist[:].argsort()[-10:]
+	  	log_str = "Nearest to %s:" % valid_word
+	        for k in xrange(9):
+	          close_word = reverse_dictionary[nearest[-k-1]]
+	          log_str = "%s %s," % (log_str, close_word)
+	        print(log_str)
 		hedist = target.dot(he.T)
 		hedist *= hedist
 		shedist = target.dot(she.T)
 		shedist *= shedist
 		log_str = "%s Class: %s" % (valid_word,y_pred[i])
 		if hedist > shedist:
-			log_str += " macho"
+			log_str += " macho %s" % (hedist)
 		else:
-			log_str += " femea"
+			log_str += " femea %s" % (shedist)
 		print(log_str)
 		print("")
 	
