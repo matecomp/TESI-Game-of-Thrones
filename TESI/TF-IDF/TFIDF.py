@@ -57,10 +57,25 @@ def openJson(archive):
 		data = json.load(data_file)
 	return data
 
-def save(filename,name,archive):
+def load(filename,name,numpy=False):
+    """Carrega os dados de alguma rede anteriormente treinada."""
+    f = open(filename, "r")
+    data = json.load(f)
+    f.close()
+    if numpy:
+    	data_array = [np.array(w) for w in data[name]]
+    	data_array = np.asarray(data_array)
+    else:
+    	data_array = [w for w in data[name]]
+    return data_array
+
+def save(filename,name,archive,numpy=False):
     """Salva os valores do vies e dos pesos da rede num arquivo."""
     filename = filename
-    data = {name: [v.tolist() for v in archive]}
+    if numpy:
+    	data = {name: [v.tolist() for v in archive]}
+    else:
+    	data = {name: [v for v in archive]}
     f = open(filename, "w")
     json.dump(data, f)
     f.close()
@@ -136,7 +151,7 @@ def build_idf(matrix):
 	rows, N = binary_matrix.shape
 	array_idf = np.log(rows / (1 + (np.ones([1,rows]).dot(binary_matrix))))
 	matrix_idf = np.tile(array_idf,(rows,1))
-	return matrix_idf
+	return np.asarray(matrix_idf)
 
 def addLabels(matrix, episodes, reverse_dictionary):
 	documents = episodes
@@ -146,7 +161,12 @@ def addLabels(matrix, episodes, reverse_dictionary):
 
 def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
 	if loadTFIDF:
-		matrix_tfidf = pd.read_csv("matrixTFIDF/matrix_tfidf.csv", sep=' ')
+		# matrix_tfidf = pd.read_csv("matrixTFIDF/matrix_tfidf.csv", sep=' ')
+		matrix_tfidf = load("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", numpy=True)
+		dictionary = load("matrixTFIDF/dictionary.json", "dictionary")
+		reverse_dictionary = load("matrixTFIDF/reverse_dictionary.json", "reverse_dictionary")
+		episodes = load("matrixTFIDF/episodes.json", "episodes")
+		dictionary = {name: idx for idx,name in enumerate(dictionary)}
 	else:
 		matrix_tf, episodes, dictionary, reverse_dictionary = build_tf(path, directory)
 		if log_prints:
@@ -158,18 +178,36 @@ def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
 			print "MATRIZ IDF:"
 			print matrix_idf,'\n\n'
 
-		matrix_tfidf = np.multiply(matrix_tf, matrix_idf)
+		matrix_tfidf = matrix_tf * matrix_idf
+		# matrix_tfidf = np.multiply(matrix_tf, matrix_idf)
 		if log_prints:
 			print "MATRIZ TF-IDF:"
 			print matrix_tfidf
 
+		print matrix_tfidf.shape
 		#salvar somente os valores da matriz
-		save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf)
-		matrix_tfidf = addLabels(matrix_tfidf, episodes, dictionary)
-		matrix_tfidf.to_csv("matrixTFIDF/matrix_tfidf.csv", index=True, header=True, sep=' ')
+		save("matrixTFIDF/dictionary.json", "dictionary", dictionary)
+		save("matrixTFIDF/reverse_dictionary.json", "reverse_dictionary", reverse_dictionary)
+		save("matrixTFIDF/episodes.json", "episodes", episodes)
+		save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf, numpy=True)
+		matrix_tfidf2 = addLabels(matrix_tfidf, episodes, dictionary)
+		matrix_tfidf2.to_csv("matrixTFIDF/matrix_tfidf.csv", index=True, header=True, sep=' ')
 
 	if prints:
 		print matrix_tfidf
+
+	return matrix_tfidf, dictionary, reverse_dictionary, episodes
+
+def search(wordlist, matrix_tfidf, weight):
+	consult = np.zeros([5110])
+	ids = [dictionary[word] for word in wordlist]
+	consult[ids] = weight
+	dist = matrix_tfidf.dot(consult.T)
+	ans = np.argsort(-dist)
+	print "The answer is:"
+	for i in xrange(5):
+		print episodes[ans[i]]
+
 
 
 if __name__ == '__main__':
@@ -177,6 +215,9 @@ if __name__ == '__main__':
 	directory = "../episodesJSON/"
 	path = "../DATASET/episode_text.txt"
 	loadTFIDF = True
-	prints = True
+	prints = False
 	#SHAPE: [55 x 5111]
-	matrix_tfidf = train(path, directory, loadTFIDF=loadTFIDF, prints=prints, log_prints=False)
+	matrix_tfidf, dictionary, reverse_dictionary, episodes = train(path, directory, loadTFIDF=loadTFIDF, prints=prints, log_prints=False)
+	# print matrix_tfidf
+	wordlist = ["jon","snow","dead"]
+	search(wordlist, matrix_tfidf, 50.0)
