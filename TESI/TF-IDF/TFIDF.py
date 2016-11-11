@@ -64,18 +64,6 @@ def save(filename,name,archive):
     f = open(filename, "w")
     json.dump(data, f)
     f.close()
-    
-def load(filename,name,numpy=False):
-    """Carrega os dados de alguma rede anteriormente treinada."""
-    f = open(filename, "r")
-    data = json.load(f)
-    f.close()
-    if numpy:
-    	data_array = [np.array(w) for w in data[name]]
-    	data_array = np.asarray(data_array)
-    else:
-    	data_array = [w for w in data[name]]
-    return np.matrix(data_array)
 
 def preprocessing(text):
 	#Remove as multiplas quebras de linha para extrair os dados iniciais
@@ -94,7 +82,7 @@ def Json2Content(data_json):
 	paragraph = data_json['summary']
 	text = ""
 	for p in paragraph:
-		text += "<"+p['location']+">\n"
+		text += p['location'] + '\n'
 		text += p['content'] + '\n'
 	text += data_json['info'] + '\n'
 	text += data_json['plot'] + '\n'
@@ -114,7 +102,9 @@ def build_tf(path, directory):
 	f.close()
 
 
-	#Lista com o endereco de cada arquivo txt
+	#Monta o vocabulirio contando todo todas as palavras do corpus
+	#Obs: devido as marcacoes contendo as localicoes e titulos, temos que remover antes de montar o TF
+	episode_text = preprocessing(episode_text)
 	_, dictionary, reverse_dictionary = word2freq(episode_text)
 
 	episodes = list()
@@ -127,10 +117,11 @@ def build_tf(path, directory):
 		for episode in season:
 			episode_name = episode.split('/')[-1]
 			print "Processing: ", episode_name
-			episodes.append(episode_name)
-			
+			episodes.append(episode_name)			
 			data_json = openJson(episode)
 			content = Json2Content(data_json)
+			#Obs: devido as marcacoes contendo as localicoes e titulos, temos que remover antes de montar o TF
+			content = re.sub(r"<.+>", "", content)
 			count, _, _  = word2freq(content.lower())
 			vector = np.zeros([1,m])
 			for word, freq in count:
@@ -153,30 +144,39 @@ def addLabels(matrix, episodes, reverse_dictionary):
 	new_matrix = pd.DataFrame(matrix, index=documents, columns=terms)
 	return new_matrix
 
+def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
+	if loadTFIDF:
+		matrix_tfidf = pd.read_csv("matrixTFIDF/matrix_tfidf.csv", sep=' ')
+	else:
+		matrix_tf, episodes, dictionary, reverse_dictionary = build_tf(path, directory)
+		if log_prints:
+			print "MATRIZ TF:"
+			print matrix_tf,'\n\n'
+		
+		matrix_idf = build_idf(matrix_tf)
+		if log_prints:
+			print "MATRIZ IDF:"
+			print matrix_idf,'\n\n'
+
+		matrix_tfidf = np.multiply(matrix_tf, matrix_idf)
+		if log_prints:
+			print "MATRIZ TF-IDF:"
+			print matrix_tfidf
+
+		#salvar somente os valores da matriz
+		save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf)
+		matrix_tfidf = addLabels(matrix_tfidf, episodes, dictionary)
+		matrix_tfidf.to_csv("matrixTFIDF/matrix_tfidf.csv", index=True, header=True, sep=' ')
+
+	if prints:
+		print matrix_tfidf
+
 
 if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
-	train = True
-	if train:
-		directory = "../episodesJSON/"
-		path = "../DATASET/episode_text.txt"
-		matrix_tf, episodes, dictionary, reverse_dictionary = build_tf(path, directory)
-		print "MATRIZ TF:"
-		print matrix_tf,'\n\n'
-		
-		print "MATRIZ IDF:"
-		matrix_idf = build_idf(matrix_tf)
-		print matrix_idf,'\n\n'
-
-		print "MATRIZ TF-IDF:"
-		matrix_tfidf = np.multiply(matrix_tf, matrix_idf)
-		print matrix_tfidf
-		save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf)
-
-		matrix_tfidf = addLabels(matrix_tfidf, episodes, dictionary)
-		print matrix_tfidf
-		matrix_tfidf.to_csv("matrixTFIDF/matrix_tfidf.csv", index=True, header=True, sep=' ')
-	# m_load = load("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", numpy=True)
-	
-	
-	
+	directory = "../episodesJSON/"
+	path = "../DATASET/episode_text.txt"
+	loadTFIDF = True
+	prints = True
+	#SHAPE: [55 x 5111]
+	matrix_tfidf = train(path, directory, loadTFIDF=loadTFIDF, prints=prints, log_prints=False)

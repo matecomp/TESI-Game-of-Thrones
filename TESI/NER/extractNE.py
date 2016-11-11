@@ -39,11 +39,12 @@ def Json2Content(data_json):
 	paragraph = data_json['summary']
 	text = ""
 	for p in paragraph:
-		text += "<"+p['location']+">\n"
-		text += p['content'] + '\n'
-	text += data_json['info'] + '\n'
-	text += data_json['plot'] + '\n'
-	text = preprocessing(text)
+		location = "<location: "+p['location']+">\n" 
+		location = re.sub(r" +", "_", location)
+		text += location
+		text += preprocessing(p['content']) + '\n'
+	text += preprocessing(data_json['info']) + '\n'
+	text += preprocessing(data_json['plot']) + '\n'
 	return text
 
 def preprocessing(text):
@@ -170,14 +171,16 @@ def allNER(path):
 		for episode in season:
 			print "Processing: ", episode
 			data_json = openJson(episode)
-			episode_name = '<'+data_json['title']+'>\n\n'
+			name = episode.split('/')[-1]
+			episode_name = '<episode: '+ name +'>\n\n'
+			episode_name = re.sub(r" +", "_", episode_name)
 			tempNE, tempText, tempExNE = extractNE(data_json)
 			NE.update(tempNE)
 			ExNE.update(tempExNE)
 			episode_text += episode_name + tempText + '\n'
 
 	# #Verifico se as entidades removida por frequencia aparecem em mais de um capitulo
-	# NE.update([n for n in ExNE if episode_text.count(n) > 1])
+	NE.update([n for n in ExNE if episode_text.count(n) > 1])
 	#Remover subentidades e ordena-las
 	NE = removeSubstring(NE)
 	NE = sorted(NE)
@@ -348,9 +351,9 @@ if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
 	mypath = "../episodesJSON/"
 	loadNE = True
-	loadMARK = True
+	loadMARK = False
 	loadNORM = False
-	loadNCE = True
+	loadNCE = False
 	prints = True
 	train(mypath, loadNE, loadMARK, loadNORM, loadNCE, prints)
 			
