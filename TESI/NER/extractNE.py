@@ -24,6 +24,8 @@ def list_files(directory):
 		for dirname in dirnames:
 			path = directory+dirname
 			files.append([path+'/'+file for file in listdir(path) if isfile(join(path, file))])
+	files = [sorted(file) for file in files]
+	files = sorted(files)
 	return files
 
 #Metodos para extrair dado do arquivo JSON do Guilherme
@@ -93,12 +95,10 @@ def TaggerText(text):
 
 #Remove os caracteres especiais adicionado no objeto subtree do NLTK
 def Subtree2Text(subtree):
-	text = str(subtree)
-	text = re.sub(r"\([A-Z]+ *| *[A-Z]+\)|/[A-Z]*\)?|\)","", text)
-	text = re.sub(r" *\n+"," ", text)
-	text = re.sub(r"  +"," ", text)
-	text = re.sub(r"^\s+","", text)
-	text = re.sub(u"[^a-zA-Z0-9 \']", '', text)
+	text = ""
+	for word in subtree.flatten()[:]:
+		text += word[0] + " "
+	text = text[0:-1]
 	return text
 
 #Remove as entidades que estao contidas em outra entidade
@@ -133,11 +133,8 @@ def Chunker(tagged_sentences):
 		for subtree in tree.subtrees():
 			if subtree.label() != "S":
 				entity = Subtree2Text(subtree)
-				lower_entity = entity.lower() + ": "
-				class_entity = subtree.label() + ": "
-				text = entity #class_entity + lower_entity + entity
-				if text not in NE:
-					NE.add(text)
+				if entity not in NE:
+					NE.add(entity)
 	return NE
 
 def extractNE(data_json):
@@ -165,14 +162,10 @@ def extractNE(data_json):
 def allNER(path):
 	#Lista com o endereco de cada arquivo txt
 	seasons = list_files(path)
-	#Ordernar as pastas das seasons
-	seasons = sorted(seasons)
 	NE = set()
 	ExNE = set()
 	episode_text = ""
 	for season in seasons:
-		#Ordernar os episodeos dentro de uma pasta
-		season = sorted(season)
 		for episode in season:
 			print "Processing: ", episode
 			data_json = openJson(episode)
@@ -288,23 +281,23 @@ if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
 	mypath = "../episodesJSON/"
 	#Lista ordenada sem repeticao das endidades
-	# NE, episode_text = allNER(mypath)
+	NE, episode_text = allNER(mypath)
 	#Carregar as entidades salvas no arquivo CSV
-	NE = loadCSV("ENTITIES/Naive-NER.csv")
+	# NE = loadCSV("ENTITIES/Naive-NER.csv")
 	NE = removeSubstring(NE)
 	NE = sorted(NE)
 
 	#Extrai o corpus de GoT
-	f = open("../DATASET/episode_text.txt", "rb")
-	episode_text = f.read()
-	f.close()
+	# f = open("../DATASET/episode_text.txt", "rb")
+	# episode_text = f.read()
+	# f.close()
 
-	f = open("../DATASET/dataset.txt", "rb")
-	marked_text = f.read()
-	f.close()
+	# f = open("../DATASET/dataset.txt", "rb")
+	# marked_text = f.read()
+	# f.close()
 
 	#Marca as entidades no corpus de GoT
-	# marked_text = markNER(episode_text, NE)
+	marked_text = markNER(episode_text, NE)
 
 	#Normaliza as entidades no texto marcado
 	normalize_text = normalizeNER(marked_text, NE)
@@ -332,7 +325,7 @@ if __name__ == '__main__':
 
 	#Salvar as entidades encontradas nessa execucao e terminar o programa
 	saveCSV('ENTITIES/Naive-NER.csv', NE)
-	# print len(NE)
-	# print "Done"
+	print len(NE)
+	print "Done"
 			
 			

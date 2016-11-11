@@ -3,7 +3,7 @@ import nltk
 import re
 import collections
 import numpy as np
-
+import pandas as pd
 #Cria uma lista com o endereco de todos os arquivos txt dentro de alguma pasta
 from os import listdir
 from os import walk
@@ -14,6 +14,8 @@ def list_files(directory):
 		for dirname in dirnames:
 			path = directory+dirname
 			files.append([path+'/'+file for file in listdir(path) if isfile(join(path, file))])
+	files = [sorted(file) for file in files]
+	files = sorted(files)
 	return files
 
 def build_dataset(words):
@@ -121,8 +123,9 @@ def build_tf(path, directory):
 	seasons = list_files(directory)
 	for season in seasons:
 		for episode in season:
-			print "Processing: ", episode
-			episodes.append(episode)
+			episode_name = episode.split('/')[-1]
+			print "Processing: ", episode_name
+			episodes.append(episode_name)
 			
 			data_json = openJson(episode)
 			content = Json2Content(data_json)
@@ -142,6 +145,12 @@ def build_idf(matrix):
 	matrix_idf = np.tile(array_idf,(rows,1))
 	return matrix_idf
 
+def addLabels(matrix, episodes, reverse_dictionary):
+	documents = episodes
+	terms = reverse_dictionary
+	new_matrix = pd.DataFrame(matrix, index=documents, columns=terms)
+	return new_matrix
+
 
 if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
@@ -160,7 +169,12 @@ if __name__ == '__main__':
 		print "MATRIZ TF-IDF:"
 		matrix_tfidf = np.multiply(matrix_tf, matrix_idf)
 		print matrix_tfidf
+		save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf)
 
-	# save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf)
-	m_load = load("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", numpy=True)
-	print m_load
+		matrix_tfidf = addLabels(matrix_tfidf, episodes, dictionary)
+		print matrix_tfidf
+		matrix_tfidf.to_csv("matrixTFIDF/matrix_tfidf.csv", index=True, header=True, sep=' ')
+	# m_load = load("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", numpy=True)
+	
+	
+	

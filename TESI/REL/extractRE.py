@@ -25,12 +25,11 @@ def loadCSV(archive):
 
 #Remove os caracteres especiais adicionado no objeto subtree do NLTK
 def Subtree2Text(subtree):
-	text = str(subtree)
-	text = re.sub(r"\([A-Z]+ *| *[A-Z]+\)|/[A-Z]*\)?|\)","", text)
-	text = re.sub(r" *\n+"," ", text)
-	text = re.sub(r"  +"," ", text)
-	text = re.sub(r"^\s+","", text)
-	text = re.sub(u"[^a-zA-Z0-9 \']", '', text)
+	text = ""
+	for word in subtree.flatten()[:]:
+		if word[0] != '>' and word[0] != '<':
+			text += word[0] + " "
+	text = text[0:-1]
 	return text
 
 #Classifica gramaticalmente cada palavra do texto com uma tag
@@ -73,10 +72,10 @@ def Chunker(tagged_sentences):
 		tree = cp.parse(sent)
 		for subtree in tree.subtrees():
 			if subtree.label() == "REL":
-				entity = Subtree2Text(subtree)
-				text = entity
-				if text not in RE:
-					RE.add(text)
+				relation = Subtree2Text(subtree)
+				print relation
+				if relation not in RE:
+					RE.add(relation)
 	return RE
 
 
@@ -99,6 +98,6 @@ if __name__ == '__main__':
 	# for relation in RE:
 		# print relation , '\n\n'
 	print len(RE)
-	# saveCSV('RELATIONS/Naive-REL.csv', NE)
+	saveCSV('RELATIONS/Naive-REL.csv', RE)
 
 
