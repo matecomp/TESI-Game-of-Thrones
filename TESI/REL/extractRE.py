@@ -3,6 +3,16 @@ import collections
 import nltk
 import csv
 import re
+import nltk
+
+def saveCSV(name, values):
+	#Etapas para criar o arquivo csv e escrever todo conteudo em N neste arquivo
+	target_file = open(name, "wb")
+	open_file_object = csv.writer(target_file)
+	open_file_object.writerow(["NER"])
+	for item in values:
+		open_file_object.writerow([item,])
+	target_file.close()
 
 def loadCSV(archive):
 	group = set()
@@ -13,60 +23,82 @@ def loadCSV(archive):
 				group.update(word)
 	return group
 
-def normalizeNER(archive):
-	#Extrai o corpus de GoT
-	f = open(archive, "rb")
-	episode_text = f.read()
-	f.close()
+#Remove os caracteres especiais adicionado no objeto subtree do NLTK
+def Subtree2Text(subtree):
+	text = str(subtree)
+	text = re.sub(r"\([A-Z]+ *| *[A-Z]+\)|/[A-Z]*\)?|\)","", text)
+	text = re.sub(r" *\n+"," ", text)
+	text = re.sub(r"  +"," ", text)
+	text = re.sub(r"^\s+","", text)
+	text = re.sub(u"[^a-zA-Z0-9 \']", '', text)
+	return text
+
+#Classifica gramaticalmente cada palavra do texto com uma tag
+def TaggerText(text):
+	#Extrair sentencas
+	tokenized_sentences = nltk.sent_tokenize(text)
+	#Extrair palavras
+	tokenized_words = [nltk.word_tokenize(sent) for sent in tokenized_sentences]
+	#Tagger lista de lista de words
+	tagged_sentences = [nltk.pos_tag(wordlist) for wordlist in tokenized_words]
 	
-	#Extrai as entidades nomeadas obtidas em extractNE
-	NE = loadCSV("../NER/ENTITIES/Naive-NER.csv")
-	NE = [entity.upper() for entity in NE]
-	freqNE = {entity : episode_text.count(entity) for entity in NE}
+	temp = list()
+	for sent in tagged_sentences:
+		aux = []
+		for word,tag in sent:
+			aux_word = word.lower()
+			if aux_word == "<":
+				tag = "OPENS"
+			if aux_word == ">":
+				tag = "LOCKS"
+			aux.append((word,tag))
+		temp.append(aux)
 
-	buffer = collections.deque(maxlen=200)
-	lines = episode_text.split('\n')
-	line_token = [nltk.word_tokenize(line) for line in lines]
+	tagged_sentences = temp
+	return tagged_sentences
 
-	output = ""
+def Chunker(tagged_sentences):
 
-	temp_word = ""
-	for line in line_token:
-		for word in line:
-			word = re.sub(r" ", "", word)
-			flag1 = True if temp_word + word in NE else False
-			flag2 = True if word + " " in NE else False
-			flag = flag2 if temp_word == "" else flag1
-			if word.isupper() and word.isalpha() and flag:
-				temp_word += word + " "
-			else:
-				if temp_word != "":
-					occurrences = [ent for ent in buffer if temp_word in ent and temp_word != ent]
-					if len(occurrences) > 0:
-						temp_word = occurrences[-1]
-					buffer.append(temp_word)
-					temp_word = re.sub(r" +$", "", temp_word)
-					output += " <" + temp_word + "> " if temp_word in NE else temp_word.lower() + " "
-				if word.isupper():
-					temp_word = word + " "
-				else:
-					output += word + " "
-					temp_word = ""
-		output += '\n'
+	grammar = r"""
+	  ENT:
+	  	{<OPENS><..?.?.?>+<LOCKS>}
+	  REL:
+	  	{<ENT><.+>?<.+>?<VB.*><.+>?<.+>?<ENT>}
+	  """
 
-	output = re.sub(r" +$", "", output)
-	output = re.sub(r" +", " ", output)
-	output = re.sub(r" '","'", output)
-	output = re.sub(r" 'S","'S", output)
+	cp = nltk.RegexpParser(grammar)
+	RE = set()
 	
-	f = open("../DATASET/normalizeNE.txt", "wb")
-	f.write(output)
-	f.close()
+	for sent in tagged_sentences:
+		tree = cp.parse(sent)
+		for subtree in tree.subtrees():
+			if subtree.label() == "REL":
+				entity = Subtree2Text(subtree)
+				text = entity
+				if text not in RE:
+					RE.add(text)
+	return RE
 
-	return output
 
+
+def extractRE(text, NE):
+	tagged_sentences = TaggerText(text)
+	RE = Chunker(tagged_sentences)
+	return RE
 
 if __name__ == '__main__':
-	text = normalizeNER("../DATASET/dataset.txt")
+
+	f = open("../DATASET/normalizeNE.txt")
+	normalize_text = f.read()
+	f.close()
+
+	NE = loadCSV("../NER/ENTITIES/Naive-NER.csv")
+
+	print len(NE)
+	RE = extractRE(normalize_text, NE)
+	# for relation in RE:
+		# print relation , '\n\n'
+	print len(RE)
+	# saveCSV('RELATIONS/Naive-REL.csv', NE)
 
 

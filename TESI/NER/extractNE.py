@@ -203,8 +203,9 @@ def markNER(text, NE):
 	callback = lambda pat: pat.group(0).lower()
 	text = re.sub(r"([A-Z])+([a-z])", callback, text)
 	text = re.sub(r"([a-z])([A-Z])+", callback, text)
-	text = re.sub(r"'S", " 'S", text)
-	text = re.sub(r"'", " '", text)
+	text = re.sub(r" *'S", " 'S", text)
+	text = re.sub(r" *'", " '", text)
+	text = re.sub("game of thrones", "GAME OF THRONES", text, flags=re.IGNORECASE)
 	return text
 
 def pre_NCE_Classifier(marked_text):
@@ -218,6 +219,50 @@ def pre_NCE_Classifier(marked_text):
 	valid_text = re.sub(r"BEGIN BEGIN END END", "", valid_text)
 	valid_text = re.sub(u'[^a-zA-Z0-9.\n \']', '', valid_text)
 	return valid_text
+
+import collections
+def normalizeNER(text, NE):
+	
+	NE = [entity.upper() for entity in NE]
+	freqNE = {entity : text.count(entity) for entity in NE}
+
+	buffer = collections.deque(maxlen=200)
+	lines = text.split('\n')
+	line_token = [nltk.word_tokenize(line) for line in lines]
+
+	normalize_text = ""
+
+	temp_word = ""
+	for line in line_token:
+		for word in line:
+			word = re.sub(r" ", "", word)
+			FLAG1 = True if any(temp_word + word in n for n in NE) else False
+			FLAG2 = True if word in NE or any(word + " " in n for n in NE) else False
+			FLAG = FLAG1 if temp_word != "" else FLAG2
+			if word.isupper() and word.isalpha() and FLAG:
+				temp_word += word + " "
+			else:
+				if temp_word != "":
+					occurrences = [ent for ent in buffer if temp_word in ent and temp_word != ent]
+					if len(occurrences) > 0:
+						temp_word = occurrences[-1]
+					buffer.append(temp_word)
+					temp_word = re.sub(r" +$", "", temp_word)
+					FLAG3 = True if any(temp_word in n for n in NE) else False
+					normalize_text += " <" + temp_word + "> " if FLAG3 else temp_word.lower() + " "
+				if word.isupper():
+					temp_word = word + " "
+				else:
+					normalize_text += word + " "
+					temp_word = ""
+		normalize_text += '\n'
+
+	normalize_text = re.sub(r" +$", "", normalize_text)
+	normalize_text = re.sub(r" +", " ", normalize_text)
+	normalize_text = re.sub(r" +'"," '", normalize_text)
+	normalize_text = re.sub(r" +'S"," 'S", normalize_text)
+
+	return normalize_text
 
 
 def saveCSV(name, values):
@@ -246,17 +291,27 @@ if __name__ == '__main__':
 	# NE, episode_text = allNER(mypath)
 	#Carregar as entidades salvas no arquivo CSV
 	NE = loadCSV("ENTITIES/Naive-NER.csv")
+	NE = removeSubstring(NE)
+	NE = sorted(NE)
 
 	#Extrai o corpus de GoT
 	f = open("../DATASET/episode_text.txt", "rb")
 	episode_text = f.read()
 	f.close()
 
+	f = open("../DATASET/dataset.txt", "rb")
+	marked_text = f.read()
+	f.close()
+
 	#Marca as entidades no corpus de GoT
-	marked_text = markNER(episode_text, NE)
+	# marked_text = markNER(episode_text, NE)
+
+	#Normaliza as entidades no texto marcado
+	normalize_text = normalizeNER(marked_text, NE)
 
 	#Preprocessamento para o tensorflow
 	valid_text = pre_NCE_Classifier(marked_text)
+
 
 	#Salvar os arquivos utilizados nesta execucao
 	f = open("../DATASET/episode_text.txt", "wb")
@@ -267,13 +322,17 @@ if __name__ == '__main__':
 	f.write(marked_text)
 	f.close()
 
+	f = open("../DATASET/normalizeNE.txt", "wb")
+	f.write(normalize_text)
+	f.close()
+
 	f = open("../DATASET/dataset_nce.txt", "wb")
 	f.write(valid_text)
 	f.close()
 
 	#Salvar as entidades encontradas nessa execucao e terminar o programa
 	saveCSV('ENTITIES/Naive-NER.csv', NE)
-	print len(NE)
-	print "Done"
+	# print len(NE)
+	# print "Done"
 			
 			
