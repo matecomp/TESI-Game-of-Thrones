@@ -39,6 +39,7 @@ def Json2Content(data_json):
 	paragraph = data_json['summary']
 	text = ""
 	for p in paragraph:
+		text += "<"+p['location']+">\n"
 		text += p['content'] + '\n'
 	text += data_json['info'] + '\n'
 	text += data_json['plot'] + '\n'
@@ -169,10 +170,12 @@ def allNER(path):
 		for episode in season:
 			print "Processing: ", episode
 			data_json = openJson(episode)
+			episode_name = '<'+data_json['title']+'>\n\n'
 			tempNE, tempText, tempExNE = extractNE(data_json)
 			NE.update(tempNE)
 			ExNE.update(tempExNE)
-			episode_text += tempText + '\n'
+			episode_text += episode_name + tempText + '\n'
+
 	# #Verifico se as entidades removida por frequencia aparecem em mais de um capitulo
 	# NE.update([n for n in ExNE if episode_text.count(n) > 1])
 	#Remover subentidades e ordena-las
@@ -201,6 +204,9 @@ def markNER(text, NE):
 	text = re.sub("game of thrones", "GAME OF THRONES", text, flags=re.IGNORECASE)
 	return text
 
+# def markepisodesNER(text, NE):
+
+
 def pre_NCE_Classifier(marked_text):
 	valid_text = ""
 	for line in marked_text.split('\n'):
@@ -219,7 +225,7 @@ def normalizeNER(text, NE):
 	NE = [entity.upper() for entity in NE]
 	freqNE = {entity : text.count(entity) for entity in NE}
 
-	buffer = collections.deque(maxlen=200)
+	buffer = collections.deque(maxlen=100)
 	lines = text.split('\n')
 	line_token = [nltk.word_tokenize(line) for line in lines]
 
@@ -239,6 +245,8 @@ def normalizeNER(text, NE):
 					occurrences = [ent for ent in buffer if temp_word in ent and temp_word != ent]
 					if len(occurrences) > 0:
 						temp_word = occurrences[-1]
+					# top = buffer.pop() if len(buffer) > 0 else temp_word
+					# if top != temp_word: buffer.append(top)
 					buffer.append(temp_word)
 					temp_word = re.sub(r" +$", "", temp_word)
 					FLAG3 = True if any(temp_word in n for n in NE) else False
@@ -276,56 +284,74 @@ def loadCSV(archive):
 				group.update(word)
 	return group
 
+def readfile(path):
+	f = open(path, "rb")
+	file_text = f.read()
+	f.close()
+	return file_text
+
+def savefile(path, text):
+	f = open(path, "wb")
+	f.write(text)
+	f.close()
+
+def train(path="../episodesJSON/", loadNE=False, loadMARK=False, loadNORM=False, loadNCE=False, prints=False):
+
+	#Carrega as entidades nomeadas e o corpus de GoT
+	if loadNE:
+		NE = loadCSV("ENTITIES/Naive-NER.csv")
+		episode_text = readfile("../DATASET/episode_text.txt")
+	else:
+		NE, episode_text = allNER(path)
+		saveCSV('ENTITIES/Naive-NER.csv', NE)
+		savefile("../DATASET/episode_text.txt", episode_text)
+	NE = removeSubstring(NE)
+	NE = sorted(NE)
+	if prints:
+		print "NE and RawText done!"
+		print "Entiites: " , len(NE)
+
+	#Gera o corpus de GoT marcados com a entidades específicas de cada episodio
+	if loadMARK:
+		marked_text = readfile("../DATASET/dataset.txt")
+	else:
+		marked_text = markNER(episode_text, NE)
+		savefile("../DATASET/dataset.txt", marked_text)
+	if prints:
+		print "Mark RawText done!"
+
+	#Gera o corpus marcado com as entidades normalizadas, especificando a entidade correta na posicao
+	if loadNORM:
+		normalize_text = readfile("../DATASET/normalizeNE.txt")
+	else:
+		normalize_text = normalizeNER(marked_text, NE)
+		savefile("../DATASET/normalizeNE.txt", normalize_text)
+	if prints:
+		print "Normalize marked RawText done!"
+
+	#Gera o conjunto de treinamento para o tensorflow com o algoritmo NCE
+	if loadNCE:
+		nce_text =  readfile("../DATASET/dataset_nce.txt")
+	else:
+		nce_text = pre_NCE_Classifier(marked_text)
+		savefile("../DATASET/dataset_nce.txt", nce_text)
+	if prints:
+		print "data set to NCE classifier done!"
+
+	print "Train Done!!"
+
+
+
+
 
 if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
 	mypath = "../episodesJSON/"
-	#Lista ordenada sem repeticao das endidades
-	NE, episode_text = allNER(mypath)
-	#Carregar as entidades salvas no arquivo CSV
-	# NE = loadCSV("ENTITIES/Naive-NER.csv")
-	NE = removeSubstring(NE)
-	NE = sorted(NE)
-
-	#Extrai o corpus de GoT
-	# f = open("../DATASET/episode_text.txt", "rb")
-	# episode_text = f.read()
-	# f.close()
-
-	# f = open("../DATASET/dataset.txt", "rb")
-	# marked_text = f.read()
-	# f.close()
-
-	#Marca as entidades no corpus de GoT
-	marked_text = markNER(episode_text, NE)
-
-	#Normaliza as entidades no texto marcado
-	normalize_text = normalizeNER(marked_text, NE)
-
-	#Preprocessamento para o tensorflow
-	valid_text = pre_NCE_Classifier(marked_text)
-
-
-	#Salvar os arquivos utilizados nesta execucao
-	f = open("../DATASET/episode_text.txt", "wb")
-	f.write(episode_text)
-	f.close()
-
-	f = open("../DATASET/dataset.txt", "wb")
-	f.write(marked_text)
-	f.close()
-
-	f = open("../DATASET/normalizeNE.txt", "wb")
-	f.write(normalize_text)
-	f.close()
-
-	f = open("../DATASET/dataset_nce.txt", "wb")
-	f.write(valid_text)
-	f.close()
-
-	#Salvar as entidades encontradas nessa execucao e terminar o programa
-	saveCSV('ENTITIES/Naive-NER.csv', NE)
-	print len(NE)
-	print "Done"
+	loadNE = True
+	loadMARK = True
+	loadNORM = False
+	loadNCE = True
+	prints = True
+	train(mypath, loadNE, loadMARK, loadNORM, loadNCE, prints)
 			
 			

@@ -92,10 +92,12 @@ def preprocessing(text):
 
 def Json2Content(data_json):
 	paragraph = data_json['summary']
-	text = data_json['info'] + '\n'
-	text += data_json['plot'] + '\n'
+	text = ""
 	for p in paragraph:
+		text += "<"+p['location']+">\n"
 		text += p['content'] + '\n'
+	text += data_json['info'] + '\n'
+	text += data_json['plot'] + '\n'
 	text = preprocessing(text)
 	return text
 
