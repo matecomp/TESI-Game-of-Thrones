@@ -4,6 +4,7 @@ import re
 import collections
 import numpy as np
 import pandas as pd
+import operator
 #Cria uma lista com o endereco de todos os arquivos txt dentro de alguma pasta
 from os import listdir
 from os import walk
@@ -17,6 +18,10 @@ def list_files(directory):
 	files = [sorted(file) for file in files]
 	files = sorted(files)
 	return files
+
+#Stemmer for all words in vocabulary
+from nltk.stem.snowball import SnowballStemmer
+stemmer = SnowballStemmer("english")
 
 def build_dataset(words):
 	count = []
@@ -107,6 +112,7 @@ def Json2Content(data_json):
 def word2freq(content):
 	words = nltk.word_tokenize(content)
 	words = removeStopwords(words)
+	words = [stemmer.stem(word) for word in words]
 	data, count, dictionary, reverse_dictionary = build_dataset(words)
 	return count, dictionary, reverse_dictionary
 
@@ -143,7 +149,6 @@ def build_tf(path, directory):
 				col = dictionary[word]
 				vector[0,col] = freq
 			matrix = np.vstack([matrix,vector])
-	print len(episodes),len(dictionary)
 	return np.asarray(matrix), episodes, dictionary, reverse_dictionary
 
 def build_idf(matrix):
@@ -153,10 +158,10 @@ def build_idf(matrix):
 	matrix_idf = np.tile(array_idf,(rows,1))
 	return np.asarray(matrix_idf)
 
-def addLabels(matrix, episodes, reverse_dictionary):
+def addLabels(matrix, episodes, dictionary):
 	documents = episodes
-	terms = reverse_dictionary
-	new_matrix = pd.DataFrame(matrix, index=documents, columns=terms)
+	terms = dictionary
+	new_matrix = pd.DataFrame(matrix, index=terms, columns=documents)
 	return new_matrix
 
 def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
@@ -167,6 +172,7 @@ def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
 		reverse_dictionary = load("matrixTFIDF/reverse_dictionary.json", "reverse_dictionary")
 		episodes = load("matrixTFIDF/episodes.json", "episodes")
 		dictionary = {name: idx for idx,name in enumerate(dictionary)}
+		# print dictionary
 	else:
 		matrix_tf, episodes, dictionary, reverse_dictionary = build_tf(path, directory)
 		if log_prints:
@@ -184,9 +190,12 @@ def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
 			print "MATRIZ TF-IDF:"
 			print matrix_tfidf
 
+		# Matrix: terms x documents
+		matrix_tfidf = matrix_tfidf.T
+
 		print matrix_tfidf.shape
-		#salvar somente os valores da matriz
-		save("matrixTFIDF/dictionary.json", "dictionary", dictionary)
+		vocabulary = [word for word, _ in sorted(dictionary.items(), key=operator.itemgetter(1))]
+		save("matrixTFIDF/dictionary.json", "dictionary", vocabulary)
 		save("matrixTFIDF/reverse_dictionary.json", "reverse_dictionary", reverse_dictionary)
 		save("matrixTFIDF/episodes.json", "episodes", episodes)
 		save("matrixTFIDF/matrix_tfidf.json", "matrix_tfidf", matrix_tfidf, numpy=True)
@@ -198,28 +207,30 @@ def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
 
 	return matrix_tfidf, dictionary, reverse_dictionary, episodes
 
-def search(wordlist, matrix, weight, svd=False):
-	consult = np.zeros([5110])
-	ids = [dictionary[word] for word in wordlist]
+def search(words, shape, dictionary, weight, matrix, matrix_trans=None, svd=None):
+	terms, docs = shape
+	consult = np.zeros([terms])
+	words = [stemmer.stem(word) for word in words]
+	ids = [dictionary[word] for word in words]
 	consult[ids] = weight
-	dist = matrix.dot(consult.T)
+	
+	if svd is not None:
+		consult = consult.dot(matrix_trans)
+
+	dist = consult.dot(matrix)
 	ans = np.argsort(-dist)
 	print "The answer is:"
 	for i in xrange(5):
 		print episodes[ans[i]]
-	# consult = matrix.transform(consult) if svd else consult
-	# print consult.shape
-	# print matrix.components_.shape
-	# newconsult = consult.dot(matrix.components_)
-	# print newconsult.shape
-	# print matrix.inverse_transform(newconsult)
 
 from sklearn.decomposition import TruncatedSVD
+#Provavelmente tem de transpor
 def build_svd(matrix_tfidf):
-	svd = TruncatedSVD( n_components=5, n_iter=7, random_state=42)
-	#Provavelmente tem de transpor
+	svd = TruncatedSVD(n_components=10, n_iter=7, random_state=42)
 	svd.fit(matrix_tfidf)
-	return svd
+	terms_k = svd.transform(matrix_tfidf)
+	docs_k = svd.components_
+	return svd, terms_k, docs_k
 
 
 
@@ -230,9 +241,19 @@ if __name__ == '__main__':
 	loadTFIDF = True
 	prints = False
 	#SHAPE: [55 x 5111]
-	matrix_tfidf, dictionary, reverse_dictionary, episodes = train(path, directory, loadTFIDF=loadTFIDF, prints=prints, log_prints=False)
-	# print matrix_tfidf
-	wordlist = ["joffrey"]
-	search(wordlist, matrix_tfidf, 5.0)
-	matrix_svd = build_svd(matrix_tfidf)
+	#SHAPE STEMMER: [55 x 3693]
+	matrix_tfidf, dictionary, _, episodes = train(path, directory, loadTFIDF=loadTFIDF, prints=prints, log_prints=False)
+	shape = matrix_tfidf.shape
+
+	print "Search on matrix-tfidf:"
+	print shape
+	wordlist = ["joffrey","kill","eddard","cry"]
+	search(wordlist, shape, dictionary, 1.0, matrix_tfidf)
+	svd, terms_k, docs_k = build_svd(matrix_tfidf)
+
+	print "\n\n"
+	
+	print "Search on SVD matrix:"
+	print svd.components_.shape
+	search(wordlist, shape, dictionary, 1.0, docs_k, terms_k, svd=svd)
 	
