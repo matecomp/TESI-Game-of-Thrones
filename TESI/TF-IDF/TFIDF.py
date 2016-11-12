@@ -198,15 +198,28 @@ def train(path, directory, loadTFIDF=False, prints=True, log_prints=False):
 
 	return matrix_tfidf, dictionary, reverse_dictionary, episodes
 
-def search(wordlist, matrix_tfidf, weight):
+def search(wordlist, matrix, weight, svd=False):
 	consult = np.zeros([5110])
 	ids = [dictionary[word] for word in wordlist]
 	consult[ids] = weight
-	dist = matrix_tfidf.dot(consult.T)
+	dist = matrix.dot(consult.T)
 	ans = np.argsort(-dist)
 	print "The answer is:"
 	for i in xrange(5):
 		print episodes[ans[i]]
+	# consult = matrix.transform(consult) if svd else consult
+	# print consult.shape
+	# print matrix.components_.shape
+	# newconsult = consult.dot(matrix.components_)
+	# print newconsult.shape
+	# print matrix.inverse_transform(newconsult)
+
+from sklearn.decomposition import TruncatedSVD
+def build_svd(matrix_tfidf):
+	svd = TruncatedSVD( n_components=5, n_iter=7, random_state=42)
+	#Provavelmente tem de transpor
+	svd.fit(matrix_tfidf)
+	return svd
 
 
 
@@ -219,5 +232,7 @@ if __name__ == '__main__':
 	#SHAPE: [55 x 5111]
 	matrix_tfidf, dictionary, reverse_dictionary, episodes = train(path, directory, loadTFIDF=loadTFIDF, prints=prints, log_prints=False)
 	# print matrix_tfidf
-	wordlist = ["jon","snow","dead"]
-	search(wordlist, matrix_tfidf, 50.0)
+	wordlist = ["joffrey"]
+	search(wordlist, matrix_tfidf, 5.0)
+	matrix_svd = build_svd(matrix_tfidf)
+	

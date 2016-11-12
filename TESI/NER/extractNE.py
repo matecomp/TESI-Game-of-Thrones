@@ -350,7 +350,7 @@ def train(path="../episodesJSON/", loadNE=False, loadMARK=False, loadNORM=False,
 if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
 	mypath = "../episodesJSON/"
-	loadNE = True
+	loadNE = False
 	loadMARK = False
 	loadNORM = False
 	loadNCE = False
