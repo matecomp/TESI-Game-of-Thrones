@@ -42,7 +42,7 @@ def Json2Content(data_json):
 		location = p['location'] 
 		location = re.sub(r" +", "_", location)
 		location = re.sub(r" *'", "'", location)
-		location = '<location = "'+location+'">\n' 
+		location = '<location id="'+location+'">\n' 
 		text += location
 		text += preprocessing(p['content']) + '\n'
 		text += "</location>\n"
@@ -182,7 +182,7 @@ def allNER(path):
 			episode_name = name[0:-4]
 			episode_name = re.sub(r" +", "_", episode_name)
 			episode_name = re.sub(r" *'", "'", episode_name)
-			episode_name = '<episode = "'+ episode_name +'">\n'
+			episode_name = '<episode id="'+ episode_name +'">\n'
 			tempNE, tempText, tempExNE = extractNE(data_json)
 			NE.update(tempNE)
 			ExNE.update(tempExNE)
@@ -215,9 +215,6 @@ def markNER(text, NE):
 	text = re.sub(r" *'", " '", text)
 	text = re.sub("game of thrones", "GAME OF THRONES", text, flags=re.IGNORECASE)
 	return text
-
-# def markepisodesNER(text, NE):
-
 
 def pre_NCE_Classifier(marked_text):
 	# callback = lambda pat: pat.group(0).split(" ","_")
@@ -275,6 +272,7 @@ def normalizeNER(text, NE):
 	normalize_text = re.sub(r" +$", "", normalize_text)
 	normalize_text = re.sub(r" +", " ", normalize_text)
 	normalize_text = re.sub(r" +'","'", normalize_text)
+	normalize_text = re.sub(r"(`` ?|'' ?)",'"', normalize_text)
 	normalize_text = re.sub(r" +'S"," 'S", normalize_text)
 	normalize_text = re.sub(r"< ","<", normalize_text)
 	normalize_text = re.sub(r" >",">", normalize_text)
@@ -319,8 +317,8 @@ def train(path="../episodesJSON/", loadNE=False, loadMARK=False, loadNORM=False,
 		episode_text = readfile("../DATASET/episode_text.txt")
 	else:
 		NE, episode_text = allNER(path)
-		NE = loadCSV("ENTITIES/Naive-NER.csv")
-		# saveCSV('ENTITIES/Naive-NER.csv', NE)
+		saveCSV('ENTITIES/NER.csv', NE)
+		episode_text = "<data>\n" + episode_text + "\n</data>\n"
 		savefile("../DATASET/episode_text.txt", episode_text)
 	NE = removeSubstring(NE)
 	NE = sorted(NE)
