@@ -60,9 +60,9 @@ def Chunker(tagged_sentences):
 
 	grammar = r"""
 	  ENT:
-		  {<OPENS><..?.?.?>+<LOCKS>}
+	  	{<OPENS><..?.?.?>+<LOCKS>}
 	  REL:
-		  {<ENT><.+>?<.+>?<VB.*><.+>?<.+>?<ENT>}
+	  	{<ENT><.+>?<.+>?<VB.*><.+>?<.+>?<ENT>}
 	  """
 
 	cp = nltk.RegexpParser(grammar)

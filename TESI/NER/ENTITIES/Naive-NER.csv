@@ -1,94 +1,14 @@
 NER
->
 A Golden Crown
 A Man Without Honor
-Aegon
-Aemon
-Aeron
-Aerys Targaryen
-Afterward
-Akho
-Alliser Thorne
-Alton Lannister
-Amory Lorch
 And Now His Watch is Ended
-Anguy
-April
-Areo
-Army
-Arthur
-Arya Stark
-Astapor
-Balon Greyjoy
-Baratheons
-Barristan Selmy
-Battle
-Bay
-Bear Island
-Benjen
-Beric
-Bert
-Beyond
-Biter
-Black Walder
-Blackfish
+Baelor
 Blackwater
-Boltons
 Book of the Stranger
-Both Thorne
-Bowen
-Braavos
-Braavosi
-Bran Stark
 Breaker of Chains
-Brienne
-Broken Tower
-Brotherhood Without Banners
-Brothers
-Brynden
-Casterly Rock
-Castle Black
-Cat
-Catelyn Stark
-Cersei
-Citadel
-City Watch
-Conquer
-Corbray
-Crane
-Craster
-Cressen
-Cripples
 "Cripples, Bastards and Broken Things"
-Crossroads Inn
-Crownlands
-Daario
-Daenerys Targaryen
-Dagmer
-Daisy
-Dany
 "Dark Wings, Dark Words"
-David Benioff D.B
-Davos
-Dayne
-Deepwood Motte
-Dondarrion
-Dontos
-Doran
-Doreah
-Dorne
-Dornish
-Dosh Khaleen
-Dragonstone
-Dreadfort
-Drogon
-Drowned God
-Eddard Stark
-Eddison
-Edmure
-Egg
-Elia
-Ellaria Sand
+Episode 1
 Episode 10
 Episode 2
 Episode 3
@@ -98,259 +18,641 @@ Episode 6
 Episode 7
 Episode 8
 Episode 9
-Euron Greyjoy
-Eyrie
-Faceless Men
-Faith Militant
-Fennesz
-Fingers
 Fire and Blood
-First Men
 First of His Name
-Fist
-Five Kings
-Flea Bottom
-Ford
-Forest
-Free Cities
-Free Folk
-Freys
-Fuck
-Game of Thrones
 Garden of Bones
-Gared
-Gendry
-Gerold Hightower
-Gilly
-Grand
-Great Houses
-Great Masters
-Great Sept of Baelor
-Greatjon
-Gregor Clegane
-Grenn
-Grey Wind
-Grey Worm
-Halfhand
-Hall of Faces
-Hallyne
-Hand
+HOUSES: House Arryn
+HOUSES: House Baelish
+HOUSES: House Baratheon
+HOUSES: House Bolton
+HOUSES: House Clegane
+HOUSES: House Florent
+HOUSES: House Frey
+HOUSES: House Greyjoy
+HOUSES: House Karstark
+HOUSES: House Lannister
+HOUSES: House Martell
+HOUSES: House Mormont
+HOUSES: House Reed
+HOUSES: House Stark
+HOUSES: House Targaryen
+HOUSES: House Tarth
+HOUSES: House Tully
+HOUSES: House Tyrell
+HOUSES: House Umber
+HOUSES: House of Black
+HOUSES: House of Black White
 Hardhome
-High Hall
-High Septon
 High Sparrow
-Highgarden
-Hizdahr
-Hobb
-Hodor
-Hold
 Home
-Hoster Tully
-Hot Pie
-Hotah
-Hound
-House Arryn
-House Baelish
-House Baratheon
-House Bolton
-House Clegane
-House Florent
-House Frey
-House Greyjoy
-House Karstark
-House Lannister
-House Martell
-House Mormont
-House Reed
-House Stark
-House Targaryen
-House Tarth
-House Tully
-House Tyrell
-House Umber
-House of Black White
-Howland
-Hugh
-Ice
-Iggo
-Illyrio
-Ilyn Payne
-Imp
-Iron Bank
-Iron Islands
-Iron Throne
-Ironborn
-Irri
-Jaime Lannister
-Jamie
-Janos Slynt
-Jaqen H'ghar
-Jeor Mormont
-Joffrey Baratheon
-Jojen
-Jon Arryn
-Jon Snow
-Jorah Mormont
-Jory Cassel
-Joyeuse
-Karl
-Karsi
-Karstarks
-Kevan
-Khal Drogo
-Khal Moro
 Kill the Boy
-Kingsguard
 Kingsroad
-Kinvara
 Kissed by Fire
-Kraznys
-Lancel Lannister
-Landing
-Lanna
-Lannister Tyrell
-Lannisters
-Leaf
-Lhazareen
-Light
-Littlefinger
-Loboda
-Locke
-Lollys
-Lommy
-Long Bridge
-Longclaw
-Loraq
-Loras
+LOCATION: In the middle
+LOCATION: at Castle Black
+LOCATION: at Craster
+LOCATION: at Harrenhal
+LOCATION: at Joffrey
+LOCATION: at Jon
+LOCATION: at Jorah
+LOCATION: at Margaery
+LOCATION: at Sam
+LOCATION: at Stone Mill
+LOCATION: at Tommen
+LOCATION: at Tyrion
+LOCATION: at Vaes Dothrak
+LOCATION: at Winterfell
+LOCATION: at the Battle
+LOCATION: at the Fist
+LOCATION: at the Twins
+LOCATION: between the Crown
+LOCATION: from the Crossroads Inn
+LOCATION: from the House of Black
+LOCATION: from the Stormlands
+LOCATION: from the bank
+LOCATION: from the battle
+LOCATION: from the battlements
+LOCATION: from the capital
+LOCATION: from the court
+LOCATION: from the cross
+LOCATION: from the crowd
+LOCATION: from the dead
+LOCATION: from the dungeon
+LOCATION: from the flames
+LOCATION: from the north
+LOCATION: from the other
+LOCATION: from the sea
+LOCATION: from the stands
+LOCATION: from the temple
+LOCATION: from the top
+LOCATION: from the wall
+LOCATION: from the war
+LOCATION: from the wound
+LOCATION: in the Battle
+LOCATION: in the Castle
+LOCATION: in the Eyrie
+LOCATION: in the King
+LOCATION: in the Kingsguard
+LOCATION: in the North
+LOCATION: in the Riverlands
+LOCATION: in the Vale
+LOCATION: in the aftermath
+LOCATION: in the back
+LOCATION: in the battle
+LOCATION: in the belly
+LOCATION: in the camp
+LOCATION: in the capital
+LOCATION: in the castle
+LOCATION: in the cave
+LOCATION: in the chaos
+LOCATION: in the chest
+LOCATION: in the city
+LOCATION: in the cold
+LOCATION: in the coming
+LOCATION: in the common
+LOCATION: in the company
+LOCATION: in the confusion
+LOCATION: in the court
+LOCATION: in the courtyard
+LOCATION: in the crowd
+LOCATION: in the crown
+LOCATION: in the crypts
+LOCATION: in the direction
+LOCATION: in the distance
+LOCATION: in the dungeon
+LOCATION: in the dungeons
+LOCATION: in the east
+LOCATION: in the end
+LOCATION: in the eye
+LOCATION: in the eyes
+LOCATION: in the face
+LOCATION: in the fighting
+LOCATION: in the fire
+LOCATION: in the first
+LOCATION: in the flames
+LOCATION: in the forest
+LOCATION: in the gardens
+LOCATION: in the godswood
+LOCATION: in the group
+LOCATION: in the hall
+LOCATION: in the harbor
+LOCATION: in the head
+LOCATION: in the heart
+LOCATION: in the heat
+LOCATION: in the hope
+LOCATION: in the king
+LOCATION: in the main
+LOCATION: in the middle
+LOCATION: in the midst
+LOCATION: in the mood
+LOCATION: in the neck
+LOCATION: in the night
+LOCATION: in the north
+LOCATION: in the past
+LOCATION: in the practice
+LOCATION: in the process
+LOCATION: in the real
+LOCATION: in the recent
+LOCATION: in the river
+LOCATION: in the room
+LOCATION: in the same
+LOCATION: in the sand
+LOCATION: in the second
+LOCATION: in the sky
+LOCATION: in the snow
+LOCATION: in the south
+LOCATION: in the stomach
+LOCATION: in the street
+LOCATION: in the streets
+LOCATION: in the temple
+LOCATION: in the tent
+LOCATION: in the throat
+LOCATION: in the throne
+LOCATION: in the tower
+LOCATION: in the town
+LOCATION: in the vanguard
+LOCATION: in the vision
+LOCATION: in the war
+LOCATION: in the wars
+LOCATION: in the water
+LOCATION: in the woods
+LOCATION: in the world
+LOCATION: in the wrong
+LOCATION: into the castle
+LOCATION: into the catacombs
+LOCATION: into the cave
+LOCATION: into the city
+LOCATION: into the courtyard
+LOCATION: into the darkness
+LOCATION: into the dirt
+LOCATION: into the flames
+LOCATION: into the main
+LOCATION: into the night
+LOCATION: into the room
+LOCATION: into the sea
+LOCATION: into the snow
+LOCATION: into the street
+LOCATION: into the tent
+LOCATION: into the throne
+LOCATION: into the water
+LOCATION: into the woods
+LOCATION: into the world
 Lord Snow
-Lorren
-Lothar
-Luwin
-Lyanna Mormont
-Lyanna Stark
-Lys
-Lysa Arryn
-Mace
-Mad
-Mag
-Maggy
-Mago
-Mance Rayder
-Mandon Moore
-Margaery Tyrell
-Marillion
-Martyn Lannister
-Matthos
-Meera
-Meereen
-Melara
-Melisandre
-Mero
-Meryn Trant
-Mhaegen
 Mhysa
-Mighdal
-Mirri Maz Duur
-Missandei
-Moat Cailin
 Mockingbird
-Mole
-Moon Door
-Mossador
-Mother of Dragons
 Mother's Mercy
-Mud Gate
-Mummer
-Mycah
-Myranda
-Naharis
-Nan
-Narrow Sea
-Neck
-Ned Stark
-Needle
-Nightfort
-Northern
-Northerners
-Norvosi
-Nym
-Nymeria
+ORGANIZATION: Game of Thrones
+ORGANIZATION: Great Sept of Baelor
+ORGANIZATION: Hall of Faces
+ORGANIZATION: Mother of Dragons
+ORGANIZATION: Rains of Castamere
+ORGANIZATION: Thoros of Myr
 Oathbreaker
 Oathkeeper
-Obara
-Oberyn
-Oldtown
-Olenna Tyrell
-Olly
-Olyvar
-Onion Knight
-Orell
-Ornela
-Orson
-Osha
-Outside
-Oxcross
-Pentos
-Pentoshi
-Petyr
-Piggy
-Pit
-Pod
-Podrick
-Polliver
-Prendahl
-Prologue
-Protector
-Pyat Pree
-Pycelle
-Pyke
-Pyp
-Pypar
-Qarth
-Qhorin
-Qotho
-Quaithe
-Qyburn
-Rakharo
-Ramsay Bolton
-Ramsay Snow
-Rast
-Razdal
-Realm
-Rebellion
-Red Comet
-Red Fork
-Red Keep
-Red Priestess
-Red Waste
-Red Wedding
-Reek
-Renly
-Reyne
-Rhaegal
-Rhaegar Targaryen
-Rhaego
-Rhaenyra
-Rickard Karstark
-Rickon
-Riverlands
-Riverrun
-Robb Stark
-Robert Baratheon
-Robin
-Rodrik Cassel
-Roose Bolton
-Roslin
-Royce
-Sack
-Salladhor
-Salt Throne
-Sam
-Samwell Tarly
-Sand Snakes
-Sandor Clegane
-Sansa Stark
-Savo
+PEOPLE: A 
+PEOPLE: Aegon 
+PEOPLE: Aemon 
+PEOPLE: Aeron 
+PEOPLE: Aerys 
+PEOPLE: Akho 
+PEOPLE: Alliser 
+PEOPLE: Alliser Thorne 
+PEOPLE: Amory 
+PEOPLE: Amory Lorch 
+PEOPLE: Anguy 
+PEOPLE: Areo 
+PEOPLE: Army 
+PEOPLE: Arryn 
+PEOPLE: Arthur 
+PEOPLE: Arya 
+PEOPLE: Arya Stark 
+PEOPLE: Astapor 
+PEOPLE: Baelish 
+PEOPLE: Baelor 
+PEOPLE: Balon 
+PEOPLE: Balon Greyjoy 
+PEOPLE: Bank 
+PEOPLE: Baratheon 
+PEOPLE: Barristan 
+PEOPLE: Barristan Selmy 
+PEOPLE: Bear 
+PEOPLE: Benjen 
+PEOPLE: Beric 
+PEOPLE: Bert 
+PEOPLE: Beyond 
+PEOPLE: Black Walder 
+PEOPLE: Blackfish 
+PEOPLE: Blackwater 
+PEOPLE: Bolton 
+PEOPLE: Boltons 
+PEOPLE: Bones 
+PEOPLE: Both Thorne 
+PEOPLE: Bowen 
+PEOPLE: Braavos 
+PEOPLE: Braavosi 
+PEOPLE: Bran 
+PEOPLE: Bran Stark 
+PEOPLE: Brienne 
+PEOPLE: Bronn 
+PEOPLE: Brotherhood 
+PEOPLE: Brotherhood Without Banners 
+PEOPLE: Brothers 
+PEOPLE: Brynden 
+PEOPLE: Castle Black 
+PEOPLE: Catelyn 
+PEOPLE: Catelyn Stark 
+PEOPLE: Cersei 
+PEOPLE: Children 
+PEOPLE: Clegane 
+PEOPLE: Council 
+PEOPLE: Crane 
+PEOPLE: Craster 
+PEOPLE: Cressen 
+PEOPLE: Crossroads Inn 
+PEOPLE: Daario 
+PEOPLE: Daenerys 
+PEOPLE: Daenerys Targaryen 
+PEOPLE: Dagmer 
+PEOPLE: Daisy 
+PEOPLE: Dany 
+PEOPLE: Davos 
+PEOPLE: Dayne 
+PEOPLE: Deepwood Motte 
+PEOPLE: Dondarrion 
+PEOPLE: Dontos 
+PEOPLE: Doran 
+PEOPLE: Doreah 
+PEOPLE: Dorne 
+PEOPLE: Dothraki 
+PEOPLE: Dragons 
+PEOPLE: Dragonstone 
+PEOPLE: Dreadfort 
+PEOPLE: Drogo 
+PEOPLE: Drogon 
+PEOPLE: Duur 
+PEOPLE: Edd 
+PEOPLE: Eddard 
+PEOPLE: Eddard Stark 
+PEOPLE: Eddison 
+PEOPLE: Edmure 
+PEOPLE: Egg 
+PEOPLE: Elia 
+PEOPLE: Ellaria 
+PEOPLE: Ellaria Sand 
+PEOPLE: Euron 
+PEOPLE: Euron Greyjoy 
+PEOPLE: Eyrie 
+PEOPLE: Faceless Men 
+PEOPLE: Faith 
+PEOPLE: Faith Militant 
+PEOPLE: Fennesz 
+PEOPLE: First Men 
+PEOPLE: Fist 
+PEOPLE: Forest 
+PEOPLE: Free Folk 
+PEOPLE: Frey 
+PEOPLE: Freys 
+PEOPLE: Gared 
+PEOPLE: Gendry 
+PEOPLE: Gerold 
+PEOPLE: Ghost 
+PEOPLE: Gift 
+PEOPLE: Gilly 
+PEOPLE: Grand 
+PEOPLE: Great Masters 
+PEOPLE: Great Sept 
+PEOPLE: Greatjon 
+PEOPLE: Gregor 
+PEOPLE: Gregor Clegane 
+PEOPLE: Grenn 
+PEOPLE: Grey Wind 
+PEOPLE: Grey Worm 
+PEOPLE: Greyjoy 
+PEOPLE: Hand 
+PEOPLE: Hardhome 
+PEOPLE: Harpy 
+PEOPLE: Harrenhal 
+PEOPLE: High 
+PEOPLE: High Septon 
+PEOPLE: High Sparrow 
+PEOPLE: Highgarden 
+PEOPLE: Hizdahr 
+PEOPLE: Hobb 
+PEOPLE: Hodor 
+PEOPLE: Hold 
+PEOPLE: Hoster 
+PEOPLE: Hoster Tully 
+PEOPLE: Hot Pie 
+PEOPLE: Hound 
+PEOPLE: Howland 
+PEOPLE: Ice 
+PEOPLE: Iggo 
+PEOPLE: Illyrio 
+PEOPLE: Ilyn 
+PEOPLE: Ilyn Payne 
+PEOPLE: Iron 
+PEOPLE: Iron Bank 
+PEOPLE: Iron Throne 
+PEOPLE: Ironborn 
+PEOPLE: Irri 
+PEOPLE: Jaime 
+PEOPLE: Jaime Lannister 
+PEOPLE: Jamie 
+PEOPLE: Janos 
+PEOPLE: Jaqen 
+PEOPLE: Jaqen H'ghar 
+PEOPLE: Jeor 
+PEOPLE: Jeor Mormont 
+PEOPLE: Joffrey 
+PEOPLE: Joffrey Baratheon 
+PEOPLE: Jojen 
+PEOPLE: Jon 
+PEOPLE: Jon Arryn 
+PEOPLE: Jon Snow 
+PEOPLE: Jorah 
+PEOPLE: Jorah Mormont 
+PEOPLE: Jory 
+PEOPLE: Karl 
+PEOPLE: Karsi 
+PEOPLE: Karstark 
+PEOPLE: Karstarks 
+PEOPLE: Keep 
+PEOPLE: Kevan 
+PEOPLE: Khal 
+PEOPLE: Khal Drogo 
+PEOPLE: Kingsguard 
+PEOPLE: Kingsroad 
+PEOPLE: Kinvara 
+PEOPLE: Kraznys 
+PEOPLE: Lancel 
+PEOPLE: Lancel Lannister 
+PEOPLE: Landing 
+PEOPLE: Lanna 
+PEOPLE: Lannister 
+PEOPLE: Lannister Tyrell 
+PEOPLE: Lannisters 
+PEOPLE: Leaf 
+PEOPLE: Lhazareen 
+PEOPLE: Light 
+PEOPLE: Littlefinger 
+PEOPLE: Loboda 
+PEOPLE: Locke 
+PEOPLE: Lollys 
+PEOPLE: Lommy 
+PEOPLE: Longclaw 
+PEOPLE: Loras 
+PEOPLE: Lorch 
+PEOPLE: Lorren 
+PEOPLE: Luwin 
+PEOPLE: Lyanna 
+PEOPLE: Lyanna Mormont 
+PEOPLE: Lyanna Stark 
+PEOPLE: Lysa 
+PEOPLE: Lysa Arryn 
+PEOPLE: Mace 
+PEOPLE: Mad 
+PEOPLE: Mag 
+PEOPLE: Maggy 
+PEOPLE: Mance 
+PEOPLE: Mance Rayder 
+PEOPLE: Mandon Moore 
+PEOPLE: Margaery 
+PEOPLE: Margaery Tyrell 
+PEOPLE: Marillion 
+PEOPLE: Martell 
+PEOPLE: Martyn 
+PEOPLE: Matthos 
+PEOPLE: Meera 
+PEOPLE: Meereen 
+PEOPLE: Melara 
+PEOPLE: Melisandre 
+PEOPLE: Men 
+PEOPLE: Mero 
+PEOPLE: Meryn 
+PEOPLE: Meryn Trant 
+PEOPLE: Mighdal 
+PEOPLE: Mirri Maz Duur 
+PEOPLE: Missandei 
+PEOPLE: Moat Cailin 
+PEOPLE: Moon Door 
+PEOPLE: Mord 
+PEOPLE: Mormont 
+PEOPLE: Moro 
+PEOPLE: Mossador 
+PEOPLE: Mott 
+PEOPLE: Mountain 
+PEOPLE: Mycah 
+PEOPLE: Myr 
+PEOPLE: Myranda 
+PEOPLE: Myrcella 
+PEOPLE: Nan 
+PEOPLE: Ned 
+PEOPLE: Needle 
+PEOPLE: Night 
+PEOPLE: Night Lands 
+PEOPLE: North 
+PEOPLE: Northern 
+PEOPLE: Northerners 
+PEOPLE: Norvosi 
+PEOPLE: Nym 
+PEOPLE: Nymeria 
+PEOPLE: Oathkeeper 
+PEOPLE: Obara 
+PEOPLE: Oberyn 
+PEOPLE: Olenna 
+PEOPLE: Olly 
+PEOPLE: Olyvar 
+PEOPLE: Orell 
+PEOPLE: Ornela 
+PEOPLE: Orson 
+PEOPLE: Osha 
+PEOPLE: Pentos 
+PEOPLE: Pentoshi 
+PEOPLE: Petyr 
+PEOPLE: Pod 
+PEOPLE: Podrick 
+PEOPLE: Polliver 
+PEOPLE: Prendahl 
+PEOPLE: Pyat Pree 
+PEOPLE: Pycelle 
+PEOPLE: Pyp 
+PEOPLE: Pypar 
+PEOPLE: Qarth 
+PEOPLE: Qhorin 
+PEOPLE: Qotho 
+PEOPLE: Quaithe 
+PEOPLE: Qyburn 
+PEOPLE: Rakharo 
+PEOPLE: Ramsay 
+PEOPLE: Ramsay Bolton 
+PEOPLE: Ramsay Snow 
+PEOPLE: Rast 
+PEOPLE: Raven 
+PEOPLE: Rayder 
+PEOPLE: Razdal 
+PEOPLE: Red Keep 
+PEOPLE: Red Priestess 
+PEOPLE: Red Waste 
+PEOPLE: Red Wedding 
+PEOPLE: Reek 
+PEOPLE: Renly 
+PEOPLE: Rhaegal 
+PEOPLE: Rhaegar 
+PEOPLE: Rhaenyra 
+PEOPLE: Rickard 
+PEOPLE: Rickard Karstark 
+PEOPLE: Rickon 
+PEOPLE: Riverlands 
+PEOPLE: Riverrun 
+PEOPLE: Robb 
+PEOPLE: Robb Stark 
+PEOPLE: Robert 
+PEOPLE: Robert Baratheon 
+PEOPLE: Robin 
+PEOPLE: Rodrik 
+PEOPLE: Rodrik Cassel 
+PEOPLE: Roose 
+PEOPLE: Roose Bolton 
+PEOPLE: Ros 
+PEOPLE: Roslin 
+PEOPLE: Royce 
+PEOPLE: Sam 
+PEOPLE: Samwell 
+PEOPLE: Samwell Tarly 
+PEOPLE: Sand Snakes 
+PEOPLE: Sandor 
+PEOPLE: Sandor Clegane 
+PEOPLE: Sansa 
+PEOPLE: Sansa Stark 
+PEOPLE: Second Sons 
+PEOPLE: Selmy 
+PEOPLE: Selwyn 
+PEOPLE: Selyse 
+PEOPLE: Sept 
+PEOPLE: Septa Mordane 
+PEOPLE: Septa Unella 
+PEOPLE: Seven 
+PEOPLE: Seven Kingdoms 
+PEOPLE: Shadow 
+PEOPLE: Shae 
+PEOPLE: Shagga 
+PEOPLE: Shaggydog 
+PEOPLE: Shireen 
+PEOPLE: Siege 
+PEOPLE: Silent Sisters 
+PEOPLE: Slynt 
+PEOPLE: Small Council 
+PEOPLE: Smalljon 
+PEOPLE: Snow 
+PEOPLE: Sons 
+PEOPLE: Sparrow 
+PEOPLE: Sparrows 
+PEOPLE: Stannis 
+PEOPLE: Stannis Baratheon 
+PEOPLE: Stark 
+PEOPLE: Starks 
+PEOPLE: Steelshanks 
+PEOPLE: Stranger 
+PEOPLE: Styr 
+PEOPLE: Summer 
+PEOPLE: Sunspear 
+PEOPLE: Syrio 
+PEOPLE: Talisa 
+PEOPLE: Targaryen 
+PEOPLE: Targaryens 
+PEOPLE: Tarth 
+PEOPLE: Thenn 
+PEOPLE: Theon 
+PEOPLE: Theon Greyjoy 
+PEOPLE: Thin 
+PEOPLE: Thin Man 
+PEOPLE: Thirteen 
+PEOPLE: Thorne 
+PEOPLE: Thoros 
+PEOPLE: Three 
+PEOPLE: Tickler 
+PEOPLE: Tommen 
+PEOPLE: Tormund 
+PEOPLE: Torrhen 
+PEOPLE: Torrhen Karstark 
+PEOPLE: Tower 
+PEOPLE: Town 
+PEOPLE: Trant 
+PEOPLE: Trystane 
+PEOPLE: Trystane Martell 
+PEOPLE: Tully 
+PEOPLE: Tycho 
+PEOPLE: Tyene 
+PEOPLE: Tyrell 
+PEOPLE: Tyrells 
+PEOPLE: Tyrion 
+PEOPLE: Tyrion Lannister 
+PEOPLE: Tywin 
+PEOPLE: Tywin Lannister 
+PEOPLE: Umber 
+PEOPLE: Unsullied 
+PEOPLE: Vaes Dothrak 
+PEOPLE: Vala 
+PEOPLE: Valar 
+PEOPLE: Valar Morghulis 
+PEOPLE: Vale 
+PEOPLE: Valyria 
+PEOPLE: Valyrian 
+PEOPLE: Vardis 
+PEOPLE: Varys 
+PEOPLE: Viserys 
+PEOPLE: Waif 
+PEOPLE: Walda 
+PEOPLE: Walder 
+PEOPLE: Walder Frey 
+PEOPLE: Walker 
+PEOPLE: Walkers 
+PEOPLE: Wall 
+PEOPLE: Watch 
+PEOPLE: Waymar 
+PEOPLE: Weirwood 
+PEOPLE: Westeros 
+PEOPLE: White 
+PEOPLE: White Walker 
+PEOPLE: White Walkers 
+PEOPLE: Wildlings 
+PEOPLE: Will 
+PEOPLE: Willem 
+PEOPLE: Winterfell 
+PEOPLE: Wise Masters 
+PEOPLE: Wun Wun 
+PEOPLE: Wylis 
+PEOPLE: Xaro 
+PEOPLE: Yara 
+PEOPLE: Yarwyck 
+PEOPLE: Yezzan 
+PEOPLE: Ygritte 
+PEOPLE: Yoren 
+PEOPLE: Yunkai 
+PEOPLE: a Dothraki 
+PEOPLE: a Lannister 
+PEOPLE: a Stark 
+PEOPLE: a Tyrell 
+PEOPLE: a White Walker 
+PEOPLE: an Unsullied 
+PEOPLE: her Khalasar 
+PEOPLE: last Targaryen 
+PEOPLE: main Lannister 
+PEOPLE: that Arya 
+PEOPLE: that Baelish 
+PEOPLE: that Bran 
+PEOPLE: that Bronn 
+PEOPLE: that Daenerys 
+PEOPLE: that Euron 
+PEOPLE: that Frey 
+PEOPLE: that Jorah 
+PEOPLE: that Myrcella 
+PEOPLE: that Robb 
+PEOPLE: that Sansa 
+PEOPLE: that Stannis 
+PEOPLE: that Tyrion 
+PEOPLE: that Tywin 
+PEOPLE: that Yunkai 
 Season 1
 Season 2
 Season 3
@@ -358,38 +660,7 @@ Season 4
 Season 5
 Season 6
 Second Sons
-Selwyn
-Selyse
-Septa Mordane
-Septa Unella
-Seven Kingdoms
-Shadow
-Shae
-Shagga
-Shaggydog
-Shireen
-Siege
-Sight
-Silent Sisters
-Slaver
-Small Council
-Smalljon
 Sons of the Harpy
-South
-Sparrows
-Square
-Stannis Baratheon
-Starks
-Steelshanks
-Stone Mill
-Storm
-Stormlands
-Styr
-Summer
-Sunspear
-Syrio Forel
-Talisa
-Targaryens
 The Bear and the Maiden Fair
 The Children
 The Climb
@@ -411,93 +682,455 @@ The Red Woman
 The Wars to Come
 The Watchers on the Wall
 The Wolf and the Lion
-Thenn
-Theon Greyjoy
-Thin Man
-Thirteen
-Thoros of Myr
-Three Eyed Raven
-Tickler
-Titan
-Tommen
-Tormund
-Torrhen Karstark
-Town
-Trident
-Trystane Martell
-Twins
 Two Swords
-Tycho
-Tyene
-Tyrells
-Tyrion Lannister
-Tywin Lannister
+UNKNOWN: >
+UNKNOWN: Aegon
+UNKNOWN: Aemon
+UNKNOWN: Aeron
+UNKNOWN: Aerys
+UNKNOWN: Aerys Targaryen
+UNKNOWN: Afterward
+UNKNOWN: Akho
+UNKNOWN: Alliser
+UNKNOWN: Alliser Thorne
+UNKNOWN: Alton
+UNKNOWN: Amory
+UNKNOWN: Amory Lorch
+UNKNOWN: April
+UNKNOWN: Areo
+UNKNOWN: Army
+UNKNOWN: Arthur
+UNKNOWN: Arya
+UNKNOWN: Arya Stark
+UNKNOWN: Astapor
+UNKNOWN: Baelish
+UNKNOWN: Baelor
+UNKNOWN: Balon
+UNKNOWN: Balon Greyjoy
+UNKNOWN: Baratheon
+UNKNOWN: Baratheons
+UNKNOWN: Barristan
+UNKNOWN: Barristan Selmy
+UNKNOWN: Battle
+UNKNOWN: Bay
+UNKNOWN: Bear
+UNKNOWN: Benjen
+UNKNOWN: Beric
+UNKNOWN: Beyond
+UNKNOWN: Biter
+UNKNOWN: Blackfish
+UNKNOWN: Bolton
+UNKNOWN: Boltons
+UNKNOWN: Book
+UNKNOWN: Braavos
+UNKNOWN: Bran
+UNKNOWN: Brienne
+UNKNOWN: Broken Tower
+UNKNOWN: Bronn
+UNKNOWN: Brotherhood
+UNKNOWN: Brotherhood Without Banners
+UNKNOWN: Brynden
+UNKNOWN: Casterly Rock
+UNKNOWN: Castle
+UNKNOWN: Castle Black
+UNKNOWN: Catelyn
+UNKNOWN: Catelyn Stark
+UNKNOWN: Cersei
+UNKNOWN: Children
+UNKNOWN: Citadel
+UNKNOWN: City Watch
+UNKNOWN: Clegane
+UNKNOWN: Conquer
+UNKNOWN: Corbray
+UNKNOWN: Crane
+UNKNOWN: Craster
+UNKNOWN: Cripples
+UNKNOWN: Crossroads Inn
+UNKNOWN: Crown
+UNKNOWN: Daario
+UNKNOWN: Daenerys
+UNKNOWN: Dagmer
+UNKNOWN: Daisy
+UNKNOWN: Dance
+UNKNOWN: Dany
+UNKNOWN: David Benioff D.B
+UNKNOWN: Davos
+UNKNOWN: Dayne
+UNKNOWN: Dead
+UNKNOWN: Dondarrion
+UNKNOWN: Dontos
+UNKNOWN: Doran
+UNKNOWN: Doreah
+UNKNOWN: Dorne
+UNKNOWN: Dornish
+UNKNOWN: Dosh Khaleen
+UNKNOWN: Dothraki
+UNKNOWN: Dragons
+UNKNOWN: Dragonstone
+UNKNOWN: Dreadfort
+UNKNOWN: Drogo
+UNKNOWN: Drogon
+UNKNOWN: Drowned God
+UNKNOWN: Edd
+UNKNOWN: Eddard
+UNKNOWN: Eddard Stark
+UNKNOWN: Edmure
+UNKNOWN: Elia
+UNKNOWN: Ellaria
+UNKNOWN: Ellaria Sand
+UNKNOWN: Euron
+UNKNOWN: Euron Greyjoy
+UNKNOWN: Eyrie
+UNKNOWN: Faceless Men
+UNKNOWN: Faith
+UNKNOWN: Faith Militant
+UNKNOWN: Fennesz
+UNKNOWN: Fingers
+UNKNOWN: First Men
+UNKNOWN: Fist
+UNKNOWN: Five Kings
+UNKNOWN: Flea Bottom
+UNKNOWN: Forest
+UNKNOWN: Free Cities
+UNKNOWN: Free Folk
+UNKNOWN: Frey
+UNKNOWN: Freys
+UNKNOWN: Fuck
+UNKNOWN: Gardens
+UNKNOWN: Gared
+UNKNOWN: Gendry
+UNKNOWN: Gerold Hightower
+UNKNOWN: Ghost
+UNKNOWN: Gift
+UNKNOWN: Gilly
+UNKNOWN: Gods
+UNKNOWN: Grand
+UNKNOWN: Great
+UNKNOWN: Great Masters
+UNKNOWN: Great Sept
+UNKNOWN: Greatjon
+UNKNOWN: Gregor
+UNKNOWN: Gregor Clegane
+UNKNOWN: Grenn
+UNKNOWN: Grey Wind
+UNKNOWN: Grey Worm
+UNKNOWN: Greyjoy
+UNKNOWN: Hallyne
+UNKNOWN: Hand
+UNKNOWN: Harpy
+UNKNOWN: Harrenhal
+UNKNOWN: High Hall
+UNKNOWN: High Septon
+UNKNOWN: High Sparrow
+UNKNOWN: Highgarden
+UNKNOWN: Hizdahr
+UNKNOWN: Hobb
+UNKNOWN: Hodor
+UNKNOWN: Hoster
+UNKNOWN: Hot Pie
+UNKNOWN: Hotah
+UNKNOWN: Hound
+UNKNOWN: Hugh
+UNKNOWN: Iggo
+UNKNOWN: Illyrio
+UNKNOWN: Ilyn
+UNKNOWN: Ilyn Payne
+UNKNOWN: Iron Bank
+UNKNOWN: Iron Islands
+UNKNOWN: Iron Throne
+UNKNOWN: Ironborn
+UNKNOWN: Jaime
+UNKNOWN: Jaime Lannister
+UNKNOWN: Janos
+UNKNOWN: Janos Slynt
+UNKNOWN: Jaqen
+UNKNOWN: Jaqen H'ghar
+UNKNOWN: Jeor
+UNKNOWN: Jeor Mormont
+UNKNOWN: Joffrey
+UNKNOWN: Joffrey Baratheon
+UNKNOWN: Jojen
+UNKNOWN: Jon
+UNKNOWN: Jon Arryn
+UNKNOWN: Jon Snow
+UNKNOWN: Jorah
+UNKNOWN: Jorah Mormont
+UNKNOWN: Jory
+UNKNOWN: Jory Cassel
+UNKNOWN: Joyeuse
+UNKNOWN: Karl
+UNKNOWN: Karsi
+UNKNOWN: Karstark
+UNKNOWN: Keep
+UNKNOWN: Kevan
+UNKNOWN: Khal Drogo
+UNKNOWN: Khal Moro
+UNKNOWN: Kingdom
+UNKNOWN: Kingsguard
+UNKNOWN: Kingsroad
+UNKNOWN: Kinvara
+UNKNOWN: Kraznys
+UNKNOWN: Lancel
+UNKNOWN: Lancel Lannister
+UNKNOWN: Landing
+UNKNOWN: Lanna
+UNKNOWN: Lannister
+UNKNOWN: Lannister Tyrell
+UNKNOWN: Lannisters
+UNKNOWN: Leaf
+UNKNOWN: Littlefinger
+UNKNOWN: Loboda
+UNKNOWN: Locke
+UNKNOWN: Lollys
+UNKNOWN: Lommy
+UNKNOWN: Long Bridge
+UNKNOWN: Longclaw
+UNKNOWN: Loraq
+UNKNOWN: Loras
+UNKNOWN: Lorren
+UNKNOWN: Luwin
+UNKNOWN: Lyanna
+UNKNOWN: Lyanna Mormont
+UNKNOWN: Lyanna Stark
+UNKNOWN: Lysa
+UNKNOWN: Lysa Arryn
+UNKNOWN: Mace
+UNKNOWN: Mad
+UNKNOWN: Mag
+UNKNOWN: Mago
+UNKNOWN: Maiden Fair
+UNKNOWN: Mance
+UNKNOWN: Mance Rayder
+UNKNOWN: Mandon
+UNKNOWN: Margaery
+UNKNOWN: Marillion
+UNKNOWN: Martyn Lannister
+UNKNOWN: Matthos
+UNKNOWN: Meera
+UNKNOWN: Meereen
+UNKNOWN: Melara
+UNKNOWN: Melisandre
+UNKNOWN: Mero
+UNKNOWN: Meryn
+UNKNOWN: Meryn Trant
+UNKNOWN: Mhaegen
+UNKNOWN: Mighdal
+UNKNOWN: Mirri Maz Duur
+UNKNOWN: Missandei
+UNKNOWN: Moat Cailin
+UNKNOWN: Mole
+UNKNOWN: Moon Door
+UNKNOWN: Mord
+UNKNOWN: Mormont
+UNKNOWN: Mossador
+UNKNOWN: Mother
+UNKNOWN: Mountain
+UNKNOWN: Mud Gate
+UNKNOWN: Mycah
+UNKNOWN: Myranda
+UNKNOWN: Myrcella
+UNKNOWN: Naharis
+UNKNOWN: Nan
+UNKNOWN: Narrow Sea
+UNKNOWN: Ned
+UNKNOWN: Ned Stark
+UNKNOWN: Needle
+UNKNOWN: Night
+UNKNOWN: Nightfort
+UNKNOWN: No
+UNKNOWN: North
+UNKNOWN: Northern
+UNKNOWN: Nym
+UNKNOWN: Nymeria
+UNKNOWN: Oathkeeper
+UNKNOWN: Obara
+UNKNOWN: Oberyn
+UNKNOWN: Oldtown
+UNKNOWN: Olenna
+UNKNOWN: Olenna Tyrell
+UNKNOWN: Olly
+UNKNOWN: Olyvar
+UNKNOWN: Onion Knight
+UNKNOWN: Orell
+UNKNOWN: Ornela
+UNKNOWN: Osha
+UNKNOWN: Outside
+UNKNOWN: Pentos
+UNKNOWN: Petyr
+UNKNOWN: Pit
+UNKNOWN: Pod
+UNKNOWN: Podrick
+UNKNOWN: Polliver
+UNKNOWN: Pree
+UNKNOWN: Prendahl
+UNKNOWN: Priestess
+UNKNOWN: Protector
+UNKNOWN: Pyat
+UNKNOWN: Pyat Pree
+UNKNOWN: Pycelle
+UNKNOWN: Pyke
+UNKNOWN: Pyp
+UNKNOWN: Pypar
+UNKNOWN: Qarth
+UNKNOWN: Qhorin
+UNKNOWN: Qotho
+UNKNOWN: Qyburn
+UNKNOWN: Rakharo
+UNKNOWN: Ramsay
+UNKNOWN: Ramsay Bolton
+UNKNOWN: Ramsay Snow
+UNKNOWN: Rast
+UNKNOWN: Raven
+UNKNOWN: Realm
+UNKNOWN: Rebellion
+UNKNOWN: Red Comet
+UNKNOWN: Red Fork
+UNKNOWN: Red Keep
+UNKNOWN: Red Priestess
+UNKNOWN: Red Waste
+UNKNOWN: Red Wedding
+UNKNOWN: Reed
+UNKNOWN: Reek
+UNKNOWN: Renly
+UNKNOWN: Rhaegar
+UNKNOWN: Rhaegar Targaryen
+UNKNOWN: Rhaego
+UNKNOWN: Rickard
+UNKNOWN: Rickard Karstark
+UNKNOWN: Rickon
+UNKNOWN: Riverlands
+UNKNOWN: Riverrun
+UNKNOWN: Robb
+UNKNOWN: Robb Stark
+UNKNOWN: Robert
+UNKNOWN: Robert Baratheon
+UNKNOWN: Robin
+UNKNOWN: Rodrik
+UNKNOWN: Rodrik Cassel
+UNKNOWN: Roose
+UNKNOWN: Roose Bolton
+UNKNOWN: Ros
+UNKNOWN: Royce
+UNKNOWN: Sack
+UNKNOWN: Salladhor
+UNKNOWN: Salt Throne
+UNKNOWN: Sam
+UNKNOWN: Samwell
+UNKNOWN: Sand Snakes
+UNKNOWN: Sandor
+UNKNOWN: Sandor Clegane
+UNKNOWN: Sansa
+UNKNOWN: Sansa Stark
+UNKNOWN: Savo
+UNKNOWN: Sea
+UNKNOWN: Selmy
+UNKNOWN: Selyse
+UNKNOWN: Sept
+UNKNOWN: Septa Mordane
+UNKNOWN: Septa Unella
+UNKNOWN: Seven
+UNKNOWN: Seven Kingdoms
+UNKNOWN: Shae
+UNKNOWN: Shagga
+UNKNOWN: Shaggydog
+UNKNOWN: Shireen
+UNKNOWN: Sight
+UNKNOWN: Slaver
+UNKNOWN: Slynt
+UNKNOWN: Small Council
+UNKNOWN: Smalljon
+UNKNOWN: Snow
+UNKNOWN: Sons
+UNKNOWN: Sparrow
+UNKNOWN: Sparrows
+UNKNOWN: Square
+UNKNOWN: Stannis
+UNKNOWN: Stannis Baratheon
+UNKNOWN: Stark
+UNKNOWN: Starks
+UNKNOWN: Storm
+UNKNOWN: Stranger
+UNKNOWN: Styr
+UNKNOWN: Summer
+UNKNOWN: Syrio
+UNKNOWN: Syrio Forel
+UNKNOWN: Talisa
+UNKNOWN: Targaryen
+UNKNOWN: Targaryens
+UNKNOWN: Theon
+UNKNOWN: Theon Greyjoy
+UNKNOWN: Thin Man
+UNKNOWN: Thirteen
+UNKNOWN: Thorne
+UNKNOWN: Thoros
+UNKNOWN: Three Eyed Raven
+UNKNOWN: Throne
+UNKNOWN: Titan
+UNKNOWN: Tommen
+UNKNOWN: Tormund
+UNKNOWN: Torrhen
+UNKNOWN: Town
+UNKNOWN: Trident
+UNKNOWN: Trystane
+UNKNOWN: Twins
+UNKNOWN: Tyene
+UNKNOWN: Tyrell
+UNKNOWN: Tyrells
+UNKNOWN: Tyrion
+UNKNOWN: Tyrion Lannister
+UNKNOWN: Tywin
+UNKNOWN: Tywin Lannister
+UNKNOWN: Umber
+UNKNOWN: Unsullied
+UNKNOWN: Vaes Dothrak
+UNKNOWN: Vala
+UNKNOWN: Vale
+UNKNOWN: Valyria
+UNKNOWN: Valyrian
+UNKNOWN: Vardis
+UNKNOWN: Vardis Egen
+UNKNOWN: Varys
+UNKNOWN: Viserys
+UNKNOWN: Volantis
+UNKNOWN: Waif
+UNKNOWN: Walder
+UNKNOWN: Walder Frey
+UNKNOWN: Walkers
+UNKNOWN: Wall
+UNKNOWN: War
+UNKNOWN: Watch
+UNKNOWN: Water Dancer
+UNKNOWN: Water Gardens
+UNKNOWN: Waynwood
+UNKNOWN: Westerlands
+UNKNOWN: Westeros
+UNKNOWN: Whispering Wood
+UNKNOWN: White
+UNKNOWN: White Walker
+UNKNOWN: White Walkers
+UNKNOWN: Wildlings
+UNKNOWN: Will
+UNKNOWN: Winterfell
+UNKNOWN: Wise Masters
+UNKNOWN: Wun Wun
+UNKNOWN: Xaro
+UNKNOWN: Yara
+UNKNOWN: Yezzan
+UNKNOWN: Ygritte
+UNKNOWN: Yoren
+UNKNOWN: Yunkai
+UNKNOWN: a Dothraki
+UNKNOWN: a Lannister
+UNKNOWN: a Stark
+UNKNOWN: a White Walker
+UNKNOWN: first White Walker
+UNKNOWN: several Bolton
+UNKNOWN: that Tyrion
+UNKNOWN: that Yunkai
 "Unbowed, Unbent, Unbroken"
-Vaes Dothrak
-Vala
 Valar Dohaeris
 Valar Morghulis
-Vale
-Valyria
-Valyrian
-Vardis Egen
-Varys
-Viserys
-Volantis
-Waif
-Walda
-Walder Frey
 Walk of Punishment
-Water Dancer
-Water Gardens
-Waymar
-Waynwood
-Weirwood
-Weiss
-Westerlands
-Westeros
 What is Dead May Never Die
-Whispering Wood
-White Walkers
-Wildfire
-Wildlings
-Will
-Willem
 Winter is Coming
-Wise Masters
-Wun Wun
-Wylis
-Xaro
-Yara
-Yarwyck
-Yezzan
-Ygritte
-Yoren
 You Win or You Die
-a Dothraki
-a Lannister
-a White Walker
-an Unsullied
-first White Walker
-her Khalasar
-last Targaryen
-main Lannister
-several Bolton
-that Arya
-that Baelish
-that Bran
-that Bronn
-that Daenerys
-that Eddard
-that Euron
-that Frey
-that Jaime
-that Jorah
-that Mance
-that Myrcella
-that Robb
-that Sansa
-that Stannis
-that Tyrion
-that Tywin
-that Yunkai

@@ -85,6 +85,8 @@ def TaggerText(text):
 				tag = "DA"
 			elif word == "House":
 				tag = "HOUSE"
+			elif word == "at":
+				tag = "AT"
 			elif aux_word in places:
 				tag = "LOC"
 			elif aux_word in humans:
@@ -101,14 +103,20 @@ def Subtree2Text(subtree):
 	for word in subtree.flatten()[:]:
 		text += word[0] + " "
 	text = text[0:-1]
+	text = subtree.label() + ': ' + text
 	return text
 
 #Remove as entidades que estao contidas em outra entidade
 def removeSubstring(string_list):
 	words = set()
 	for s in string_list:
-		if not any([s+' ' in word or ' '+s in word or (' ' in s and s in word and s != word) or s in words for word in string_list]):
-			words.add(s)
+		for word in string_list:
+			temp_split = s.split(': ')
+			temp_s = ""
+			for i in range(1, len(temp_split)):
+				temp_s += temp_split[i]
+			if not (temp_s+' ' in word or ' '+temp_s in word or (' ' in temp_s and temp_s in word and temp_s != word) or temp_s in words):
+				words.add(s)
 	return words
 
 
@@ -122,21 +130,41 @@ def Chunker(tagged_sentences):
 		  {<NP>+<OF><NP>+}
 	  HOUSES:
 		  {<HOUSE><OF>?<NP>+}		# NP is better than any tag in this case
-	  """
-	# PEOPLE:
-	#   	{<STATUS><NP>+}
-	#   LOCATION:
-	#   	{<LOC><DA><NP\+|.*>}
+	  PEOPLE:
+		{<STATUS>?<NP>+<CC>?<STATUS>?<NP>*<VB.*|NN><IN>?}
+		{<VB.*><.+>?<STATUS>?<NP>+}
+		{<JJ|NN><,><NP>+}
+		{<OF><NP>+}
+		}<VB.*><IN><STATUS>?<NP>+{
+		}<DET>?<STATUS>?<NP>+<POS><STATUS>?<NP>*<VB.*|NN><IN>?{
+	  LOCATION:
+		{<AT><DA>?<NP>+<POS>?<NP>?}
+		{<LOC><DA><NP\+|.*>}
+	  UNKNOWN:
+		{<NP>+}
+	"""
 	cp = nltk.RegexpParser(grammar)
 	NE = set()
-
+	people = []
 	for sent in tagged_sentences:
 		tree = cp.parse(sent)
 		for subtree in tree.subtrees():
-			if subtree.label() != "S":
+			if subtree.label() == "PEOPLE":
+				# print Subtree2Text(subtree)
+				for nps in subtree.subtrees():
+					if nps.label() == "NP":
+						entity = "PEOPLE: "
+						for nnp, tag in nps.leaves():
+							entity += nnp + ' '
+						people.append(entity)
+						if entity not in NE:
+							NE.add(entity)
+			elif subtree.label() != "S" and subtree.label() != "NP":
 				entity = Subtree2Text(subtree)
 				if entity not in NE:
 					NE.add(entity)
+	# for person in people:
+	# 	print person
 	return NE
 
 def extractNE(data_json):
@@ -151,8 +179,13 @@ def extractNE(data_json):
 
 	#Remove entidades que apareceram uma unica vez
 	for n in NE_aux:
-		freq_n = episode_text.count(n)
-		if freq_n > 1 or "house " in n.lower() or "game " in n.lower():
+		temp_split = n.split(': ')
+		temp_n = ""
+		for i in range(1, len(temp_split)):
+			temp_n += temp_split[i]
+		# print temp_n
+		freq_n = episode_text.count(temp_n)
+		if freq_n > 1 or "house " in temp_n.lower() or "game " in temp_n.lower():
 			NE.add(n)
 		else:
 			ExNE.add(n)
@@ -180,10 +213,21 @@ def allNER(path):
 			episode_text += episode_name + tempText + '\n'
 
 	# #Verifico se as entidades removida por frequencia aparecem em mais de um capitulo
-	NE.update([n for n in ExNE if episode_text.count(n) > 1])
-	#Remover subentidades e ordena-las
+	n_update = []
+	for n in ExNE:
+		temp_split = n.split(': ')
+		temp_n = ""
+		for i in range(1, len(temp_split)):
+			temp_n += temp_split[i]
+		if episode_text.count(temp_n) > 1:
+			n_update.append(n)
+	# print n_update
+	# NE.update([n for n in temp_n if episode_text.count(n) > 1])
+	NE.update(n_update)
+	#Remover subentidades e ordena-
 	NE = removeSubstring(NE)
 	NE = sorted(NE)
+	# print NE
 	return NE, episode_text
 
 def markNER(text, NE):

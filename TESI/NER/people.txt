@@ -1,0 +1,7719 @@
+Processing:  ../episodesJSON/season_1/S01E01_winter_is_coming.json
+PEOPLE: Gared
+PEOPLE: Beyond
+PEOPLE: Waymar
+PEOPLE: Castle Black
+PEOPLE: Gared
+PEOPLE: Waymar
+PEOPLE: Gared
+PEOPLE: White Walker
+PEOPLE: Ned Stark
+PEOPLE: Will
+PEOPLE: Castle Black
+PEOPLE: White Walker
+PEOPLE: Eddard Stark
+PEOPLE: Will
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: ancestral Valyrian
+PEOPLE: Ice
+PEOPLE: Eddard
+PEOPLE: Theon Greyjoy
+PEOPLE: Bran
+PEOPLE: Eddard
+PEOPLE: Will
+PEOPLE: Bran
+PEOPLE: White Walkers
+PEOPLE: Eddard
+PEOPLE: Winterfell
+PEOPLE: Starks
+PEOPLE: Jon Snow
+PEOPLE: Eddard
+PEOPLE: Bran
+PEOPLE: Eddard
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Silent Sisters
+PEOPLE: Cersei Lannister
+PEOPLE: Jon
+PEOPLE: new Hand
+PEOPLE: Cersei
+PEOPLE: Jon Arryn
+PEOPLE: Catelyn Stark
+PEOPLE: Arryn
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Jon Arryn
+PEOPLE: Robb
+PEOPLE: Sansa
+PEOPLE: Arya
+PEOPLE: Jon
+PEOPLE: Bran
+PEOPLE: Rickon
+PEOPLE: Winterfell
+PEOPLE: Catelyn Stark
+PEOPLE: Winterfell
+PEOPLE: Arya
+PEOPLE: Cersei
+PEOPLE: Eddard
+PEOPLE: Lyanna
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Cersei
+PEOPLE: Imp
+PEOPLE: Ros
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Winterfell
+PEOPLE: Robert
+PEOPLE: Lyanna Stark
+PEOPLE: Robert
+PEOPLE: Rhaegar Targaryen
+PEOPLE: Eddard
+PEOPLE: Rhaegar
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Hand
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Sansa
+PEOPLE: Cersei
+PEOPLE: Catelyn
+PEOPLE: Cersei
+PEOPLE: Jon Snow
+PEOPLE: Catelyn
+PEOPLE: Jon
+PEOPLE: Benjen
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Eddard
+PEOPLE: Catelyn
+PEOPLE: Luwin
+PEOPLE: Catelyn
+PEOPLE: Jon Arryn
+PEOPLE: Lysa
+PEOPLE: Jon Arryn
+PEOPLE: Robert
+PEOPLE: Hand
+PEOPLE: Luwin
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Bran
+PEOPLE: Jaime
+PEOPLE: Summer
+PEOPLE: Bran
+PEOPLE: Jaime
+PEOPLE: Bran
+PEOPLE: Viserys
+PEOPLE: Daenerys Targaryen
+PEOPLE: Magister Illyrio Mopatis
+PEOPLE: Viserys
+PEOPLE: Dany
+PEOPLE: a Dothraki
+PEOPLE: Drogo
+PEOPLE: Viserys
+PEOPLE: Iron Throne
+PEOPLE: Viserys
+PEOPLE: Khal
+PEOPLE: Daenerys
+PEOPLE: Drogo
+PEOPLE: Daenerys
+PEOPLE: Viserys
+PEOPLE: Daenerys
+PEOPLE: Drogo
+PEOPLE: Viserys
+PEOPLE: Drogo
+PEOPLE: Drogo
+PEOPLE: Drogo
+PEOPLE: Viserys
+PEOPLE: Illyrio
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Illyrio
+PEOPLE: a Dothraki
+PEOPLE: Illyrio
+PEOPLE: Dany
+PEOPLE: Jorah
+PEOPLE: Drogo
+PEOPLE: Viserys
+PEOPLE: Drogo
+PEOPLE: Drogo
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Weiss
+PEOPLE: Winterfell
+PEOPLE: Eddard Stark
+Processing:  ../episodesJSON/season_1/S01E02_the_kingsroad.json
+PEOPLE: Dothraki
+PEOPLE: Khal Drogo
+PEOPLE: Pentos
+PEOPLE: Dothraki
+PEOPLE: Dothraki
+PEOPLE: Viserys Targaryen
+PEOPLE: Westeros
+PEOPLE: Eddard
+PEOPLE: Essos
+PEOPLE: Viserys
+PEOPLE: Daenerys
+PEOPLE: Mormont
+PEOPLE: Dany
+PEOPLE: Dothraki
+PEOPLE: Irri
+PEOPLE: Jhiqui
+PEOPLE: Daenerys
+PEOPLE: Doreah
+PEOPLE: Drogo
+PEOPLE: Drogo
+PEOPLE: Dothraki
+PEOPLE: Robb Stark
+PEOPLE: Bran Stark
+PEOPLE: Lannister
+PEOPLE: his nephew Joffrey
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: Wall
+PEOPLE: Bran
+PEOPLE: Robert
+PEOPLE: Jon Snow
+PEOPLE: Mikken
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Jon
+PEOPLE: Bran
+PEOPLE: Winterfell
+PEOPLE: Winterfell Jon
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Jon
+PEOPLE: Eddard Stark
+PEOPLE: Kingsroad
+PEOPLE: Robert Baratheon
+PEOPLE: Daenerys Targaryen
+PEOPLE: Eddard
+PEOPLE: Narrow Sea
+PEOPLE: Robert
+PEOPLE: A curious Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Catelyn
+PEOPLE: Jon
+PEOPLE: Tyrion
+PEOPLE: Jon
+PEOPLE: Tyrion
+PEOPLE: Watch
+PEOPLE: Catelyn
+PEOPLE: Bran
+PEOPLE: Rodrik Cassel
+PEOPLE: Lannisters
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: Theon
+PEOPLE: Catelyn
+PEOPLE: Landing
+PEOPLE: Wall
+PEOPLE: Benjen
+PEOPLE: Tyrion
+PEOPLE: Crossroads Inn
+PEOPLE: Sandor Clegane
+PEOPLE: Joffrey
+PEOPLE: Mycah
+PEOPLE: Joffrey
+PEOPLE: Mycah
+PEOPLE: Mycah
+PEOPLE: an outraged Arya
+PEOPLE: Arya
+PEOPLE: Nymeria
+PEOPLE: Joffrey
+PEOPLE: Mycah
+PEOPLE: Arya
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: new Hand
+PEOPLE: Ned
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Sansa
+PEOPLE: Eddard
+PEOPLE: Hound
+PEOPLE: Eddard
+PEOPLE: Hound
+PEOPLE: Hound
+PEOPLE: Eddard
+PEOPLE: Bran
+PEOPLE: Kingsroad
+PEOPLE: Weiss
+PEOPLE: Jon Snow
+Processing:  ../episodesJSON/season_1/S01E03_lord_snow.json
+PEOPLE: Stark
+PEOPLE: Eddard Stark
+PEOPLE: Jaime Lannister
+PEOPLE: Eddard
+PEOPLE: Mad
+PEOPLE: Eddard
+PEOPLE: Jaime
+PEOPLE: Eddard
+PEOPLE: Coin
+PEOPLE: Eddard
+PEOPLE: Laws
+PEOPLE: Whisperers
+PEOPLE: Varys
+PEOPLE: Eddard
+PEOPLE: Varys
+PEOPLE: Eddard
+PEOPLE: Tywin Lannister
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Joffrey
+PEOPLE: North
+PEOPLE: Sansa Stark
+PEOPLE: Arya
+PEOPLE: Sansa
+PEOPLE: Eddard
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Arya
+PEOPLE: Eddard
+PEOPLE: Needle
+PEOPLE: Catelyn
+PEOPLE: Rodrik
+PEOPLE: Catelyn Stark
+PEOPLE: Rodrik
+PEOPLE: Landing
+PEOPLE: Littlefinger
+PEOPLE: Littlefinger
+PEOPLE: Varys
+PEOPLE: Catelyn
+PEOPLE: Littlefinger
+PEOPLE: Bran
+PEOPLE: Littlefinger
+PEOPLE: Eddard
+PEOPLE: Littlefinger
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Lannisters
+PEOPLE: Littlefinger
+PEOPLE: Bran
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Robert
+PEOPLE: Jaime Lannister
+PEOPLE: Mad
+PEOPLE: Landing
+PEOPLE: Eddard
+PEOPLE: Syrio Forel
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Eddard
+PEOPLE: Arya
+PEOPLE: Nan
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: Bran
+PEOPLE: Jon Snow
+PEOPLE: Thorne
+PEOPLE: Snow
+PEOPLE: Tyrion
+PEOPLE: Jeor
+PEOPLE: Thorne
+PEOPLE: Jon
+PEOPLE: Benjen Stark
+PEOPLE: Wall
+PEOPLE: Jon
+PEOPLE: Benjen
+PEOPLE: Yoren
+PEOPLE: that Tyrion
+PEOPLE: Tyrion
+PEOPLE: Aemon
+PEOPLE: Jeor
+PEOPLE: Watch
+PEOPLE: Aemon
+PEOPLE: White Walkers
+PEOPLE: Ned Stark
+PEOPLE: Tyrion
+PEOPLE: Wall
+PEOPLE: Jon
+PEOPLE: Yoren
+PEOPLE: _Across_the_Narrow_Sea > Daenerys
+PEOPLE: Daenerys
+PEOPLE: a Dothraki
+PEOPLE: Daenerys
+PEOPLE: Viserys
+PEOPLE: Dothraki
+PEOPLE: Irri
+PEOPLE: that Daenerys
+PEOPLE: Daenerys
+PEOPLE: Khal Drogo
+PEOPLE: Jorah Mormont
+PEOPLE: Rakharo
+PEOPLE: Jorah
+PEOPLE: Rakharo
+PEOPLE: Daenerys
+PEOPLE: Vaes Dothrak
+PEOPLE: Snow
+PEOPLE: Weiss
+PEOPLE: Jon Snow
+PEOPLE: Castle Black
+PEOPLE: Catelyn
+PEOPLE: Daenerys
+PEOPLE: Viserys
+PEOPLE: Dothraki
+PEOPLE: Vaes Dothrak
+Processing:  ../episodesJSON/season_1/S01E04_cripples,_bastards_and_broken_things.json
+PEOPLE: Tyrion
+PEOPLE: Bran Stark
+PEOPLE: Bran
+PEOPLE: Robb Stark
+PEOPLE: Bran
+PEOPLE: Tyrion
+PEOPLE: Bran
+PEOPLE: Starks
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: Tyrion
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Catelyn
+PEOPLE: Catelyn
+PEOPLE: ferocious Balon Greyjoy
+PEOPLE: Theon
+PEOPLE: > Samwell Tarly
+PEOPLE: Watch
+PEOPLE: Samwell Tarly
+PEOPLE: Samwell
+PEOPLE: Alliser Thorne
+PEOPLE: Piggy
+PEOPLE: Jon Snow
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Samwell
+PEOPLE: Grenn
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Night
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Night
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Rast
+PEOPLE: 'Lady Piggy
+PEOPLE: Jon
+PEOPLE: Rast
+PEOPLE: Sam
+PEOPLE: Grenn
+PEOPLE: Alliser
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: A furious Alliser Thorne
+PEOPLE: Sam
+PEOPLE: Dothraki
+PEOPLE: Viserys
+PEOPLE: Drogo
+PEOPLE: Doreah
+PEOPLE: Viserys
+PEOPLE: Daenerys
+PEOPLE: Doreah
+PEOPLE: Daenerys
+PEOPLE: Viserys
+PEOPLE: Khal
+PEOPLE: Viserys
+PEOPLE: Daenerys
+PEOPLE: Westeros
+PEOPLE: Drogo
+PEOPLE: Jorah
+PEOPLE: Sansa Stark
+PEOPLE: Iron Throne
+PEOPLE: Septa Mordane
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Eddard
+PEOPLE: Pycelle
+PEOPLE: Jon Arryn
+PEOPLE: Arryn
+PEOPLE: Eddard
+PEOPLE: Arya
+PEOPLE: Eddard
+PEOPLE: Bran
+PEOPLE: that Bran
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Littlefinger
+PEOPLE: Eddard
+PEOPLE: Jon Arryn
+PEOPLE: Jory
+PEOPLE: Jon Arryn
+PEOPLE: Eddard
+PEOPLE: Gendry
+PEOPLE: this Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Jaime Lannister
+PEOPLE: Jaime
+PEOPLE: Jory
+PEOPLE: Iron Islands
+PEOPLE: Eddard
+PEOPLE: Stark
+PEOPLE: Sansa
+PEOPLE: Sandor Clegane
+PEOPLE: Littlefinger
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Littlefinger
+PEOPLE: Cersei
+PEOPLE: Hand
+PEOPLE: little Starks
+PEOPLE: Eddard
+PEOPLE: Brandon
+PEOPLE: Eddard
+PEOPLE: Tyrion Lannister
+PEOPLE: Yoren
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Marillion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Catelyn
+PEOPLE: Catelyn
+PEOPLE: Tyrion
+PEOPLE: Bran
+PEOPLE: Broken Things
+PEOPLE: Lannister
+PEOPLE: Landing
+PEOPLE: Samwell Tarly
+PEOPLE: Jon
+PEOPLE: Daenerys
+PEOPLE: Eddard Stark
+PEOPLE: Jon Arryn
+PEOPLE: Robert Baratheon
+PEOPLE: Catelyn
+PEOPLE: Rodrik Cassel
+Processing:  ../episodesJSON/season_1/S01E05_the_wolf_and_the_lion.json
+PEOPLE: Lannister
+PEOPLE: Crossroads Inn
+PEOPLE: Bronn
+PEOPLE: Lysa Arryn
+PEOPLE: Tyrion
+PEOPLE: Catelyn
+PEOPLE: Lysa Arryn
+PEOPLE: Lysa
+PEOPLE: Cat
+PEOPLE: Tyrion
+PEOPLE: Lysa
+PEOPLE: Vale
+PEOPLE: Eyrie
+PEOPLE: Bran
+PEOPLE: Luwin
+PEOPLE: Bran
+PEOPLE: Luwin
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Luwin
+PEOPLE: Theon Greyjoy
+PEOPLE: Ros
+PEOPLE: Tyrion Lannister
+PEOPLE: Eddard Stark
+PEOPLE: Eddard
+PEOPLE: Barristan
+PEOPLE: Barristan Selmy
+PEOPLE: Eddard Stark
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Lancel Lannister
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Loras
+PEOPLE: Littlefinger
+PEOPLE: Renly
+PEOPLE: Renly
+PEOPLE: Loras
+PEOPLE: Mountain
+PEOPLE: Robert Baratheon
+PEOPLE: Gregor
+PEOPLE: Sandor Clegane
+PEOPLE: Gregor
+PEOPLE: Loras
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: sure Eddard
+PEOPLE: Eddard
+PEOPLE: Jon Arryn
+PEOPLE: Arya
+PEOPLE: Varys
+PEOPLE: War
+PEOPLE: Westeros
+PEOPLE: Eddard
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Great Hall
+PEOPLE: Jon Arryn
+PEOPLE: Littlefinger
+PEOPLE: Lannisters
+PEOPLE: Littlefinger
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Arya
+PEOPLE: Eddard
+PEOPLE: Catelyn
+PEOPLE: Tyrion Lannister
+PEOPLE: Eddard
+PEOPLE: Arya
+PEOPLE: Jory
+PEOPLE: Robert
+PEOPLE: Daenerys Targaryen
+PEOPLE: Daenerys
+PEOPLE: Viserys
+PEOPLE: Illyrio
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Littlefinger
+PEOPLE: Eddard
+PEOPLE: Jon Arryn
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Loras
+PEOPLE: that Joffrey
+PEOPLE: Tommen
+PEOPLE: Robert
+PEOPLE: Cersei
+PEOPLE: Robert
+PEOPLE: Targaryen
+PEOPLE: Cersei
+PEOPLE: Narrow Sea
+PEOPLE: Loras
+PEOPLE: Robert
+PEOPLE: Westeros
+PEOPLE: Cersei
+PEOPLE: Robert
+PEOPLE: Westeros
+PEOPLE: Robert
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Robert
+PEOPLE: Littlefinger
+PEOPLE: Jon Arryn
+PEOPLE: Littefinger
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Mhaegen
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Jon Arryn
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Lannister
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Eddard
+PEOPLE: Tyrion
+PEOPLE: Eddard
+PEOPLE: a Lannister
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Eddard
+PEOPLE: Ned
+PEOPLE: Jory
+PEOPLE: Jory
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Eddard
+PEOPLE: Jaime
+PEOPLE: Ned
+PEOPLE: a Lannister
+PEOPLE: Jaime
+PEOPLE: Eddard
+PEOPLE: Lion
+PEOPLE: Weiss
+PEOPLE: Daenerys
+PEOPLE: Dothraki
+PEOPLE: Westeros
+PEOPLE: Catelyn
+Processing:  ../episodesJSON/season_1/S01E06_a_golden_crown.json
+PEOPLE: Eddard Stark
+PEOPLE: Robert Baratheon
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Robert
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Cersei
+PEOPLE: Robert
+PEOPLE: Cersei
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Arya
+PEOPLE: Robert
+PEOPLE: Robert
+PEOPLE: Barristan
+PEOPLE: Lancel
+PEOPLE: Eddard
+PEOPLE: Riverlands
+PEOPLE: Gregor Clegane
+PEOPLE: Riverlands
+PEOPLE: Tyrion
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Beric Dondarrion
+PEOPLE: Eddard
+PEOPLE: secret Jon Arryn
+PEOPLE: Tywin Lannister
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Eddard
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Eddard
+PEOPLE: Arya
+PEOPLE: Syrio
+PEOPLE: Eddard
+PEOPLE: Joffrey
+PEOPLE: Eddard
+PEOPLE: Jon Arryn
+PEOPLE: Eddard
+PEOPLE: a Baratheon
+PEOPLE: Stiv
+PEOPLE: Osha
+PEOPLE: Bran
+PEOPLE: that Hodor
+PEOPLE: Jory
+PEOPLE: Theon
+PEOPLE: North
+PEOPLE: Robb
+PEOPLE: Winterfell
+PEOPLE: that Bran
+PEOPLE: Robb
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: Bran
+PEOPLE: Theon
+PEOPLE: Robb
+PEOPLE: Bran
+PEOPLE: Osha
+PEOPLE: Robb
+PEOPLE: Theon
+PEOPLE: Winterfell
+PEOPLE: Theon
+PEOPLE: Winterfell
+PEOPLE: Mord
+PEOPLE: Mord
+PEOPLE: Tyrion
+PEOPLE: Lysa
+PEOPLE: Lysa
+PEOPLE: that Lysa
+PEOPLE: Tyrion
+PEOPLE: Vardis Egen
+PEOPLE: Tyrion
+PEOPLE: this Lysa
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Lysa
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Vardis
+PEOPLE: Rodrik
+PEOPLE: Robin
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Daenerys Targaryen
+PEOPLE: Irri
+PEOPLE: Irri
+PEOPLE: Daenerys
+PEOPLE: Irri
+PEOPLE: Daenerys
+PEOPLE: Dany
+PEOPLE: Daenerys
+PEOPLE: Stallion
+PEOPLE: World
+PEOPLE: Dothraki
+PEOPLE: Daenerys
+PEOPLE: Rhaego
+PEOPLE: Viserys
+PEOPLE: Dothraki
+PEOPLE: Rhaego
+PEOPLE: Viserys
+PEOPLE: Dany
+PEOPLE: Viserys
+PEOPLE: Daenerys
+PEOPLE: Dany
+PEOPLE: Viserys
+PEOPLE: Dothraki
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Mormont
+PEOPLE: Viserys
+PEOPLE: Daenerys
+PEOPLE: Dany
+PEOPLE: Irri
+PEOPLE: Khal Drogo
+PEOPLE: Drogo
+PEOPLE: Viserys
+PEOPLE: Viserys
+PEOPLE: Qotho
+PEOPLE: Drogo
+PEOPLE: Viserys
+PEOPLE: Jorah
+PEOPLE: Viserys
+PEOPLE: Daenerys
+PEOPLE: Viserys
+PEOPLE: A Golden Crown
+PEOPLE: Weiss
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Seven Kingdoms
+Processing:  ../episodesJSON/season_1/S01E07_you_win_or_you_die.json
+PEOPLE: Tywin Lannister
+PEOPLE: Starks
+PEOPLE: Tywin
+PEOPLE: Targaryens
+PEOPLE: a Lannister
+PEOPLE: Tyrion
+PEOPLE: Theon
+PEOPLE: Osha
+PEOPLE: Theon Greyjoy
+PEOPLE: Luwin
+PEOPLE: Wall
+PEOPLE: White Walkers
+PEOPLE: Jon Snow
+PEOPLE: Samwell Tarly
+PEOPLE: Benjen
+PEOPLE: Jeor Mormont
+PEOPLE: Samwell
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Pypar
+PEOPLE: Wall
+PEOPLE: Jon Snow
+PEOPLE: Samwell Tarly
+PEOPLE: Haunted Forest
+PEOPLE: Sam
+PEOPLE: Ghost
+PEOPLE: _Across_the_Narrow_Sea > Daenerys
+PEOPLE: Drogo
+PEOPLE: Westeros
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Khal Drogo
+PEOPLE: Drogo
+PEOPLE: Narrow Sea
+PEOPLE: Jorah
+PEOPLE: Seven Kingdoms
+PEOPLE: Conqueror
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Rakharo
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Iron Throne
+PEOPLE: Vaes Dothrak
+PEOPLE: Daenerys
+PEOPLE: Eddard Stark
+PEOPLE: Jon Arryn
+PEOPLE: Robert
+PEOPLE: Targaryen
+PEOPLE: Robert
+PEOPLE: Cersei
+PEOPLE: her Lyanna
+PEOPLE: Robert
+PEOPLE: Ned
+PEOPLE: Eddard
+PEOPLE: Cersei
+PEOPLE: Littlefinger
+PEOPLE: Ros
+PEOPLE: Armeca
+PEOPLE: Ros
+PEOPLE: Oh
+PEOPLE: Eddard Stark
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Robert
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Eddard
+PEOPLE: Lancel Lannister
+PEOPLE: Ned
+PEOPLE: Renly
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Red Keep
+PEOPLE: that Stannis
+PEOPLE: Stannis
+PEOPLE: Littlefinger
+PEOPLE: acknowledge Joffrey
+PEOPLE: Eddard
+PEOPLE: Littlefinger
+PEOPLE: Eddard
+PEOPLE: Littlefinger
+PEOPLE: Eddard
+PEOPLE: Joffrey Robert
+PEOPLE: Littlefinger
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Renly
+PEOPLE: Joffrey
+PEOPLE: Eddard
+PEOPLE: Cersei
+PEOPLE: Eddard
+PEOPLE: Winterfell
+PEOPLE: Eddard
+PEOPLE: Joffrey
+PEOPLE: Iron Throne
+PEOPLE: Littlefinger
+PEOPLE: Weiss
+PEOPLE: Lannister
+PEOPLE: Riverlands
+Processing:  ../episodesJSON/season_1/S01E08_the_pointy_end.json
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Benjen Stark
+PEOPLE: Jafer Flowers
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: several other Sworn Brothers
+PEOPLE: Aemon
+PEOPLE: Jon
+PEOPLE: Mormont
+PEOPLE: Eddard
+PEOPLE: Jon
+PEOPLE: Mormont
+PEOPLE: Jon
+PEOPLE: Mormont
+PEOPLE: Jon
+PEOPLE: Thorne
+PEOPLE: Grenn
+PEOPLE: Pyp
+PEOPLE: Mormont
+PEOPLE: Jon
+PEOPLE: Ghost
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Mormont
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Wall
+PEOPLE: Walkers
+PEOPLE: Catelyn
+PEOPLE: Jon Arryn
+PEOPLE: Lysa
+PEOPLE: Bronn
+PEOPLE: Vale
+PEOPLE: Shagga
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Dozens
+PEOPLE: Winterfell
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Jon Umber
+PEOPLE: Robb
+PEOPLE: Greatjon
+PEOPLE: Robb
+PEOPLE: Grey Wind
+PEOPLE: Robb
+PEOPLE: Greatjon
+PEOPLE: Robb
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: neither Robb
+PEOPLE: Forest
+PEOPLE: Gods
+PEOPLE: South
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: Catelyn
+PEOPLE: Rodrik Cassel
+PEOPLE: Catelyn
+PEOPLE: Robb
+PEOPLE: Ned
+PEOPLE: Tywin Lannister
+PEOPLE: Jaime
+PEOPLE: Green Fork
+PEOPLE: Walder Frey
+PEOPLE: A Lannister
+PEOPLE: Robb
+PEOPLE: Tywin
+PEOPLE: > Kevan
+PEOPLE: Tywin Lannister
+PEOPLE: Bronn
+PEOPLE: Lannister
+PEOPLE: Tywin Lannister
+PEOPLE: Stark
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Daenerys
+PEOPLE: Khal Drogo
+PEOPLE: Iron Throne
+PEOPLE: Dothraki
+PEOPLE: Vaes Dothrak
+PEOPLE: Westeros
+PEOPLE: Dothraki
+PEOPLE: Dothraki
+PEOPLE: Dothraki
+PEOPLE: Drogo
+PEOPLE: Khal Drogo
+PEOPLE: Mago
+PEOPLE: Drogo
+PEOPLE: Drogo
+PEOPLE: Daenerys
+PEOPLE: Mirri Maz Duur
+PEOPLE: Drogo
+PEOPLE: Sansa
+PEOPLE: Septa Mordane
+PEOPLE: Septa Mordane
+PEOPLE: Sansa
+PEOPLE: Syrio
+PEOPLE: Eddard
+PEOPLE: Lannister
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Trant
+PEOPLE: Arya
+PEOPLE: Needle
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Needle
+PEOPLE: Varys
+PEOPLE: Eddard
+PEOPLE: Cersei
+PEOPLE: Eddard
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Tyrion
+PEOPLE: Starks
+PEOPLE: Eddard
+PEOPLE: Varys
+PEOPLE: Eddard
+PEOPLE: Varys
+PEOPLE: Grand
+PEOPLE: Sansa
+PEOPLE: that Eddard
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Harrenhal
+PEOPLE: Barristan Selmy
+PEOPLE: Selmy
+PEOPLE: Kingsguard
+PEOPLE: Selmy
+PEOPLE: Jaime Lannister
+PEOPLE: Selmy
+PEOPLE: other Kingsguard
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Eddard
+PEOPLE: Sansa
+PEOPLE: Pointy End
+PEOPLE: Martin
+PEOPLE: Ned
+PEOPLE: Syrio
+PEOPLE: Arya
+PEOPLE: Cersei
+PEOPLE: Robb
+PEOPLE: Jon
+PEOPLE: Alliser Thorne
+PEOPLE: Westeros
+PEOPLE: Drogo
+PEOPLE: Dothraki
+Processing:  ../episodesJSON/season_1/S01E09_baelor.json
+PEOPLE: Theon
+PEOPLE: Twins
+PEOPLE: Theon Greyjoy
+PEOPLE: Walder Frey
+PEOPLE: Riverrun
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Walder
+PEOPLE: Robb
+PEOPLE: Olyvar Frey
+PEOPLE: Tywin
+PEOPLE: Stark
+PEOPLE: that Bronn
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Shae
+PEOPLE: that Bronn
+PEOPLE: Wall
+PEOPLE: Shae
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Casterly Rock
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Tysha
+PEOPLE: that Tyrion
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Lannister
+PEOPLE: Lannister
+PEOPLE: Starks
+PEOPLE: Bronn
+PEOPLE: Lannisters
+PEOPLE: Robb
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Catelyn
+PEOPLE: Rodrik Cassel
+PEOPLE: Jaime
+PEOPLE: Whispering Wood
+PEOPLE: Riverrun
+PEOPLE: Jeor Mormont
+PEOPLE: Jeor Mormont
+PEOPLE: Longclaw
+PEOPLE: Jon
+PEOPLE: Alliser Thorne
+PEOPLE: Aemon
+PEOPLE: Mormont
+PEOPLE: that Longclaw
+PEOPLE: Jon
+PEOPLE: Samwell Tarly
+PEOPLE: Sam
+PEOPLE: Robb
+PEOPLE: Aemon
+PEOPLE: Watch
+PEOPLE: Aemon
+PEOPLE: Aemon Targaryen
+PEOPLE: Aemon
+PEOPLE: Jon
+PEOPLE: Daenerys Targaryen
+PEOPLE: Khal Drogo
+PEOPLE: Mago
+PEOPLE: Daenerys
+PEOPLE: Mirri Maz Duur
+PEOPLE: Drogo
+PEOPLE: Qotho
+PEOPLE: Drogo
+PEOPLE: Drogo
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Mirri Maz Duur
+PEOPLE: Drogo
+PEOPLE: Drogo
+PEOPLE: Jorah Mormont
+PEOPLE: Drogo
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Sansa
+PEOPLE: that Robb
+PEOPLE: Stannis
+PEOPLE: Sansa
+PEOPLE: Varys
+PEOPLE: Cersei
+PEOPLE: Eddard
+PEOPLE: Varys
+PEOPLE: Arya Stark
+PEOPLE: Baelor
+PEOPLE: a previous Targaryen
+PEOPLE: Sept
+PEOPLE: Arya
+PEOPLE: Yoren
+PEOPLE: Arya
+PEOPLE: Eddard
+PEOPLE: Baelor
+PEOPLE: Yoren
+PEOPLE: Arya
+PEOPLE: Eddard
+PEOPLE: both Arya
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Ilyn Payne
+PEOPLE: Ilyn Payne
+PEOPLE: Arya
+PEOPLE: Cersei
+PEOPLE: Varys
+PEOPLE: Eddard
+PEOPLE: that Arya
+PEOPLE: Ilyn
+PEOPLE: Ice
+PEOPLE: all Arya
+PEOPLE: Baelor
+PEOPLE: Weiss
+PEOPLE: Ned
+PEOPLE: Robb
+PEOPLE: Jon
+PEOPLE: Khal Drogo
+PEOPLE: Daenerys
+PEOPLE: Qotho
+Processing:  ../episodesJSON/season_1/S01E10_fire_and_blood.json
+PEOPLE: Eddard Stark
+PEOPLE: Ice
+PEOPLE: Sandor Clegane
+PEOPLE: Eddard
+PEOPLE: Sansa Stark
+PEOPLE: Yoren
+PEOPLE: her Boy
+PEOPLE: Joffrey
+PEOPLE: Robert
+PEOPLE: Marillion
+PEOPLE: Catelyn
+PEOPLE: Rodrik
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: her Robb
+PEOPLE: her Joffrey
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Sansa
+PEOPLE: Sandor Clegane
+PEOPLE: Joffrey
+PEOPLE: Cersei Lannister
+PEOPLE: Robert
+PEOPLE: Jaime
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Ros
+PEOPLE: Aerys Targaryen
+PEOPLE: Robert Baratheon
+PEOPLE: Yoren
+PEOPLE: that Arya
+PEOPLE: Arry
+PEOPLE: Hot Pie
+PEOPLE: Robert
+PEOPLE: Mott
+PEOPLE: Gendry
+PEOPLE: Night
+PEOPLE: Hot Pie
+PEOPLE: Lommy
+PEOPLE: Needle
+PEOPLE: Gendry
+PEOPLE: Arya
+PEOPLE: Bran
+PEOPLE: Osha
+PEOPLE: Bran
+PEOPLE: Eddard Stark
+PEOPLE: Rickon
+PEOPLE: Osha
+PEOPLE: Bran
+PEOPLE: Luwin
+PEOPLE: Eddard
+PEOPLE: Catelyn
+PEOPLE: Eddard
+PEOPLE: Catelyn
+PEOPLE: Catelyn
+PEOPLE: Robb
+PEOPLE: Lannisters
+PEOPLE: Catelyn
+PEOPLE: Sansa
+PEOPLE: Robb
+PEOPLE: Renly
+PEOPLE: Stannis
+PEOPLE: Jon Umber
+PEOPLE: North
+PEOPLE: Targaryens
+PEOPLE: Umber
+PEOPLE: Catelyn
+PEOPLE: Jaime
+PEOPLE: Sansa
+PEOPLE: Arya
+PEOPLE: Catelyn
+PEOPLE: Ned
+PEOPLE: Jaime
+PEOPLE: Bran
+PEOPLE: Lannister
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: Iron Throne
+PEOPLE: Lannisters
+PEOPLE: Robb Stark
+PEOPLE: Eddard
+PEOPLE: Lannister
+PEOPLE: Tywin
+PEOPLE: Harrenhal
+PEOPLE: Gods Eye
+PEOPLE: Tywin
+PEOPLE: Landing
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Jon Snow
+PEOPLE: Robb
+PEOPLE: Samwell
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Grenn
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jeor Mormont
+PEOPLE: Jon
+PEOPLE: Wall
+PEOPLE: Mormont
+PEOPLE: Lannisters
+PEOPLE: Starks
+PEOPLE: Mormont
+PEOPLE: Night
+PEOPLE: Benjen Stark
+PEOPLE: Jon
+PEOPLE: _Across_the_Narrow_Sea > Daenerys
+PEOPLE: Daenerys
+PEOPLE: Drogo
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Mirri Maz Duur
+PEOPLE: Daenerys
+PEOPLE: World
+PEOPLE: Duur
+PEOPLE: Daenerys
+PEOPLE: Drogo
+PEOPLE: Daenerys
+PEOPLE: Drogo
+PEOPLE: Daenerys
+PEOPLE: Rakharo
+PEOPLE: Mirri Maz Duur
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Mirri Maz Duur
+PEOPLE: Daenerys
+PEOPLE: Dothraki
+PEOPLE: Blood
+PEOPLE: Weiss
+Processing:  ../episodesJSON/season_2/S02E01_the_north_remembers.json
+PEOPLE: Night
+PEOPLE: Watch
+PEOPLE: Keep
+PEOPLE: Dolorous Edd
+PEOPLE: Samwell Tarly
+PEOPLE: Craster
+PEOPLE: Benjen Stark
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jeor
+PEOPLE: Watch
+PEOPLE: Wall
+PEOPLE: Mormont
+PEOPLE: Sansa
+PEOPLE: Joffrey Baratheon
+PEOPLE: Sansa Stark
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Sandor Clegane
+PEOPLE: Dontos
+PEOPLE: Dontos
+PEOPLE: Lannister
+PEOPLE: Tommen
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Conclave
+PEOPLE: Tyrion
+PEOPLE: Hand
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Ned Stark
+PEOPLE: Arya Stark
+PEOPLE: Robb Stark
+PEOPLE: Luwin
+PEOPLE: Bran
+PEOPLE: Summer
+PEOPLE: Summer
+PEOPLE: Hodor
+PEOPLE: Osha
+PEOPLE: Light
+PEOPLE: Dragonstone
+PEOPLE: Stannis Baratheon
+PEOPLE: Light
+PEOPLE: Cressen
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Cressen
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Ned Stark
+PEOPLE: Jaime Lannister
+PEOPLE: Davos
+PEOPLE: Renly
+PEOPLE: Robb
+PEOPLE: Iron Throne
+PEOPLE: Northern
+PEOPLE: Stannis
+PEOPLE: Robb
+PEOPLE: Northern
+PEOPLE: Cressen
+PEOPLE: Melisandre
+PEOPLE: Davos
+PEOPLE: Melisandre
+PEOPLE: Cressen
+PEOPLE: Cressen
+PEOPLE: Robb
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: Grey Wind
+PEOPLE: Robb
+PEOPLE: Balon
+PEOPLE: Robb
+PEOPLE: Jaime
+PEOPLE: Winterfell
+PEOPLE: Robb
+PEOPLE: Renly
+PEOPLE: Cersei
+PEOPLE: Arya
+PEOPLE: Baelish
+PEOPLE: Joffrey
+PEOPLE: Tywin Lannister
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: Robert
+PEOPLE: Janos Slynt
+PEOPLE: Robert
+PEOPLE: infant Barra
+PEOPLE: Petyr
+PEOPLE: Tobho Mott
+PEOPLE: Gendry
+PEOPLE: Gendry
+PEOPLE: Arya
+PEOPLE: _Across_the_Narrow_Sea > Daenerys
+PEOPLE: Daenerys Targaryen
+PEOPLE: Jorah
+PEOPLE: Red Waste
+PEOPLE: North Remembers
+PEOPLE: Weiss
+PEOPLE: Westeros
+PEOPLE: Tyrion Lannister
+PEOPLE: Hand
+PEOPLE: Stannis Baratheon
+PEOPLE: Iron Throne
+PEOPLE: Daenerys
+Processing:  ../episodesJSON/season_2/S02E02_the_night_lands.json
+PEOPLE: Arya Stark
+PEOPLE: Jaqen
+PEOPLE: Gold Cloaks
+PEOPLE: Gendry
+PEOPLE: Yoren
+PEOPLE: Arya
+PEOPLE: Varys
+PEOPLE: Shae
+PEOPLE: Hand
+PEOPLE: Cersei Lannister
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Watch
+PEOPLE: Ros
+PEOPLE: Petyr Baelish
+PEOPLE: Janos Slynt
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Davos
+PEOPLE: Lysene
+PEOPLE: Matthos Seaworth
+PEOPLE: Light
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Theon Greyjoy
+PEOPLE: Lordsport
+PEOPLE: Robb Stark
+PEOPLE: Balon
+PEOPLE: Balon
+PEOPLE: Balon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Lannisters
+PEOPLE: Balon
+PEOPLE: Lannisters
+PEOPLE: _Across_the_Narrow_Sea > Daenerys
+PEOPLE: Jorah Mormont
+PEOPLE: Rakharo
+PEOPLE: Irri
+PEOPLE: Rakharo
+PEOPLE: Night Lands
+PEOPLE: Dothraki
+PEOPLE: B <
+PEOPLE: > Samwell Tarly
+PEOPLE: Craster
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Night Lands
+PEOPLE: Weiss
+PEOPLE: Stannis
+PEOPLE: Arya
+PEOPLE: Robb Stark
+PEOPLE: Cersei
+PEOPLE: Tyrion
+Processing:  ../episodesJSON/season_2/S02E03_what_is_dead_may_never_die.json
+PEOPLE: Craster
+PEOPLE: Jon
+PEOPLE: White Walkers
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jeor
+PEOPLE: that Craster
+PEOPLE: Mormont
+PEOPLE: Craster
+PEOPLE: Jeor
+PEOPLE: Jon
+PEOPLE: Samwell Tarly
+PEOPLE: Bran Stark
+PEOPLE: Hodor
+PEOPLE: Luwin
+PEOPLE: Catelyn Stark
+PEOPLE: Loras Tyrell
+PEOPLE: Catelyn
+PEOPLE: Margaery Tyrell
+PEOPLE: Catelyn
+PEOPLE: Catelyn
+PEOPLE: Theon Greyjoy
+PEOPLE: North
+PEOPLE: Yara
+PEOPLE: Deepwood Motte
+PEOPLE: Greyjoys
+PEOPLE: Starks
+PEOPLE: Casterly Rock
+PEOPLE: Theon
+PEOPLE: Robb
+PEOPLE: Shae
+PEOPLE: Cersei Lannister
+PEOPLE: Sansa
+PEOPLE: Myrcella Baratheon
+PEOPLE: Pycelle
+PEOPLE: Cersei
+PEOPLE: Pycelle
+PEOPLE: Myrcella
+PEOPLE: Pycelle
+PEOPLE: Petyr Baelish
+PEOPLE: Tyrion
+PEOPLE: Loras
+PEOPLE: Loras
+PEOPLE: Margaery
+PEOPLE: Renly
+PEOPLE: Arya Stark
+PEOPLE: Lannister
+PEOPLE: Amory
+PEOPLE: Royal
+PEOPLE: Yoren
+PEOPLE: Arya
+PEOPLE: Lommy
+PEOPLE: Gendry
+PEOPLE: Arya
+PEOPLE: Needle
+PEOPLE: Gendry
+PEOPLE: Hot Pie
+PEOPLE: Lommy
+PEOPLE: Polliver
+PEOPLE: Arya
+PEOPLE: Lommy
+PEOPLE: Harrenhal
+PEOPLE: Dead May Never Die
+PEOPLE: Bryan Cogman
+PEOPLE: Catelyn Stark
+PEOPLE: Tyrion
+Processing:  ../episodesJSON/season_2/S02E04_garden_of_bones.json
+PEOPLE: A Silent Sister
+PEOPLE: Northern
+PEOPLE: Robb Stark
+PEOPLE: an encamped Lannister
+PEOPLE: Rennick
+PEOPLE: another Lannister
+PEOPLE: Grey Wind
+PEOPLE: Cersei
+PEOPLE: another Whispering Wood
+PEOPLE: Robb
+PEOPLE: Silent Sisters
+PEOPLE: both Stark
+PEOPLE: Lannister
+PEOPLE: Bolton
+PEOPLE: Robb
+PEOPLE: Lannisters
+PEOPLE: Robb
+PEOPLE: a wounded Lannister
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Iron Throne
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Hot Pie
+PEOPLE: entire Lannister
+PEOPLE: Gregor Clegane
+PEOPLE: Clegane
+PEOPLE: Rivermen
+PEOPLE: Arya
+PEOPLE: Gendry
+PEOPLE: Tywin Lannister
+PEOPLE: Harrenhal
+PEOPLE: main Lannister
+PEOPLE: Tywin
+PEOPLE: Harrenhal
+PEOPLE: Gendry
+PEOPLE: Gendry
+PEOPLE: Arry
+PEOPLE: Arya
+PEOPLE: Tywin
+PEOPLE: Joffrey Baratheon
+PEOPLE: Robb Stark
+PEOPLE: Stark
+PEOPLE: Lancel Lannister
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Iron Throne
+PEOPLE: Trant
+PEOPLE: Meryn
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Mad
+PEOPLE: Meryn
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Meryn
+PEOPLE: shaken Sansa
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: Stark
+PEOPLE: Bronn
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Ros
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Daisy
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Tyrion
+PEOPLE: Imp
+PEOPLE: Tyrion
+PEOPLE: Lancel
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Joffrey
+PEOPLE: Lancel
+PEOPLE: Joffrey
+PEOPLE: Lancel
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Petyr Littlefinger Baelish
+PEOPLE: Renly
+PEOPLE: Lannisters
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Littlefinger Renly
+PEOPLE: that Margaery
+PEOPLE: Margaery
+PEOPLE: Sansa Stark
+PEOPLE: Renly
+PEOPLE: Lannisters
+PEOPLE: Jaime Lannister
+PEOPLE: both Sansa Stark
+PEOPLE: Arya Stark Baelish
+PEOPLE: Lannisters
+PEOPLE: Catelyn
+PEOPLE: Littlefinger
+PEOPLE: Baelish
+PEOPLE: Silent Sisters
+PEOPLE: Ned Stark
+PEOPLE: Deeply
+PEOPLE: Catelyn
+PEOPLE: Stannis
+PEOPLE: Renly
+PEOPLE: Stannis
+PEOPLE: Light
+PEOPLE: Catelyn Stark
+PEOPLE: Catelyn
+PEOPLE: Ned Stark
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Catelyn
+PEOPLE: Lannisters
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Davos
+PEOPLE: Qarth
+PEOPLE: Daenerys
+PEOPLE: Qarth
+PEOPLE: Qarth
+PEOPLE: her Khalasar
+PEOPLE: Red Waste
+PEOPLE: Qarth
+PEOPLE: Qarth
+PEOPLE: Daenerys
+PEOPLE: Thirteen
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: her Khalasar
+PEOPLE: Qarth
+PEOPLE: a Creative Arts Emmy Award
+PEOPLE: Joffrey
+PEOPLE: Qarth
+PEOPLE: Arya
+PEOPLE: Gendry
+PEOPLE: Lannister
+Processing:  ../episodesJSON/season_2/S02E05_the_ghost_of_harrenhal.json
+PEOPLE: Renly
+PEOPLE: Renly Baratheon
+PEOPLE: Shadow
+PEOPLE: Melisandre
+PEOPLE: Brienne
+PEOPLE: Highgarden
+PEOPLE: Petyr Baelish
+PEOPLE: Tyrell
+PEOPLE: Davos Seaworth
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Tyrion Lannister
+PEOPLE: Renly
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Cersei
+PEOPLE: Brienne
+PEOPLE: Wisdom Hallyne
+PEOPLE: Wildfire
+PEOPLE: Bronn
+PEOPLE: Cersei
+PEOPLE: Joffrey
+PEOPLE: Theon Greyjoy
+PEOPLE: Dagmer Cleftjaw
+PEOPLE: Theon
+PEOPLE: Torrhen
+PEOPLE: Rodrik Cassel
+PEOPLE: Torrhen
+PEOPLE: Bran Stark
+PEOPLE: Wildfire
+PEOPLE: Osha
+PEOPLE: Winterfell
+PEOPLE: Rodrik
+PEOPLE: Tywin Lannister
+PEOPLE: Arya Stark
+PEOPLE: Tywin
+PEOPLE: Robb
+PEOPLE: a Lannister
+PEOPLE: Jaqen
+PEOPLE: Tickler
+PEOPLE: Tickler
+PEOPLE: B <
+PEOPLE: Night
+PEOPLE: Jeor Mormont
+PEOPLE: Qhorin Halfhand
+PEOPLE: Jeor
+PEOPLE: Mance
+PEOPLE: Jon Snow
+PEOPLE: Samwell Tarly
+PEOPLE: Daenerys Targaryen
+PEOPLE: Qarth
+PEOPLE: Daenerys
+PEOPLE: Westeros
+PEOPLE: Jorah
+PEOPLE: Westeros
+PEOPLE: Weiss
+PEOPLE: whilst Littlefinger
+PEOPLE: Theon
+PEOPLE: Arya
+PEOPLE: Watch
+PEOPLE: Daenerys Targaryen
+Processing:  ../episodesJSON/season_2/S02E06_the_old_gods_and_the_new.json
+PEOPLE: Theon
+PEOPLE: Winterfell
+PEOPLE: Theon
+PEOPLE: Rodrik Cassel
+PEOPLE: Torrhen
+PEOPLE: Theon
+PEOPLE: Dagmer Cleftjaw
+PEOPLE: Winterfell
+PEOPLE: Osha
+PEOPLE: Theon
+PEOPLE: Robb
+PEOPLE: Roose Bolton
+PEOPLE: Robb
+PEOPLE: small Ironborn
+PEOPLE: Roose
+PEOPLE: entire Northern
+PEOPLE: Robb
+PEOPLE: Theon
+PEOPLE: Tywin Lannister
+PEOPLE: Joffrey
+PEOPLE: Petyr Littlefinger Baelish
+PEOPLE: Arya
+PEOPLE: Littlefinger
+PEOPLE: Renly Baratheon
+PEOPLE: Reach
+PEOPLE: Stannis
+PEOPLE: Tywin
+PEOPLE: Arya
+PEOPLE: Tywin
+PEOPLE: Amory Lorch
+PEOPLE: Arya
+PEOPLE: Tywin
+PEOPLE: Arya
+PEOPLE: Jaqen H'ghar
+PEOPLE: Amory Lorch
+PEOPLE: Amory Lorch
+PEOPLE: Joffrey Baratheon
+PEOPLE: Sansa Stark
+PEOPLE: Myrcella Baratheon
+PEOPLE: Cersei
+PEOPLE: Dorne
+PEOPLE: Seven
+PEOPLE: Cersei
+PEOPLE: Landing
+PEOPLE: Sansa
+PEOPLE: High Septon
+PEOPLE: Joffrey
+PEOPLE: City Watch
+PEOPLE: Sansa Stark
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: B <
+PEOPLE: Watch
+PEOPLE: Qhorin Halfhand
+PEOPLE: Frostfangs
+PEOPLE: Ygritte
+PEOPLE: Ygritte
+PEOPLE: Qhorin
+PEOPLE: Jon
+PEOPLE: _Across_the_Narrow_Sea > Daenerys
+PEOPLE: Daenerys Targaryen
+PEOPLE: Westeros
+PEOPLE: Daenerys
+PEOPLE: Irri
+PEOPLE: New
+PEOPLE: Vanessa Taylor
+PEOPLE: Arya
+PEOPLE: Dany
+PEOPLE: Joffrey
+PEOPLE: Qhorin
+Processing:  ../episodesJSON/season_2/S02E07_a_man_without_honor.json
+PEOPLE: Theon Greyjoy
+PEOPLE: that Osha
+PEOPLE: Theon
+PEOPLE: Lorren
+PEOPLE: Theon
+PEOPLE: Osha
+PEOPLE: Theon
+PEOPLE: Dagmer
+PEOPLE: that Bran
+PEOPLE: Rickon
+PEOPLE: Theon
+PEOPLE: Luwin
+PEOPLE: Winterfell
+PEOPLE: Luwin
+PEOPLE: Tywin Lannister
+PEOPLE: Amory Lorch
+PEOPLE: Tywin
+PEOPLE: Lorch
+PEOPLE: Arya Stark
+PEOPLE: Gregor
+PEOPLE: Arya
+PEOPLE: M'Lord
+PEOPLE: My
+PEOPLE: Arya
+PEOPLE: Sansa Stark
+PEOPLE: Sandor
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Shae
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Shae
+PEOPLE: Sansa
+PEOPLE: Sandor
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Jaime Lannister
+PEOPLE: Sansa
+PEOPLE: Cersei
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Torrhen Karstark
+PEOPLE: Alton Lannister
+PEOPLE: Alton Lannister
+PEOPLE: Cersei
+PEOPLE: Robb
+PEOPLE: nurse Talisa Maegyr
+PEOPLE: Jaime
+PEOPLE: Torrhen Karstark
+PEOPLE: Torrhen
+PEOPLE: Rickard
+PEOPLE: Catelyn
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Eddard Stark
+PEOPLE: Eddard
+PEOPLE: Catelyn
+PEOPLE: B <
+PEOPLE: Jon Snow
+PEOPLE: Watch
+PEOPLE: Ygritte
+PEOPLE: Wildlings
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Daenerys Targaryen
+PEOPLE: Xhoan Daxos
+PEOPLE: Quaithe
+PEOPLE: Daenerys
+PEOPLE: Quaithe
+PEOPLE: Jorah
+PEOPLE: Kovarro
+PEOPLE: Pyat Pree
+PEOPLE: Qarth
+PEOPLE: Thirteen
+PEOPLE: Pyat Pree
+PEOPLE: Pyat Pree
+PEOPLE: Honor
+PEOPLE: Weiss
+PEOPLE: Jaime
+PEOPLE: Dany
+Processing:  ../episodesJSON/season_2/S02E08_the_prince_of_winterfell.json
+PEOPLE: Ygritte
+PEOPLE: Bones
+PEOPLE: Qhorin Halfhand
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: his Stark
+PEOPLE: Qhorin
+PEOPLE: Jon
+PEOPLE: Grenn
+PEOPLE: Samwell Tarly
+PEOPLE: Sam
+PEOPLE: _Across_the_Narrow_Sea >
+PEOPLE: Jorah Mormont
+PEOPLE: Jorah
+PEOPLE: Theon
+PEOPLE: Yara Greyjoy
+PEOPLE: Theon
+PEOPLE: Winterfell
+PEOPLE: North
+PEOPLE: Theon
+PEOPLE: Dagmer
+PEOPLE: Osha
+PEOPLE: Luwin
+PEOPLE: Bran
+PEOPLE: Theon
+PEOPLE: Bran
+PEOPLE: Stannis
+PEOPLE: Lannister
+PEOPLE: Joffrey Baratheon
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Arya
+PEOPLE: Tywin Lannister
+PEOPLE: Landing
+PEOPLE: Robb Stark
+PEOPLE: Arya Stark
+PEOPLE: Tywin
+PEOPLE: Arya
+PEOPLE: Gendry
+PEOPLE: Jaqen
+PEOPLE: Harrenhal
+PEOPLE: Robb
+PEOPLE: Catelyn Stark
+PEOPLE: Catelyn
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Robb
+PEOPLE: Winterfell
+PEOPLE: Theon
+PEOPLE: Robb
+PEOPLE: Winterfell
+PEOPLE: Weiss
+PEOPLE: Theon
+PEOPLE: Arya
+PEOPLE: Jaqen Robb
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Bran
+PEOPLE: Rickon Stark
+Processing:  ../episodesJSON/season_2/S02E09_blackwater.json
+PEOPLE: Bronn
+PEOPLE: Lannister
+PEOPLE: Varys
+PEOPLE: Bronn
+PEOPLE: Stannis
+PEOPLE: Bronn
+PEOPLE: Joffrey
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Stannis
+PEOPLE: Davos Seaworth
+PEOPLE: Davos
+PEOPLE: Sandor
+PEOPLE: Lancel Lannister
+PEOPLE: Bronn
+PEOPLE: Hound
+PEOPLE: Cersei Lannister
+PEOPLE: Pycelle
+PEOPLE: Sansa Stark
+PEOPLE: Shae
+PEOPLE: Lancel
+PEOPLE: that Stannis
+PEOPLE: Joffrey
+PEOPLE: Stannis
+PEOPLE: Tyrion
+PEOPLE: Podrick Payne
+PEOPLE: Lancel
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: Shae
+PEOPLE: Sansa
+PEOPLE: Hound
+PEOPLE: Stannis
+PEOPLE: Hound
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: Tywin
+PEOPLE: Loras
+PEOPLE: Tywin Lannister
+PEOPLE: Renly Baratheon
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: Loras Tyrell
+PEOPLE: Renly
+PEOPLE: Blackwater
+PEOPLE: Martin
+Processing:  ../episodesJSON/season_2/S02E10_valar_morghulis.json
+PEOPLE: Tyrion Lannister
+PEOPLE: Hand
+PEOPLE: Tywin Lannister
+PEOPLE: Bronn
+PEOPLE: Shae
+PEOPLE: Tywin Lannister
+PEOPLE: Hand
+PEOPLE: Littlefinger
+PEOPLE: Harrenhal
+PEOPLE: Loras Tyrell
+PEOPLE: Joffrey
+PEOPLE: Cersei Lannister
+PEOPLE: Pycelle
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Margaery
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Jaime
+PEOPLE: Stannis Baratheon
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Robb Stark
+PEOPLE: Catelyn
+PEOPLE: Catelyn
+PEOPLE: Robb
+PEOPLE: Jaime Lannister
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Stark
+PEOPLE: Brienne
+PEOPLE: Theon Greyjoy
+PEOPLE: Roose Bolton
+PEOPLE: Luwin
+PEOPLE: Luwin
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Dagmer
+PEOPLE: Luwin
+PEOPLE: Dagmer
+PEOPLE: Bolton
+PEOPLE: Osha
+PEOPLE: Hodor
+PEOPLE: Luwin
+PEOPLE: Starks
+PEOPLE: Osha
+PEOPLE: Gendry
+PEOPLE: Hot Pie
+PEOPLE: Arya
+PEOPLE: Jaqen
+PEOPLE: Arya
+PEOPLE: Iron Throne
+PEOPLE: Daenerys Targaryen
+PEOPLE: Undying
+PEOPLE: Jorah
+PEOPLE: Wall
+PEOPLE: Drogo
+PEOPLE: Rhaego
+PEOPLE: Pyat Pree
+PEOPLE: Daenerys
+PEOPLE: Pyat Pree
+PEOPLE: Daenerys
+PEOPLE: Doreah
+PEOPLE: his Valyrian
+PEOPLE: Doreah
+PEOPLE: Xaro
+PEOPLE: Dothraki
+PEOPLE: B <
+PEOPLE: Beyond
+PEOPLE: Jon Snow
+PEOPLE: Qhorin Halfhand
+PEOPLE: Bones
+PEOPLE: Qhorin
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Bones
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Qhorin
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Qhorin
+PEOPLE: Jon
+PEOPLE: Bones
+PEOPLE: Jon
+PEOPLE: Grenn
+PEOPLE: Edd
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Wights
+PEOPLE: a White Walker
+PEOPLE: Valar Morghulis
+PEOPLE: Weiss
+PEOPLE: Joffrey
+PEOPLE: Theon
+PEOPLE: Luwin
+PEOPLE: Jaime Arya
+PEOPLE: Jaqen Dany
+PEOPLE: Jon
+Processing:  ../episodesJSON/season_3/S03E01_valar_dohaeris.json
+PEOPLE: Ghost
+PEOPLE: Samwell Tarly
+PEOPLE: Sam
+PEOPLE: Ghost
+PEOPLE: Mormont
+PEOPLE: Mormont
+PEOPLE: Sam
+PEOPLE: Westeros
+PEOPLE: Jon Snow
+PEOPLE: Bones
+PEOPLE: White Walkers
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Bones
+PEOPLE: Ned Stark
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Mance Rayder
+PEOPLE: Mance
+PEOPLE: Mance
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Qhorin
+PEOPLE: Watch
+PEOPLE: Qhorin
+PEOPLE: Mance
+PEOPLE: Watch
+PEOPLE: Craster
+PEOPLE: Jon
+PEOPLE: Night
+PEOPLE: Craster
+PEOPLE: Jon
+PEOPLE: White Walkers
+PEOPLE: Jon
+PEOPLE: Bronn
+PEOPLE: Jaime
+PEOPLE: Kingsguard
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: that Tyrion
+PEOPLE: Hand
+PEOPLE: that Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Flea Bottom
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Sansa Stark
+PEOPLE: Shae
+PEOPLE: Petyr Baelish
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Winterfell
+PEOPLE: Shae
+PEOPLE: Davos Seaworth
+PEOPLE: Davos
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Melisandre
+PEOPLE: Tyrells
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Harrenhal
+PEOPLE: Tywin
+PEOPLE: main Lannister
+PEOPLE: Robb
+PEOPLE: Tywin
+PEOPLE: Lannisters
+PEOPLE: Qyburn
+PEOPLE: _Across_the_Narrow_Sea > Drogon
+PEOPLE: Astapor
+PEOPLE: Qarth
+PEOPLE: Westeros
+PEOPLE: Jorah Mormont
+PEOPLE: Astapor
+PEOPLE: Jorah
+PEOPLE: her tiny Dothraki
+PEOPLE: Dothraki
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Kraznys mo Nakloz
+PEOPLE: Missandei
+PEOPLE: Unsullied
+PEOPLE: Unsullied
+PEOPLE: Kraznys
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: many Unsullied
+PEOPLE: En
+PEOPLE: Jorah
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Pyat Pree
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: A stunned Jorah
+PEOPLE: Robert Baratheon
+PEOPLE: Barristan
+PEOPLE: Robert
+PEOPLE: Barristan
+PEOPLE: her Queensguard
+PEOPLE: Valar Dohaeris
+PEOPLE: Jon
+PEOPLE: Tyrion
+PEOPLE: Littlefinger
+PEOPLE: Cersei
+PEOPLE: Slaver
+Processing:  ../episodesJSON/season_3/S03E02_dark_wings,_dark_words.json
+PEOPLE: Jon Snow
+PEOPLE: Free Folk
+PEOPLE: Mance
+PEOPLE: Mance
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Orell
+PEOPLE: Mance
+PEOPLE: Orell
+PEOPLE: Fist
+PEOPLE: Mormont
+PEOPLE: Rast
+PEOPLE: Tarly
+PEOPLE: Watch
+PEOPLE: Wall
+PEOPLE: Samwell Tarly
+PEOPLE: Rast
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Grenn
+PEOPLE: Edd
+PEOPLE: Mormont
+PEOPLE: Sam
+PEOPLE: Wall
+PEOPLE: Bran Stark
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Hodor
+PEOPLE: Osha
+PEOPLE: Summer
+PEOPLE: Shaggydog
+PEOPLE: Osha
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Jojen
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Jojen
+PEOPLE: Eddard
+PEOPLE: Bran
+PEOPLE: Howland
+PEOPLE: Jojen
+PEOPLE: Howland
+PEOPLE: Bran
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Theon Greyjoy
+PEOPLE: Winterfell
+PEOPLE: Winterfell
+PEOPLE: North
+PEOPLE: Starks
+PEOPLE: Theon
+PEOPLE: desperate Theon
+PEOPLE: Joffrey Baratheon
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Shae
+PEOPLE: Sansa
+PEOPLE: that Baelish
+PEOPLE: Sansa
+PEOPLE: Shae
+PEOPLE: Baelish
+PEOPLE: Sansa
+PEOPLE: Baelish
+PEOPLE: Shae
+PEOPLE: Sansa
+PEOPLE: Baelish
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Loras Tyrell
+PEOPLE: Sansa
+PEOPLE: Olenna
+PEOPLE: Mace
+PEOPLE: Renly Baratheon
+PEOPLE: Renly
+PEOPLE: Olenna
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Margaery
+PEOPLE: Sansa
+PEOPLE: Olenna
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Olenna
+PEOPLE: Sansa
+PEOPLE: Olenna
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Olenna
+PEOPLE: Sansa
+PEOPLE: Tyrells
+PEOPLE: Olenna
+PEOPLE: Mace
+PEOPLE: Margaery
+PEOPLE: Shae
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Shae
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Margaery
+PEOPLE: Margaery
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Robb Stark
+PEOPLE: Roose Bolton
+PEOPLE: Hoster Tully
+PEOPLE: Riverrun
+PEOPLE: Roose
+PEOPLE: Winterfell
+PEOPLE: Bran
+PEOPLE: Robb
+PEOPLE: Theon
+PEOPLE: Greyjoys
+PEOPLE: Bran
+PEOPLE: Rickon
+PEOPLE: Robb
+PEOPLE: Harrenhal
+PEOPLE: Northern
+PEOPLE: Robb
+PEOPLE: Edmure Tully
+PEOPLE: Riverrun
+PEOPLE: Karstark
+PEOPLE: Edmure
+PEOPLE: Robb
+PEOPLE: Karstark
+PEOPLE: Karstark
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Karstark
+PEOPLE: Robb
+PEOPLE: Talisa
+PEOPLE: Catelyn
+PEOPLE: Catelyn
+PEOPLE: Talisa
+PEOPLE: Catelyn
+PEOPLE: Luwin
+PEOPLE: Catelyn
+PEOPLE: Jon Snow
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Eddard
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Catelyn
+PEOPLE: Eddard
+PEOPLE: Catelyn
+PEOPLE: Hot Pie
+PEOPLE: Red Fork
+PEOPLE: Off
+PEOPLE: Arya
+PEOPLE: Jaqen H'ghar
+PEOPLE: Arya
+PEOPLE: Tywin Lannister
+PEOPLE: Arya
+PEOPLE: Thoros
+PEOPLE: Gendry
+PEOPLE: Thoros
+PEOPLE: Gendry
+PEOPLE: Arya
+PEOPLE: Brotherhood
+PEOPLE: Thoros
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Stark
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: a Baratheon
+PEOPLE: Stannis
+PEOPLE: Renly
+PEOPLE: Loras
+PEOPLE: Brienne
+PEOPLE: Renly
+PEOPLE: mock Renly
+PEOPLE: Brienne
+PEOPLE: Loras
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Kingslayer
+PEOPLE: much Jaime
+PEOPLE: Dark Words
+PEOPLE: Vanessa Taylor
+PEOPLE: Sansa Stark
+PEOPLE: Olenna Tyrell
+PEOPLE: Shae
+PEOPLE: Sansa
+PEOPLE: Jaime Lannister
+PEOPLE: Arya Stark
+PEOPLE: Brotherhood Without Banners
+PEOPLE: Hoster Tully
+PEOPLE: Jon Snow
+PEOPLE: Bran Stark
+Processing:  ../episodesJSON/season_3/S03E03_walk_of_punishment.json
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Unsullied
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Jorah
+PEOPLE: Rhaegar
+PEOPLE: Jorah
+PEOPLE: Rhaegar
+PEOPLE: Daenerys
+PEOPLE: Robert Baratheon
+PEOPLE: Barristan
+PEOPLE: Rhaegar
+PEOPLE: Selmy
+PEOPLE: Rhaegar
+PEOPLE: Barristan
+PEOPLE: Rhaegar
+PEOPLE: Daenerys
+PEOPLE: Rhaegar
+PEOPLE: Daenerys
+PEOPLE: Kraznys
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: Kraznys
+PEOPLE: Missandei
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Valar
+PEOPLE: Daenerys
+PEOPLE: B <
+PEOPLE: Free Folk
+PEOPLE: Jon Snow
+PEOPLE: Mance
+PEOPLE: White Walkers
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Mance
+PEOPLE: Mance
+PEOPLE: Fist
+PEOPLE: White Walkers
+PEOPLE: Wall
+PEOPLE: Castle Black
+PEOPLE: Watch
+PEOPLE: Castle Black
+PEOPLE: that Mance
+PEOPLE: Mance
+PEOPLE: North
+PEOPLE: Mance
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Castle Black
+PEOPLE: Night
+PEOPLE: Farther
+PEOPLE: Jeor Mormont
+PEOPLE: Watch
+PEOPLE: his Keep
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Sam
+PEOPLE: Brynden
+PEOPLE: Hoster Tully
+PEOPLE: Robb Stark
+PEOPLE: Northern
+PEOPLE: Talisa
+PEOPLE: Catelyn
+PEOPLE: Brynden
+PEOPLE: Blackfish
+PEOPLE: Brynden
+PEOPLE: Hoster
+PEOPLE: Blackfish
+PEOPLE: Catelyn
+PEOPLE: Brynden
+PEOPLE: Robb
+PEOPLE: Edmure
+PEOPLE: Lannister
+PEOPLE: Tywin
+PEOPLE: Lannisters
+PEOPLE: Edmure
+PEOPLE: Tywin
+PEOPLE: Willem
+PEOPLE: that Tywin
+PEOPLE: Robb
+PEOPLE: Tywin Lannister
+PEOPLE: Starks
+PEOPLE: Robb
+PEOPLE: Talisa
+PEOPLE: Willem
+PEOPLE: Talisa
+PEOPLE: Tywin Lannister
+PEOPLE: Tywin
+PEOPLE: Varys
+PEOPLE: Cersei
+PEOPLE: opposite Littlefinger
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: entire Northern
+PEOPLE: Tywin
+PEOPLE: Robb
+PEOPLE: Roose Bolton
+PEOPLE: Harrenhal
+PEOPLE: Varys
+PEOPLE: Harrenhal
+PEOPLE: Roose Bolton
+PEOPLE: Harrenhal
+PEOPLE: Tywin
+PEOPLE: Littlefinger
+PEOPLE: Lysa
+PEOPLE: Pycelle
+PEOPLE: Littlefinger
+PEOPLE: Baelish
+PEOPLE: Tywin
+PEOPLE: Robb Stark
+PEOPLE: southern Westeros
+PEOPLE: Lannister
+PEOPLE: Tyrion
+PEOPLE: Coin
+PEOPLE: Tyrion
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Pod
+PEOPLE: Littlefinger
+PEOPLE: Baelish
+PEOPLE: Ros
+PEOPLE: Cersei
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Pod
+PEOPLE: Tyrion
+PEOPLE: Kayla
+PEOPLE: a Meereenese Knot
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Littlefinger
+PEOPLE: Tyrion
+PEOPLE: Iron Throne
+PEOPLE: Littlefinger
+PEOPLE: Brienne
+PEOPLE: Bronn
+PEOPLE: Robb Stark
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Stannis Baratheon
+PEOPLE: Stannis
+PEOPLE: Joffrey
+PEOPLE: Shadow
+PEOPLE: Renly
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Stannis
+PEOPLE: Hot Pie
+PEOPLE: Gendry
+PEOPLE: Thoros
+PEOPLE: Arya
+PEOPLE: Gendry
+PEOPLE: Thoros
+PEOPLE: Sandor
+PEOPLE: Hot Pie
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Theon Greyjoy
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Jaime
+PEOPLE: Renly
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: that Brienne
+PEOPLE: Locke
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Lannister
+PEOPLE: Locke
+PEOPLE: that Jaime
+PEOPLE: first Locke
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Tywin
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Punishment
+PEOPLE: Jon
+PEOPLE: Jaime
+Processing:  ../episodesJSON/season_3/S03E04_and_now_his_watch_is_ended.json
+PEOPLE: Jaime Lannister
+PEOPLE: Locke
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Locke
+PEOPLE: Locke
+PEOPLE: Brienne
+PEOPLE: Tarth
+PEOPLE: Sapphire Isle
+PEOPLE: Brienne
+PEOPLE: Varys
+PEOPLE: Mandon Moore
+PEOPLE: Varys
+PEOPLE: Cersei
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Myr
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Myr
+PEOPLE: Varys
+PEOPLE: Stannis Baratheon
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Ros
+PEOPLE: Littlefinger
+PEOPLE: Sansa Stark
+PEOPLE: Varys
+PEOPLE: Ros
+PEOPLE: Varys
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Margaery
+PEOPLE: Joffrey
+PEOPLE: Cersei Lannister
+PEOPLE: Olenna Tyrell
+PEOPLE: Olenna
+PEOPLE: Robert Baratheon
+PEOPLE: Great Sept Cersei
+PEOPLE: Cersei
+PEOPLE: Robert
+PEOPLE: Olenna
+PEOPLE: Mace Tyrell
+PEOPLE: Olenna
+PEOPLE: Olenna
+PEOPLE: Margaery
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: a Kingsguard
+PEOPLE: Jaime
+PEOPLE: Tywin
+PEOPLE: Cersei
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: skilled Margaery Tyrell
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Varys
+PEOPLE: Olenna
+PEOPLE: Olenna
+PEOPLE: Margaery
+PEOPLE: a golden Tyrell
+PEOPLE: Strong
+PEOPLE: Olenna
+PEOPLE: Winter
+PEOPLE: Sow
+PEOPLE: Varys
+PEOPLE: Olenna
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Littlefinger
+PEOPLE: Sansa Stark
+PEOPLE: Arya Stark
+PEOPLE: Sansa
+PEOPLE: Five Kings
+PEOPLE: Robb
+PEOPLE: Sansa
+PEOPLE: Varys
+PEOPLE: Baelish
+PEOPLE: Margaery Tyrell
+PEOPLE: Sansa Stark
+PEOPLE: Blackwater Bay
+PEOPLE: Lannister
+PEOPLE: Margaery
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Highgarden
+PEOPLE: Reach
+PEOPLE: Sansa
+PEOPLE: Margaery
+PEOPLE: Margaery
+PEOPLE: Sansa
+PEOPLE: Loras
+PEOPLE: Highgarden
+PEOPLE: Joffrey
+PEOPLE: a Tyrell
+PEOPLE: Sansa
+PEOPLE: Hound
+PEOPLE: Arya Stark
+PEOPLE: Gendry
+PEOPLE: Hollow Hill
+PEOPLE: Hound Clegane
+PEOPLE: Beric
+PEOPLE: Riverlands
+PEOPLE: Brotherhood
+PEOPLE: Eddard Stark
+PEOPLE: Gregor Clegane
+PEOPLE: Robert
+PEOPLE: Eddard
+PEOPLE: Robert
+PEOPLE: Dondarrion
+PEOPLE: Brotherhood
+PEOPLE: Lannisters
+PEOPLE: Dondarrion
+PEOPLE: Brotherhood
+PEOPLE: various Lannister
+PEOPLE: Thoros
+PEOPLE: Landing
+PEOPLE: Sandor
+PEOPLE: Sandor
+PEOPLE: Gregor
+PEOPLE: Light
+PEOPLE: Thoros
+PEOPLE: Sandor
+PEOPLE: Sandor
+PEOPLE: Mycah
+PEOPLE: Mycah
+PEOPLE: Sandor
+PEOPLE: Bran Stark
+PEOPLE: Jojen
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Catelyn
+PEOPLE: Bran
+PEOPLE: Jojen
+PEOPLE: Theon Greyjoy
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Balon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Winterfell
+PEOPLE: Robb Stark
+PEOPLE: Theon
+PEOPLE: Bran
+PEOPLE: Rickon
+PEOPLE: Theon
+PEOPLE: same X
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: B <
+PEOPLE: Grenn
+PEOPLE: Edd
+PEOPLE: Rast
+PEOPLE: Craster
+PEOPLE: White Walkers
+PEOPLE: Grenn
+PEOPLE: Edd
+PEOPLE: Sam
+PEOPLE: Jeor Mormont
+PEOPLE: Bannen
+PEOPLE: Mormont
+PEOPLE: Mormont
+PEOPLE: Craster
+PEOPLE: Mormont
+PEOPLE: Craster
+PEOPLE: Mormont
+PEOPLE: Craster
+PEOPLE: Watch
+PEOPLE: that Craster
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Rast
+PEOPLE: Craster
+PEOPLE: Rast
+PEOPLE: Craster
+PEOPLE: Rast
+PEOPLE: Mormont
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Mormont
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Karl
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Mormont
+PEOPLE: Karl
+PEOPLE: Karl
+PEOPLE: Mormont
+PEOPLE: Karl
+PEOPLE: Rast
+PEOPLE: Mormont
+PEOPLE: Mormont
+PEOPLE: Rast
+PEOPLE: Rast
+PEOPLE: Rast
+PEOPLE: Rast
+PEOPLE: Mormont
+PEOPLE: that Mormont
+PEOPLE: Rast
+PEOPLE: Bear
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Craster
+PEOPLE: Craster
+PEOPLE: Mormont
+PEOPLE: Rast
+PEOPLE: Sam
+PEOPLE: Astapor
+PEOPLE: Daenerys Targaryen
+PEOPLE: Kraznys
+PEOPLE: Daenerys
+PEOPLE: Dany
+PEOPLE: Astapor
+PEOPLE: Kraznys
+PEOPLE: Low Valyrian
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Kraznys
+PEOPLE: Daenerys
+PEOPLE: Kraznys
+PEOPLE: A
+PEOPLE: Valyrian
+PEOPLE: a dumbfounded Kraznys
+PEOPLE: Daenerys Stormborn
+PEOPLE: Valyria Valyrian
+PEOPLE: Unsullied
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: her Unsullied
+PEOPLE: Unsullied
+PEOPLE: Unsullied
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: Seven Kingdoms
+PEOPLE: Daenerys
+PEOPLE: Astapor
+PEOPLE: Unsullied
+PEOPLE: Unsullied
+PEOPLE: a Targaryen
+PEOPLE: Weiss
+PEOPLE: Watch
+PEOPLE: Varys
+PEOPLE: Arya
+PEOPLE: Brotherhood Daenerys
+Processing:  ../episodesJSON/season_3/S03E05_kissed_by_fire.json
+PEOPLE: Tormund
+PEOPLE: Jon Snow
+PEOPLE: Tormund
+PEOPLE: Wall
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Orell
+PEOPLE: Orell
+PEOPLE: Jon
+PEOPLE: Orell
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Castle Black
+PEOPLE: Jon
+PEOPLE: Tormund
+PEOPLE: Jon
+PEOPLE: sure Jon Snow
+PEOPLE: his Night
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jon Sn
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Ygritte
+PEOPLE: Lords
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: a Thenn
+PEOPLE: Common Tongue
+PEOPLE: Ygritte
+PEOPLE: Astapor
+PEOPLE: Jorah Mormont
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Siege
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Robert
+PEOPLE: Robert
+PEOPLE: Barristan
+PEOPLE: Barristan
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Westeros Jorah
+PEOPLE: Westeros
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Robert
+PEOPLE: Daenerys
+PEOPLE: a Small Council
+PEOPLE: Barristan
+PEOPLE: a former Kingsguard
+PEOPLE: Robert
+PEOPLE: Robert
+PEOPLE: Small Council
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Barristan
+PEOPLE: Jorah
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Astapor
+PEOPLE: Daenerys
+PEOPLE: Unsullied
+PEOPLE: Grey Worm
+PEOPLE: Daenerys
+PEOPLE: Martyn
+PEOPLE: Willem Lannister
+PEOPLE: Rickard Karstark
+PEOPLE: Willem
+PEOPLE: Martyn
+PEOPLE: Rickard
+PEOPLE: Martyn
+PEOPLE: Willem
+PEOPLE: Robb
+PEOPLE: Karstark
+PEOPLE: Karstark
+PEOPLE: Karstark
+PEOPLE: Rickard
+PEOPLE: Catelyn
+PEOPLE: Karstark
+PEOPLE: Jaime
+PEOPLE: Catelyn
+PEOPLE: Karstark
+PEOPLE: Brynden Tully
+PEOPLE: Robb
+PEOPLE: Karstark
+PEOPLE: Karstark
+PEOPLE: Winterfell
+PEOPLE: Karstark
+PEOPLE: uncle Edmure Tully
+PEOPLE: Riverrun
+PEOPLE: Robb
+PEOPLE: Talisa
+PEOPLE: Catelyn
+PEOPLE: Rickard
+PEOPLE: Edmure
+PEOPLE: other Karstarks
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Karstark
+PEOPLE: Riverrun
+PEOPLE: Starks
+PEOPLE: Karstarks
+PEOPLE: Robb
+PEOPLE: Rickard
+PEOPLE: Robb
+PEOPLE: Rickard
+PEOPLE: Robb
+PEOPLE: Rickard
+PEOPLE: that Robb
+PEOPLE: Robb
+PEOPLE: Karstarks
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Tywin Lannister
+PEOPLE: Northerners
+PEOPLE: Robb
+PEOPLE: Talisa
+PEOPLE: Seven Kingdoms
+PEOPLE: Stormlands
+PEOPLE: Talisa
+PEOPLE: main Lannister
+PEOPLE: a large Tyrell
+PEOPLE: Talisa
+PEOPLE: Greyjoys
+PEOPLE: Robb
+PEOPLE: Riverlords
+PEOPLE: Robb
+PEOPLE: Landing
+PEOPLE: Robb
+PEOPLE: main Lannister
+PEOPLE: Westerlands
+PEOPLE: Lannisters
+PEOPLE: Robb
+PEOPLE: Winterfell
+PEOPLE: Casterly Rock
+PEOPLE: Robb
+PEOPLE: Talisa
+PEOPLE: Locke
+PEOPLE: Locke
+PEOPLE: Northern
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Roose
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Bolton
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Bolton
+PEOPLE: Stannis Baratheon
+PEOPLE: Bolton
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Stannis
+PEOPLE: Jaime
+PEOPLE: Bolton
+PEOPLE: Jaime
+PEOPLE: Qyburn
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Qyburn
+PEOPLE: Jaime
+PEOPLE: Qyburn
+PEOPLE: Qyburn
+PEOPLE: Citadel
+PEOPLE: Qyburn
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Milk
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: first Lannister
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Mad
+PEOPLE: Aerys
+PEOPLE: Jaime
+PEOPLE: Aerys
+PEOPLE: Hands
+PEOPLE: Westeros
+PEOPLE: Aerys
+PEOPLE: Flea Bottom
+PEOPLE: Tywin
+PEOPLE: entire Lannister
+PEOPLE: Mad
+PEOPLE: Aerys
+PEOPLE: Grand
+PEOPLE: Aerys
+PEOPLE: Lannisters
+PEOPLE: Lannisters
+PEOPLE: Mad
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Mad
+PEOPLE: Jaime
+PEOPLE: Aerys
+PEOPLE: Mad
+PEOPLE: Jaime
+PEOPLE: Eddard Stark
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Stark
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: right Stark
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Hound
+PEOPLE: Sandor Clegane
+PEOPLE: Beric Dondarrion
+PEOPLE: Light
+PEOPLE: Sandor
+PEOPLE: Beric
+PEOPLE: Light
+PEOPLE: Beric
+PEOPLE: Sandor
+PEOPLE: Thoros
+PEOPLE: Beric
+PEOPLE: Thoros
+PEOPLE: Light
+PEOPLE: Sandor
+PEOPLE: Arya Stark
+PEOPLE: Hound
+PEOPLE: Light
+PEOPLE: Sandor
+PEOPLE: Brotherhood
+PEOPLE: Sandor
+PEOPLE: Beric
+PEOPLE: Anguy
+PEOPLE: Clegane
+PEOPLE: Gendry
+PEOPLE: Beric
+PEOPLE: Gendry
+PEOPLE: Arya
+PEOPLE: Robb
+PEOPLE: Gendry
+PEOPLE: Gendry
+PEOPLE: Gendry
+PEOPLE: Varys
+PEOPLE: Tywin Lannister
+PEOPLE: Beric
+PEOPLE: Gendry
+PEOPLE: Gendry
+PEOPLE: Arya
+PEOPLE: Thoros
+PEOPLE: Thoros
+PEOPLE: Beric
+PEOPLE: Sandor
+PEOPLE: Arya
+PEOPLE: Beric
+PEOPLE: Sandor
+PEOPLE: Beric
+PEOPLE: Arya
+PEOPLE: Beric
+PEOPLE: Beric
+PEOPLE: Light
+PEOPLE: Thoros
+PEOPLE: Beric
+PEOPLE: Beric
+PEOPLE: Lannisters
+PEOPLE: Thoros
+PEOPLE: Thoros
+PEOPLE: Thoros
+PEOPLE: Beric
+PEOPLE: Beric
+PEOPLE: Beric
+PEOPLE: Stannis Baratheon
+PEOPLE: Stannis
+PEOPLE: Dragonstone
+PEOPLE: Stannis
+PEOPLE: Light Selyse
+PEOPLE: Light
+PEOPLE: Selyse
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Selyse
+PEOPLE: Robert Stannis
+PEOPLE: Selyse
+PEOPLE: Shadow
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Red Priestess
+PEOPLE: Selyse
+PEOPLE: Selyse
+PEOPLE: Light
+PEOPLE: Stannis
+PEOPLE: Selyse
+PEOPLE: Shireen
+PEOPLE: dreaded Greyscale
+PEOPLE: Stannis
+PEOPLE: Shireen
+PEOPLE: Onion Knight
+PEOPLE: Davos Seaworth
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Shireen
+PEOPLE: Dragonstone
+PEOPLE: Bert
+PEOPLE: Targaryens
+PEOPLE: Aegon
+PEOPLE: Shireen
+PEOPLE: Bert
+PEOPLE: Davos
+PEOPLE: Shireen
+PEOPLE: Aegon
+PEOPLE: Cersei Lannister
+PEOPLE: Tyrells
+PEOPLE: Lannisters
+PEOPLE: Littlefinger
+PEOPLE: Lannister Tyrell
+PEOPLE: Cersei
+PEOPLE: Arya Stark
+PEOPLE: Sansa Stark
+PEOPLE: Margaery Tyrell
+PEOPLE: Loras
+PEOPLE: Tyrell
+PEOPLE: Baelish
+PEOPLE: Margaery
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Margaery
+PEOPLE: Loras
+PEOPLE: Olyvar
+PEOPLE: Littlefinger
+PEOPLE: Littlefinger
+PEOPLE: Petyr
+PEOPLE: Tyrion Lannister
+PEOPLE: Tyrion
+PEOPLE: Olenna
+PEOPLE: Tyrells
+PEOPLE: Olenna
+PEOPLE: Tyrells
+PEOPLE: Tyrion
+PEOPLE: Lannisters
+PEOPLE: Olenna
+PEOPLE: Tyrion
+PEOPLE: Small Council
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Tyrells
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Tywin
+PEOPLE: Karstarks
+PEOPLE: Robb Stark
+PEOPLE: Lannister Tyrell
+PEOPLE: Theon Greyjoy
+PEOPLE: Sansa Robb
+PEOPLE: Winterfell
+PEOPLE: North
+PEOPLE: Tywin
+PEOPLE: Tyrells
+PEOPLE: Tywin
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Tywin
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Loras
+PEOPLE: Tywin
+PEOPLE: Cersei
+PEOPLE: North
+PEOPLE: that Cersei
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Loras
+PEOPLE: Tywin
+PEOPLE: Stannis
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Lannister
+PEOPLE: Fire
+PEOPLE: Bryan Cogman
+PEOPLE: Hound
+PEOPLE: Jaime
+PEOPLE: Jon
+PEOPLE: Robb
+PEOPLE: Tyrion
+Processing:  ../episodesJSON/season_3/S03E06_the_climb.json
+PEOPLE: Loras
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Kingdom
+PEOPLE: Loras
+PEOPLE: Joffrey
+PEOPLE: Olenna
+PEOPLE: Tywin
+PEOPLE: Loras
+PEOPLE: Highgarden
+PEOPLE: Loras
+PEOPLE: Sansa Stark
+PEOPLE: Loras
+PEOPLE: Loras
+PEOPLE: Sansa
+PEOPLE: Highgarden
+PEOPLE: Winterfell
+PEOPLE: Loras
+PEOPLE: Red Keep
+PEOPLE: Cersei
+PEOPLE: Tyrion Lannister
+PEOPLE: Kingsguard
+PEOPLE: a Kingsguard
+PEOPLE: Mandon Moore
+PEOPLE: Mandon Moore
+PEOPLE: Tyrion
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Shae
+PEOPLE: Shae
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Baelish
+PEOPLE: Varys
+PEOPLE: Aegon
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Ros
+PEOPLE: Hollow Hill
+PEOPLE: Anguy
+PEOPLE: Anguy
+PEOPLE: Melisandre
+PEOPLE: Stannis Baratheon
+PEOPLE: High Valyrian
+PEOPLE: Robert Baratheon
+PEOPLE: Light
+PEOPLE: Melisandre
+PEOPLE: Beric Dondarrion
+PEOPLE: Light
+PEOPLE: Light
+PEOPLE: Melisandre
+PEOPLE: Brotherhood
+PEOPLE: Light
+PEOPLE: Gendry
+PEOPLE: Melisandre
+PEOPLE: Brotherhood
+PEOPLE: Melisandre
+PEOPLE: Arya
+PEOPLE: Roslin
+PEOPLE: Freys
+PEOPLE: Roslin
+PEOPLE: Jaime
+PEOPLE: Bolton
+PEOPLE: Roose Bolton
+PEOPLE: Bolton
+PEOPLE: Jaime
+PEOPLE: Bolton
+PEOPLE: Jaime
+PEOPLE: Bolton
+PEOPLE: Bran Stark
+PEOPLE: Jojen Reed
+PEOPLE: Meera
+PEOPLE: Bran
+PEOPLE: Jon Snow
+PEOPLE: Theon Greyjoy
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Torrhen Karstark
+PEOPLE: Karhold
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: B <
+PEOPLE: > Samwell Tarly
+PEOPLE: Gilly
+PEOPLE: Craster
+PEOPLE: Sam
+PEOPLE: Dragonglass
+PEOPLE: First Men
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Tormund Giantsbane
+PEOPLE: Jon Snow
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Wall
+PEOPLE: Jon
+PEOPLE: Orell
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Orell
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Climb
+PEOPLE: Weiss
+PEOPLE: Tywin
+PEOPLE: Melisandre
+PEOPLE: Robb
+PEOPLE: Roose Bolton
+PEOPLE: Wildlings
+Processing:  ../episodesJSON/season_3/S03E07_the_bear_and_the_maiden_fair.json
+PEOPLE: Tormund Giantsbane
+PEOPLE: Mance Rayder
+PEOPLE: Orell
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Ygritte
+PEOPLE: that Jon
+PEOPLE: Slaver
+PEOPLE: Barristan Selmy
+PEOPLE: Yunkai
+PEOPLE: Targaryen
+PEOPLE: Daenerys
+PEOPLE: Yunkai
+PEOPLE: Westeros
+PEOPLE: Yunkai
+PEOPLE: Yunkai
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Razdal
+PEOPLE: Daenerys
+PEOPLE: Razdal
+PEOPLE: Yunkai
+PEOPLE: Valyria
+PEOPLE: Daenerys
+PEOPLE: her Unsullied
+PEOPLE: Razdal
+PEOPLE: that Yunkai
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Razdal
+PEOPLE: Yunkai
+PEOPLE: Yunkai
+PEOPLE: Razdal
+PEOPLE: Yunkai
+PEOPLE: Razdal
+PEOPLE: Razdal
+PEOPLE: Daenerys
+PEOPLE: Melisandre
+PEOPLE: Gendry
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Gendry
+PEOPLE: Melisandre
+PEOPLE: Robert Baratheon
+PEOPLE: Osha
+PEOPLE: Meera
+PEOPLE: Gendry
+PEOPLE: Catelyn
+PEOPLE: Edmure Tully
+PEOPLE: that Frey
+PEOPLE: Frey
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Talisa
+PEOPLE: Robb
+PEOPLE: Theon Greyjoy
+PEOPLE: Theon
+PEOPLE: Pyke
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Margaery Tyrell
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: entire North
+PEOPLE: Bronn
+PEOPLE: Sansa
+PEOPLE: Tywin Lannister
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Small Council
+PEOPLE: any Small Council
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Daenerys Targaryen Tywin
+PEOPLE: Tywin
+PEOPLE: last Targaryen
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: a browbeaten Joffrey
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Catelyn Stark
+PEOPLE: Jaime
+PEOPLE: Qyburn
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Qyburn Grand
+PEOPLE: Jaime
+PEOPLE: Bolton
+PEOPLE: Steelshanks
+PEOPLE: Harrenhal
+PEOPLE: Jaime
+PEOPLE: Tywin Jaime
+PEOPLE: Bolton
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Qyburn
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Mad
+PEOPLE: Brienne Qyburn
+PEOPLE: Locke
+PEOPLE: Tarth
+PEOPLE: Locke
+PEOPLE: Selwyn
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Brienne
+PEOPLE: Steelshanks
+PEOPLE: Harrenhal
+PEOPLE: Jaime
+PEOPLE: Tywin Lannister
+PEOPLE: Jaime
+PEOPLE: Locke
+PEOPLE: Brienne
+PEOPLE: Bear
+PEOPLE: Locke
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Steelshanks
+PEOPLE: Locke
+PEOPLE: Bolton
+PEOPLE: Locke
+PEOPLE: Harrenhal
+PEOPLE: Maiden Fair
+PEOPLE: Martin
+PEOPLE: Yunkai
+PEOPLE: Sansa
+PEOPLE: Shae
+PEOPLE: Tywin
+PEOPLE: Melisandre
+PEOPLE: Brienne
+Processing:  ../episodesJSON/season_3/S03E08_second_sons.json
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Barristan
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Prendahl
+PEOPLE: Daario Naharis
+PEOPLE: vulgar Mero
+PEOPLE: Daenerys
+PEOPLE: Lys
+PEOPLE: Prendahl
+PEOPLE: Mero
+PEOPLE: Iron Throne
+PEOPLE: Mero
+PEOPLE: Daenerys
+PEOPLE: Barristan
+PEOPLE: Second Sons
+PEOPLE: Mero
+PEOPLE: Mero
+PEOPLE: Daario
+PEOPLE: Mero
+PEOPLE: Daenerys
+PEOPLE: Mero
+PEOPLE: Braavosi
+PEOPLE: an Unsullied
+PEOPLE: Missandei
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Dothraki
+PEOPLE: reasonable Dothraki
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: B <
+PEOPLE: > Sam
+PEOPLE: Samwell Tarly
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: a White Walker
+PEOPLE: Sam
+PEOPLE: Walker
+PEOPLE: Sam
+PEOPLE: Walker
+PEOPLE: Walker
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Arya Stark
+PEOPLE: Sandor Clegane
+PEOPLE: Arya
+PEOPLE: Sandor
+PEOPLE: Blackwater
+PEOPLE: Red Fork
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Gendry
+PEOPLE: Stannis Davos
+PEOPLE: Gendry
+PEOPLE: Davos
+PEOPLE: Gendry
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: usurper Robb Stark
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Lannisters
+PEOPLE: Margaery Tyrell
+PEOPLE: Margaery
+PEOPLE: Houses Reyne
+PEOPLE: Margaery
+PEOPLE: call Cersei
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: new High Septon
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: a Lannister
+PEOPLE: Lannister
+PEOPLE: Kingsguard
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: that Joffrey
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Second Sons
+PEOPLE: Weiss
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Dany
+PEOPLE: Davos
+PEOPLE: Sam
+PEOPLE: Gilly
+Processing:  ../episodesJSON/season_3/S03E09_the_rains_of_castamere.json
+PEOPLE: Yunkai
+PEOPLE: Daario Naharis
+PEOPLE: Jorah Mormont
+PEOPLE: Daenerys
+PEOPLE: Grey Worm
+PEOPLE: Daario
+PEOPLE: Barristan
+PEOPLE: Jorah
+PEOPLE: Grey Worm
+PEOPLE: Yunkai
+PEOPLE: Daario
+PEOPLE: Barristan
+PEOPLE: Yunkai
+PEOPLE: Daenerys
+PEOPLE: Daario
+PEOPLE: Yunkai
+PEOPLE: Samwell Tarly
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Castle Black
+PEOPLE: Sam
+PEOPLE: Wall
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Seven Kingdoms
+PEOPLE: Watch
+PEOPLE: Reeds
+PEOPLE: Bran
+PEOPLE: Wall
+PEOPLE: Gift
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Orell
+PEOPLE: Tormund Giantsbane
+PEOPLE: Night
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Bran
+PEOPLE: Jojen Reed
+PEOPLE: Wall
+PEOPLE: Meera
+PEOPLE: Hodor
+PEOPLE: Bran
+PEOPLE: Hodor
+PEOPLE: a Wildling
+PEOPLE: Tormund
+PEOPLE: Orell
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: that Jon
+PEOPLE: Jon Tormund
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Summer
+PEOPLE: Jon
+PEOPLE: Summer
+PEOPLE: Shaggydog
+PEOPLE: Jon
+PEOPLE: Orell
+PEOPLE: Ygritte
+PEOPLE: Bran
+PEOPLE: Rickon
+PEOPLE: Bran
+PEOPLE: Meera
+PEOPLE: Jojen
+PEOPLE: Three
+PEOPLE: Osha
+PEOPLE: Shaggydog
+PEOPLE: Robb Stark
+PEOPLE: Walder Frey
+PEOPLE: Robb
+PEOPLE: Frey
+PEOPLE: Starks
+PEOPLE: Walder
+PEOPLE: Robb
+PEOPLE: Roslin
+PEOPLE: Catelyn
+PEOPLE: Black Walder Rivers
+PEOPLE: Catelyn
+PEOPLE: Walder
+PEOPLE: Talisa
+PEOPLE: Lothar
+PEOPLE: pregnant Talisa
+PEOPLE: Talisa
+PEOPLE: Robb
+PEOPLE: Catelyn
+PEOPLE: Arya
+PEOPLE: Frey
+PEOPLE: Stark
+PEOPLE: Sandor
+PEOPLE: Grey Wind
+PEOPLE: Frey
+PEOPLE: A wounded Catelyn
+PEOPLE: Walder
+PEOPLE: Talisa
+PEOPLE: Catelyn
+PEOPLE: Joyeuse
+PEOPLE: Catelyn
+PEOPLE: Walder
+PEOPLE: Catelyn
+PEOPLE: Catelyn
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Lannisters
+PEOPLE: Robb
+PEOPLE: Catelyn
+PEOPLE: Walder
+PEOPLE: Black Walder
+PEOPLE: Weiss
+PEOPLE: Edmure
+PEOPLE: Jon
+PEOPLE: Bran
+PEOPLE: Jorah
+PEOPLE: Yunkai
+Processing:  ../episodesJSON/season_3/S03E10_mhysa.json
+PEOPLE: Red Wedding
+PEOPLE: Stark
+PEOPLE: Northern
+PEOPLE: Frey
+PEOPLE: Roose Bolton
+PEOPLE: a Frey
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Frey
+PEOPLE: Freys
+PEOPLE: Robb Stark
+PEOPLE: Frey
+PEOPLE: Sandor
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Frey
+PEOPLE: Lords Walder Frey
+PEOPLE: Roose Bolton
+PEOPLE: Riverrun
+PEOPLE: Tullys
+PEOPLE: Bolton
+PEOPLE: Starks
+PEOPLE: Tywin Lannister
+PEOPLE: a future Lannister
+PEOPLE: Bolton
+PEOPLE: Brynden Tully
+PEOPLE: Walder
+PEOPLE: Tully
+PEOPLE: Riverrun
+PEOPLE: Bolton
+PEOPLE: Bolton
+PEOPLE: Roose
+PEOPLE: North
+PEOPLE: Winterfell
+PEOPLE: Roose
+PEOPLE: Ramsay Snow
+PEOPLE: Theon Greyjoy
+PEOPLE: Ramsay Snow
+PEOPLE: Ramsay
+PEOPLE: Theon
+PEOPLE: Theon Greyjoy
+PEOPLE: Ramsay
+PEOPLE: Reek
+PEOPLE: Balon Greyjoy
+PEOPLE: Greyjoy
+PEOPLE: Theon
+PEOPLE: North
+PEOPLE: Theon
+PEOPLE: Ramsay
+PEOPLE: Winterfell
+PEOPLE: Robb Stark
+PEOPLE: Boltons
+PEOPLE: Starks
+PEOPLE: Balon
+PEOPLE: Balon
+PEOPLE: Greyjoy
+PEOPLE: Yara
+PEOPLE: Dreadfort
+PEOPLE: Arya Stark
+PEOPLE: Sandor Clegane
+PEOPLE: Frey
+PEOPLE: Grey Wind
+PEOPLE: Arya
+PEOPLE: Frey
+PEOPLE: Arya
+PEOPLE: Tyrion Lannister
+PEOPLE: Sansa Stark
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Arya
+PEOPLE: that Sansa
+PEOPLE: Tyrion
+PEOPLE: Robb
+PEOPLE: Catelyn Stark
+PEOPLE: Joffrey
+PEOPLE: Robb
+PEOPLE: Small Council
+PEOPLE: that Sansa
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Robb
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Robert
+PEOPLE: Targaryens
+PEOPLE: entire Small Council
+PEOPLE: Pycelle
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Seven Kingdoms
+PEOPLE: Walder Frey
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: a Lannister
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Davos Seaworth
+PEOPLE: Shireen Baratheon
+PEOPLE: Aegon
+PEOPLE: Melisandre
+PEOPLE: Gendry
+PEOPLE: Stannis
+PEOPLE: Gendry
+PEOPLE: Iron Throne
+PEOPLE: Davos
+PEOPLE: Onion Knight
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Melisandre
+PEOPLE: Five Kings
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Nightfort
+PEOPLE: Meera Reed
+PEOPLE: Bran
+PEOPLE: Watch
+PEOPLE: Bran
+PEOPLE: Samwell Tarly
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: White Walkers
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Night
+PEOPLE: Watch
+PEOPLE: Jeor Mormont
+PEOPLE: Gilly
+PEOPLE: Craster
+PEOPLE: Castle Black
+PEOPLE: White Walkers
+PEOPLE: Jon Snow
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Watch
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Yunkai
+PEOPLE: Missandei
+PEOPLE: Unburnt
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Ghiscari
+PEOPLE: Unsullied
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Mhysa
+PEOPLE: Weiss
+PEOPLE: Joffrey
+PEOPLE: Bran
+PEOPLE: Dany
+Processing:  ../episodesJSON/season_4/S04E01_two_swords.json
+PEOPLE: Tywin Lannister
+PEOPLE: ancestral Stark Valyrian
+PEOPLE: Ice
+PEOPLE: Jaime
+PEOPLE: Tywin
+PEOPLE: a Volantis
+PEOPLE: Jaime
+PEOPLE: Tywin
+PEOPLE: Podrick Payne
+PEOPLE: Bronn
+PEOPLE: Blackmont
+PEOPLE: Doran
+PEOPLE: Tyrion
+PEOPLE: Oberyn
+PEOPLE: Ellaria Sand
+PEOPLE: Baelish
+PEOPLE: Oberyn
+PEOPLE: Oberyn
+PEOPLE: Bronn
+PEOPLE: Oberyn
+PEOPLE: Tyrion
+PEOPLE: Oberyn
+PEOPLE: Gregor Clegane
+PEOPLE: Elia
+PEOPLE: Oberyn
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Shae
+PEOPLE: Varys
+PEOPLE: Qyburn
+PEOPLE: Cersei
+PEOPLE: Qyburn
+PEOPLE: Qyburn
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Margaery Tyrell
+PEOPLE: Olenna
+PEOPLE: Olenna
+PEOPLE: Brienne
+PEOPLE: Renly
+PEOPLE: Joffrey
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Tyrells
+PEOPLE: Joffrey
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Joffrey
+PEOPLE: Jaime
+PEOPLE: Sansa
+PEOPLE: Jaime
+PEOPLE: Brienne Brienne
+PEOPLE: Catelyn Stark
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: > Ygritte
+PEOPLE: Tormund
+PEOPLE: Tormund
+PEOPLE: Jon Snow
+PEOPLE: Thenn
+PEOPLE: Tormund
+PEOPLE: Thenns
+PEOPLE: Styr
+PEOPLE: Tormund
+PEOPLE: Watch
+PEOPLE: Styr
+PEOPLE: Tormund
+PEOPLE: Jon Snow
+PEOPLE: Ygritte
+PEOPLE: Robb
+PEOPLE: Jon
+PEOPLE: Robb
+PEOPLE: Robb
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Aemon
+PEOPLE: Alliser Thorne
+PEOPLE: Both Thorne
+PEOPLE: Slynt
+PEOPLE: Jon
+PEOPLE: Qhorin Halfhand
+PEOPLE: Qhorin
+PEOPLE: Jon
+PEOPLE: Slynt
+PEOPLE: Qhorin
+PEOPLE: Halfhand
+PEOPLE: Night
+PEOPLE: Slynt
+PEOPLE: Jon
+PEOPLE: Wall
+PEOPLE: Slynt
+PEOPLE: Aemon
+PEOPLE: Thorne
+PEOPLE: Jon
+PEOPLE: Mance Rayder
+PEOPLE: Night
+PEOPLE: Both Thorne
+PEOPLE: Slynt
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Thorne
+PEOPLE: Arya Stark
+PEOPLE: Hound Sandor Clegane
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Lannister
+PEOPLE: Arya
+PEOPLE: Needle
+PEOPLE: Needle
+PEOPLE: Hound
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Polliver
+PEOPLE: Landing
+PEOPLE: Polliver
+PEOPLE: Hound
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Polliver
+PEOPLE: Arya
+PEOPLE: Polliver
+PEOPLE: Lommy
+PEOPLE: Needle Fine
+PEOPLE: Polliver
+PEOPLE: Polliver
+PEOPLE: Lommy
+PEOPLE: Needle
+PEOPLE: Hound
+PEOPLE: _Across_the_Narrow_Sea > Daenerys Targaryen
+PEOPLE: Daenerys
+PEOPLE: Rhaegal
+PEOPLE: Viserion
+PEOPLE: Drogon
+PEOPLE: Daenerys
+PEOPLE: Drogon
+PEOPLE: Drogon
+PEOPLE: Daenerys
+PEOPLE: Grey Worm
+PEOPLE: Daario Naharis
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Daario
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Daenerys
+PEOPLE: Jon Snow
+PEOPLE: Dany
+PEOPLE: Meereen
+PEOPLE: Arya
+Processing:  ../episodesJSON/season_4/S04E02_the_lion_and_the_rose.json
+PEOPLE: Dragonstone
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Selyse Baratheon
+PEOPLE: Davos Seaworth
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Selyse
+PEOPLE: Stannis
+PEOPLE: Selyse
+PEOPLE: Shireen Baratheon Selyse
+PEOPLE: Light
+PEOPLE: Selyse
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Shireen
+PEOPLE: Dreadfort
+PEOPLE: Ramsay Snow
+PEOPLE: Reek
+PEOPLE: Roose Bolton
+PEOPLE: Dreadfort
+PEOPLE: Locke
+PEOPLE: Walda Bolton
+PEOPLE: Ramsay
+PEOPLE: Locke
+PEOPLE: Ramsay
+PEOPLE: Roose
+PEOPLE: Roose
+PEOPLE: Ramsay
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Warden
+PEOPLE: main Bolton
+PEOPLE: Ramsay
+PEOPLE: Balon
+PEOPLE: Roose
+PEOPLE: Ramsay
+PEOPLE: Ramsay
+PEOPLE: Reek
+PEOPLE: Reek
+PEOPLE: Ramsay
+PEOPLE: Bran
+PEOPLE: Rickon Stark
+PEOPLE: Ramsay
+PEOPLE: North
+PEOPLE: close Theon
+PEOPLE: Roose
+PEOPLE: Robb
+PEOPLE: Theon
+PEOPLE: Bran
+PEOPLE: Rickon Reek
+PEOPLE: Ramsay
+PEOPLE: Jon
+PEOPLE: Stark
+PEOPLE: Jon
+PEOPLE: Roose
+PEOPLE: Theon
+PEOPLE: Moat Cailin
+PEOPLE: Roose
+PEOPLE: Ramsay
+PEOPLE: B <
+PEOPLE: Summer
+PEOPLE: Bran Stark
+PEOPLE: Summer
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Summer
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Hodor
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Three
+PEOPLE: Bran
+PEOPLE: Ice
+PEOPLE: Red Keep
+PEOPLE: Bran
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Varys
+PEOPLE: Shae
+PEOPLE: Cersei
+PEOPLE: Shae
+PEOPLE: Tywin Lannister
+PEOPLE: Cersei
+PEOPLE: Landing
+PEOPLE: Tywin
+PEOPLE: Mace Tyrell
+PEOPLE: Seven Kingdoms
+PEOPLE: Margaery Tyrell
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Four Kings
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Loras
+PEOPLE: Loras
+PEOPLE: Sansa
+PEOPLE: Robb
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: Enraged
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Margaery
+PEOPLE: Joffrey
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Margaery
+PEOPLE: Joffrey
+PEOPLE: Margaery
+PEOPLE: Olenna
+PEOPLE: Joffrey
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Joffrey
+PEOPLE: Sansa
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Rose
+PEOPLE: Bronn
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Ramsay
+Processing:  ../episodesJSON/season_4/S04E03_breaker_of_chains.json
+PEOPLE: Cersei
+PEOPLE: Joffrey
+PEOPLE: Sansa Stark
+PEOPLE: Tywin
+PEOPLE: Tommen
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Sansa Stark
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Dontos
+PEOPLE: Baelish
+PEOPLE: Dontos
+PEOPLE: Sansa
+PEOPLE: Dontos
+PEOPLE: Sansa
+PEOPLE: Baelish
+PEOPLE: Tyrion
+PEOPLE: Joffrey
+PEOPLE: Tywin
+PEOPLE: Oberyn
+PEOPLE: Tyrion
+PEOPLE: Oberyn
+PEOPLE: Tywin
+PEOPLE: Oberyn
+PEOPLE: Oberyn
+PEOPLE: Dorne
+PEOPLE: Seven Kingdoms
+PEOPLE: Greyjoys
+PEOPLE: a Wildling
+PEOPLE: a Targaryen
+PEOPLE: Westeros
+PEOPLE: Tywin
+PEOPLE: Aegon Targaryen
+PEOPLE: Westeros
+PEOPLE: Oberyn
+PEOPLE: Podrick Payne
+PEOPLE: Pod
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Pod
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Pod
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Pod
+PEOPLE: Pod
+PEOPLE: Tyrion
+PEOPLE: Riverlands
+PEOPLE: Lysa Tully
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Clegane
+PEOPLE: Arya
+PEOPLE: Clegane
+PEOPLE: Joffrey
+PEOPLE: Davos
+PEOPLE: Iron
+PEOPLE: Davos
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Gilly
+PEOPLE: Craster
+PEOPLE: Mance Rayder
+PEOPLE: Castle Black
+PEOPLE: Mance
+PEOPLE: Night
+PEOPLE: Watch
+PEOPLE: Mance
+PEOPLE: Meereen
+PEOPLE: Meereen
+PEOPLE: Dany
+PEOPLE: Meereen
+PEOPLE: Dany
+PEOPLE: Great Masters
+PEOPLE: Weiss
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Sam
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Daenerys
+PEOPLE: Meereen
+Processing:  ../episodesJSON/season_4/S04E04_oathkeeper.json
+PEOPLE: _Across_the_Narrow_Sea > Daenerys
+PEOPLE: Great Masters
+PEOPLE: Common Tongue
+PEOPLE: Naath
+PEOPLE: Dany
+PEOPLE: Meereen
+PEOPLE: Grey Worm
+PEOPLE: Barristan
+PEOPLE: her Targaryen
+PEOPLE: crucified Great Masters
+PEOPLE: Meereen
+PEOPLE: Ghis
+PEOPLE: Jon Snow
+PEOPLE: Grenn
+PEOPLE: Locke
+PEOPLE: Alliser Thorne
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Janos Slynt
+PEOPLE: that Jon
+PEOPLE: Thorne
+PEOPLE: Aemon
+PEOPLE: Jon
+PEOPLE: Mormont
+PEOPLE: Jon
+PEOPLE: Samwell Tarly
+PEOPLE: Sam
+PEOPLE: Locke
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Mormont
+PEOPLE: Grenn
+PEOPLE: Jon
+PEOPLE: Locke
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Cersei
+PEOPLE: Joffrey
+PEOPLE: Tyrion
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Sansa Stark
+PEOPLE: Sansa
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Olenna
+PEOPLE: Tommen
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Olenna
+PEOPLE: Margaery
+PEOPLE: Margaery
+PEOPLE: Margaery
+PEOPLE: Kingsguard
+PEOPLE: Tommen
+PEOPLE: Jaime
+PEOPLE: Sansa
+PEOPLE: Cersei
+PEOPLE: Ned Stark
+PEOPLE: Ned Stark
+PEOPLE: Podrick Payne
+PEOPLE: Brienne
+PEOPLE: Sansa
+PEOPLE: Jaime
+PEOPLE: E <
+PEOPLE: Sansa
+PEOPLE: Joffrey Baratheon
+PEOPLE: first Baelish
+PEOPLE: Sansa
+PEOPLE: Baelish
+PEOPLE: Baelish
+PEOPLE: Sansa
+PEOPLE: Harrenhal
+PEOPLE: Lannisters
+PEOPLE: Sansa
+PEOPLE: Baelish
+PEOPLE: Joffrey
+PEOPLE: B <
+PEOPLE: Craster
+PEOPLE: Jeor Mormont
+PEOPLE: Rast
+PEOPLE: Craster
+PEOPLE: Rast
+PEOPLE: Rast
+PEOPLE: Ghost
+PEOPLE: White Walkers
+PEOPLE: Summer
+PEOPLE: Bran
+PEOPLE: Summer
+PEOPLE: Bran
+PEOPLE: Ghost
+PEOPLE: Hodor
+PEOPLE: Karl
+PEOPLE: Meera
+PEOPLE: Jojen
+PEOPLE: Meera
+PEOPLE: Karl
+PEOPLE: White Walker
+PEOPLE: Craster
+PEOPLE: White Walker
+PEOPLE: dark garbed White Walkers
+PEOPLE: White Walker
+PEOPLE: Oathkeeper
+PEOPLE: Bryan Cogman
+PEOPLE: Jon
+PEOPLE: Meera
+PEOPLE: Hodor
+Processing:  ../episodesJSON/season_4/S04E05_first_of_his_name.json
+PEOPLE: Great Pyramid
+PEOPLE: Daenerys
+PEOPLE: Joffrey
+PEOPLE: Tommen
+PEOPLE: Daario Naharis
+PEOPLE: Meereen
+PEOPLE: Westeros
+PEOPLE: Barristan Selmy
+PEOPLE: Daenerys
+PEOPLE: Jorah Mormont
+PEOPLE: Wise Masters
+PEOPLE: Astapor
+PEOPLE: Daenerys
+PEOPLE: Cleon
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: last Targaryen
+PEOPLE: Dany
+PEOPLE: Meereen
+PEOPLE: > Tommen
+PEOPLE: Cersei
+PEOPLE: Oberyn
+PEOPLE: Myrcella
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Tyrells
+PEOPLE: Tywin
+PEOPLE: Bank
+PEOPLE: Podrick
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Brienne
+PEOPLE: Jon Snow
+PEOPLE: Podrick
+PEOPLE: Podrick
+PEOPLE: Mandon Moore
+PEOPLE: Tyrion
+PEOPLE: Petyr
+PEOPLE: Sansa
+PEOPLE: a Tully
+PEOPLE: Alayne
+PEOPLE: Sansa
+PEOPLE: Lysa Arryn
+PEOPLE: Tyrion
+PEOPLE: Robin Arryn
+PEOPLE: Petyr
+PEOPLE: Sansa
+PEOPLE: Robin
+PEOPLE: Sansa
+PEOPLE: Lysa
+PEOPLE: Petyr
+PEOPLE: Petyr
+PEOPLE: Lysa
+PEOPLE: A delighted Lysa
+PEOPLE: an exasperated Sansa
+PEOPLE: Lysa
+PEOPLE: Lysa
+PEOPLE: Lysa
+PEOPLE: Catelyn
+PEOPLE: Lysa
+PEOPLE: Petyr
+PEOPLE: Petyr
+PEOPLE: Petyr
+PEOPLE: Petyr
+PEOPLE: neither Tyrion
+PEOPLE: Petyr
+PEOPLE: Robin
+PEOPLE: Sansa
+PEOPLE: Landing
+PEOPLE: Sandor Clegane
+PEOPLE: Arya Stark
+PEOPLE: Clegane
+PEOPLE: B <
+PEOPLE: Locke
+PEOPLE: Watch
+PEOPLE: Locke
+PEOPLE: Meera
+PEOPLE: Hodor
+PEOPLE: Locke
+PEOPLE: Jon
+PEOPLE: Karl
+PEOPLE: Meera
+PEOPLE: Karl
+PEOPLE: Rast
+PEOPLE: Karl
+PEOPLE: Locke
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Hodor
+PEOPLE: Locke
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Jon
+PEOPLE: Craster
+PEOPLE: Karl
+PEOPLE: Jon
+PEOPLE: Karl
+PEOPLE: Locke
+PEOPLE: Rast
+PEOPLE: Ghost
+PEOPLE: Craster
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Keep
+PEOPLE: Weiss
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Crown
+PEOPLE: Dany
+PEOPLE: Jon
+Processing:  ../episodesJSON/season_4/S04E06_the_laws_of_gods_and_men.json
+PEOPLE: Yara Greyjoy
+PEOPLE: Theon
+PEOPLE: North
+PEOPLE: Ramsay
+PEOPLE: Yara
+PEOPLE: Theon
+PEOPLE: Yara
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Reek
+PEOPLE: Ramsay
+PEOPLE: Yara
+PEOPLE: Yara
+PEOPLE: Theon
+PEOPLE: Ramsay
+PEOPLE: Ramsay
+PEOPLE: Moat Cailin
+PEOPLE: Theon Greyjoy
+PEOPLE: Tywin
+PEOPLE: Varys
+PEOPLE: Hound
+PEOPLE: Daenerys
+PEOPLE: Meereen
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Tommen
+PEOPLE: Meryn Trant
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Kingsguard
+PEOPLE: Jaime
+PEOPLE: Night
+PEOPLE: Joffrey
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Eddard Stark
+PEOPLE: Jaime
+PEOPLE: Tywin
+PEOPLE: Shae
+PEOPLE: Tyrion
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Stannis Baratheon
+PEOPLE: Stannis
+PEOPLE: Tywin
+PEOPLE: Joffrey Baratheon
+PEOPLE: Tywin
+PEOPLE: Joffrey
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Tywin Lannister
+PEOPLE: Bank
+PEOPLE: Davos
+PEOPLE: _In_Meereen > Drogon
+PEOPLE: Meereen
+PEOPLE: Daenerys
+PEOPLE: Hizdahr zo Loraq
+PEOPLE: Meereenese Great Masters
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Men
+PEOPLE: Bryan Cogman
+PEOPLE: Stannis
+PEOPLE: Davos
+Processing:  ../episodesJSON/season_4/S04E07_mockingbird.json
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Lollys Stokeworth
+PEOPLE: Mountain
+PEOPLE: Cersei
+PEOPLE: Clegane
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Elia
+PEOPLE: Cersei
+PEOPLE: Oberyn
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Oberyn
+PEOPLE: Elia
+PEOPLE: Oberyn
+PEOPLE: Oberyn
+PEOPLE: Cersei
+PEOPLE: Gregor
+PEOPLE: Cersei
+PEOPLE: _Across_the_Narrow_Sea > Daario
+PEOPLE: Daenerys
+PEOPLE: Daario
+PEOPLE: Daenerys
+PEOPLE: Dany
+PEOPLE: Daario
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Daario
+PEOPLE: Second Sons
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Hizdahr zo Loraq
+PEOPLE: Yunkai
+PEOPLE: Daario
+PEOPLE: Jorah
+PEOPLE: Selyse
+PEOPLE: Selyse
+PEOPLE: Light
+PEOPLE: Selyse
+PEOPLE: Red Priestess
+PEOPLE: Light
+PEOPLE: Selyse
+PEOPLE: North
+PEOPLE: Melisandre
+PEOPLE: Selyse
+PEOPLE: Jon
+PEOPLE: Craster
+PEOPLE: Ghost
+PEOPLE: Alliser Thorne
+PEOPLE: Jon
+PEOPLE: Night
+PEOPLE: Wall
+PEOPLE: Castle Black
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Arya
+PEOPLE: Sandor
+PEOPLE: Sandor
+PEOPLE: Sandor
+PEOPLE: Biter
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Sandor
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Brienne
+PEOPLE: Stark
+PEOPLE: Sansa Stark
+PEOPLE: Hot Pie
+PEOPLE: Starks
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Podrick
+PEOPLE: Hot Pie
+PEOPLE: Sansa
+PEOPLE: her sister Arya
+PEOPLE: Brienne
+PEOPLE: Arya
+PEOPLE: Ned
+PEOPLE: Arya
+PEOPLE: Podrick
+PEOPLE: Lysa Arryn
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Eyrie
+PEOPLE: Sansa
+PEOPLE: Winterfell
+PEOPLE: Robin
+PEOPLE: Moon Door
+PEOPLE: Sansa
+PEOPLE: Winterfell
+PEOPLE: a Moon Door
+PEOPLE: Sansa
+PEOPLE: Robin
+PEOPLE: Sansa
+PEOPLE: Robin
+PEOPLE: Sansa
+PEOPLE: Petyr Baelish
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Lysa
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Petyr
+PEOPLE: Petyr
+PEOPLE: Sansa
+PEOPLE: Lysa
+PEOPLE: Lysa
+PEOPLE: Lysa
+PEOPLE: Petyr
+PEOPLE: Moon Door
+PEOPLE: Mockingbird
+PEOPLE: Weiss
+PEOPLE: Daario
+PEOPLE: Wall
+PEOPLE: Brienne
+Processing:  ../episodesJSON/season_4/S04E08_the_mountain_and_the_viper.json
+PEOPLE: Ramsay Snow
+PEOPLE: Theon Greyjoy
+PEOPLE: Moat Cailin
+PEOPLE: Theon
+PEOPLE: Ramsay
+PEOPLE: Greyjoy
+PEOPLE: Roose
+PEOPLE: Ramsay
+PEOPLE: Reek
+PEOPLE: Winterfell
+PEOPLE: Tormund
+PEOPLE: Gilly
+PEOPLE: News
+PEOPLE: M
+PEOPLE: Town
+PEOPLE: Sam
+PEOPLE: Grenn
+PEOPLE: Jon Snow
+PEOPLE: Pypar
+PEOPLE: Edd
+PEOPLE: Sam
+PEOPLE: a White Walker
+PEOPLE: Sam
+PEOPLE: Town
+PEOPLE: Castle Black
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Dothraki
+PEOPLE: Missandei
+PEOPLE: Grey Worm
+PEOPLE: Unsullied
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Grey Worm
+PEOPLE: Jorah
+PEOPLE: Grey Worm
+PEOPLE: Grey Worm
+PEOPLE: Unsullied
+PEOPLE: Missandei
+PEOPLE: Grey Worm
+PEOPLE: Barristan Selmy
+PEOPLE: Unsullied
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Barristan
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Varys
+PEOPLE: Khal Drogo
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Meereen
+PEOPLE: Slaver
+PEOPLE: Jorah
+PEOPLE: Meereen
+PEOPLE: Petyr Baelish
+PEOPLE: Lysa Arryn
+PEOPLE: Baelish
+PEOPLE: Lysa
+PEOPLE: Littlefinger
+PEOPLE: Alayne
+PEOPLE: Sansa
+PEOPLE: Lysa
+PEOPLE: Littlefinger
+PEOPLE: Lysa
+PEOPLE: Sansa
+PEOPLE: Baelish
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Littlefinger
+PEOPLE: Littlefinger
+PEOPLE: Robin
+PEOPLE: Sansa
+PEOPLE: Sandor Clegane
+PEOPLE: Arya Stark
+PEOPLE: Eyrie
+PEOPLE: Lysa
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Orson
+PEOPLE: Oberyn
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Oberyn
+PEOPLE: Oberyn
+PEOPLE: Ellaria
+PEOPLE: Mountain
+PEOPLE: Oberyn
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Tywin Lannister
+PEOPLE: Gregor
+PEOPLE: Gregor
+PEOPLE: Gregor
+PEOPLE: Elia Martell
+PEOPLE: Clegane
+PEOPLE: Oberyn
+PEOPLE: Gregor
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: a furious Oberyn
+PEOPLE: Gregor
+PEOPLE: Elia
+PEOPLE: Elia
+PEOPLE: Tywin
+PEOPLE: Oberyn
+PEOPLE: Gregor
+PEOPLE: Gregor
+PEOPLE: Oberyn
+PEOPLE: Elia
+PEOPLE: Oberyn
+PEOPLE: Viper
+PEOPLE: Ellaria
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Tywin
+PEOPLE: clear Tyrion
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Viper
+PEOPLE: Weiss
+PEOPLE: Mole
+Processing:  ../episodesJSON/season_4/S04E09_the_watchers_on_the_wall.json
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Wall
+PEOPLE: a Thenn
+PEOPLE: Tormund
+PEOPLE: Ygritte
+PEOPLE: Wall
+PEOPLE: Ygritte
+PEOPLE: Styr
+PEOPLE: Styr
+PEOPLE: Jon Snow
+PEOPLE: Aemon
+PEOPLE: Castle Black
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Mole
+PEOPLE: Sam
+PEOPLE: Aemon
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Town
+PEOPLE: Castle Black
+PEOPLE: Sam
+PEOPLE: Pyp
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Thenn
+PEOPLE: Castle Black
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Thorne
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Wall
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Pypar
+PEOPLE: Pypar
+PEOPLE: Pypar
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Pypar
+PEOPLE: a White Walker
+PEOPLE: Sam
+PEOPLE: Ygritte
+PEOPLE: Ygritte
+PEOPLE: Tormund
+PEOPLE: Alliser
+PEOPLE: Pypar
+PEOPLE: Castle Black
+PEOPLE: Sam
+PEOPLE: Alliser Thorne
+PEOPLE: Alliser
+PEOPLE: Castle Black
+PEOPLE: Alliser
+PEOPLE: Janos
+PEOPLE: Jon
+PEOPLE: Wall
+PEOPLE: Wall
+PEOPLE: Hobb
+PEOPLE: Styr
+PEOPLE: Ygritte
+PEOPLE: Castle Black
+PEOPLE: Samwell Tarly
+PEOPLE: Pyp
+PEOPLE: Sam
+PEOPLE: Pyp
+PEOPLE: Castle Black
+PEOPLE: Thenn
+PEOPLE: Alliser Thorne
+PEOPLE: Castle Black
+PEOPLE: Thorne
+PEOPLE: Mag Mar Tun Doh Weg
+PEOPLE: Wall
+PEOPLE: Hill
+PEOPLE: Grenn
+PEOPLE: Night
+PEOPLE: Watch
+PEOPLE: Sam
+PEOPLE: Wall
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Styr
+PEOPLE: Longclaw
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Styr
+PEOPLE: Jon
+PEOPLE: Ygritte
+PEOPLE: Ygritte
+PEOPLE: Ygritte
+PEOPLE: Olly
+PEOPLE: Jon
+PEOPLE: Tormund
+PEOPLE: Jon
+PEOPLE: 'scythe
+PEOPLE: Eddison
+PEOPLE: that Mance
+PEOPLE: Tormund
+PEOPLE: Watch
+PEOPLE: Mance Rayder
+PEOPLE: Castle Black
+PEOPLE: Jon
+PEOPLE: Mance Rayder
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Grenn
+PEOPLE: Jon
+PEOPLE: Jeor Mormont
+PEOPLE: Longclaw
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Wall
+PEOPLE: Weiss
+PEOPLE: Castle Black
+PEOPLE: Tormund
+PEOPLE: Ygritte
+Processing:  ../episodesJSON/season_4/S04E10_the_children.json
+PEOPLE: > Jon Snow
+PEOPLE: Wall
+PEOPLE: Mance
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Qhorin
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Qhorin
+PEOPLE: Mance
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Jon
+PEOPLE: Mag
+PEOPLE: First Men
+PEOPLE: Grenn
+PEOPLE: Mance Mance
+PEOPLE: Watch
+PEOPLE: Watch
+PEOPLE: Castle Black
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Castle Black
+PEOPLE: Castle Black
+PEOPLE: Wall
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Watch
+PEOPLE: Wall
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Castle Black
+PEOPLE: Mance
+PEOPLE: Stannis
+PEOPLE: Mance
+PEOPLE: Free Folk
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: Eddard Stark
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Eddard
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Aemon
+PEOPLE: Aemon
+PEOPLE: Aemon
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Jon
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Tormund
+PEOPLE: Tormund
+PEOPLE: Aemon
+PEOPLE: Jon
+PEOPLE: Aemon
+PEOPLE: Tormund
+PEOPLE: Ygritte
+PEOPLE: Jon
+PEOPLE: Tormund
+PEOPLE: Tormund
+PEOPLE: Ygritte
+PEOPLE: Wall
+PEOPLE: a sacred Heart
+PEOPLE: Jon
+PEOPLE: Bran Stark
+PEOPLE: Three
+PEOPLE: Jojen Reed
+PEOPLE: Meera
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Jojen
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Jojen
+PEOPLE: Meera
+PEOPLE: Jojen
+PEOPLE: Meera
+PEOPLE: Jojen
+PEOPLE: Meera
+PEOPLE: Meera
+PEOPLE: Jojen
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: First Men
+PEOPLE: Bran
+PEOPLE: Westeros
+PEOPLE: First Men
+PEOPLE: Gods
+PEOPLE: Forest
+PEOPLE: Bran
+PEOPLE: Three
+PEOPLE: Three
+PEOPLE: Raven
+PEOPLE: Greensight
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Jojen
+PEOPLE: Bran
+PEOPLE: Three
+PEOPLE: Daenerys Targaryen
+PEOPLE: Fennesz
+PEOPLE: Common Tongue
+PEOPLE: Fennesz
+PEOPLE: Calla
+PEOPLE: Targaryen
+PEOPLE: Fennesz
+PEOPLE: Mighdal
+PEOPLE: Mighdal
+PEOPLE: Fennesz
+PEOPLE: Fennesz
+PEOPLE: Fennez
+PEOPLE: Fennesz
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Meereen
+PEOPLE: Fennesz
+PEOPLE: Barristan Selmy
+PEOPLE: Missandei
+PEOPLE: Drogon
+PEOPLE: Daenerys
+PEOPLE: Meereen
+PEOPLE: Grey Worm
+PEOPLE: Drogon
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Grand
+PEOPLE: Qyburn
+PEOPLE: Oberyn Martell
+PEOPLE: Gregor
+PEOPLE: Pycelle
+PEOPLE: Qyburn
+PEOPLE: Pycelle
+PEOPLE: Qyburn
+PEOPLE: Gregor
+PEOPLE: Pycelle
+PEOPLE: Pycelle
+PEOPLE: Qyburn
+PEOPLE: Gregor
+PEOPLE: Qyburn
+PEOPLE: Cersei
+PEOPLE: Qyburn
+PEOPLE: Cersei
+PEOPLE: Qyburn
+PEOPLE: Gregor
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Loras
+PEOPLE: Highgarden
+PEOPLE: both Margaery
+PEOPLE: Tywin
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Cersei
+PEOPLE: Tywin
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Cersei
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Tower
+PEOPLE: Hand
+PEOPLE: Tywin
+PEOPLE: Shae
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Jaime
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Shae
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Red Keep
+PEOPLE: Tywin
+PEOPLE: Varys
+PEOPLE: Podrick Payne
+PEOPLE: Arya Stark
+PEOPLE: Sandor Clegane
+PEOPLE: Lysa Arryn
+PEOPLE: Brienne
+PEOPLE: Arya
+PEOPLE: Brienne
+PEOPLE: Arya
+PEOPLE: Brienne
+PEOPLE: Jaime Lannister
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Arya
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Hound
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Winterfell
+PEOPLE: Sandor
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Sandor
+PEOPLE: Sansa
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: North
+PEOPLE: Arya
+PEOPLE: Faceless Man
+PEOPLE: Jaqen H'ghar
+PEOPLE: Jaqen
+PEOPLE: Valar
+PEOPLE: Arya
+PEOPLE: Westeros
+PEOPLE: Children
+PEOPLE: Weiss
+PEOPLE: Bran
+Processing:  ../episodesJSON/season_5/S05E01_the_wars_to_come.json
+PEOPLE: Cersei
+PEOPLE: Prologue
+PEOPLE: Melara Hetherspoon
+PEOPLE: Melara
+PEOPLE: Cersei
+PEOPLE: a Woods
+PEOPLE: Maggy
+PEOPLE: Cersei
+PEOPLE: Maggy
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Maggy
+PEOPLE: Maggy
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Olyvar
+PEOPLE: a little like Dorne
+PEOPLE: Olyvar
+PEOPLE: Loras
+PEOPLE: Tywin
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Pentos
+PEOPLE: Varys
+PEOPLE: Pentos
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Illyrio Mopatis
+PEOPLE: Westeros
+PEOPLE: Varys
+PEOPLE: Westeros
+PEOPLE: Seven Kingdoms
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Daenerys Targaryen
+PEOPLE: Tyrion
+PEOPLE: Unsullied
+PEOPLE: Targaryen
+PEOPLE: Meereen
+PEOPLE: Daenerys
+PEOPLE: Hizdahr zo Loraq
+PEOPLE: Daario Naharis
+PEOPLE: Meereen
+PEOPLE: Yunkai
+PEOPLE: Wise Masters
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Daario
+PEOPLE: Second Sons
+PEOPLE: Daenerys
+PEOPLE: that Drogon
+PEOPLE: Daario
+PEOPLE: Daenerys
+PEOPLE: Viserion
+PEOPLE: Drogon
+PEOPLE: Littlefinger
+PEOPLE: Sansa
+PEOPLE: Robin
+PEOPLE: Sansa
+PEOPLE: Baelish
+PEOPLE: Yohn Royce
+PEOPLE: Robin
+PEOPLE: Littlefinger
+PEOPLE: Sansa
+PEOPLE: Yohn Littlefinger
+PEOPLE: Sansa
+PEOPLE: Brienne
+PEOPLE: Jaime
+PEOPLE: Stark
+PEOPLE: Arya
+PEOPLE: Pod
+PEOPLE: Brienne
+PEOPLE: Jon
+PEOPLE: Olly
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: North
+PEOPLE: Free Folk
+PEOPLE: Jon
+PEOPLE: Mance Rayder
+PEOPLE: Jon
+PEOPLE: Mance
+PEOPLE: Melisandre
+PEOPLE: Jon
+PEOPLE: Gilly
+PEOPLE: Mance
+PEOPLE: Come
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Dany
+PEOPLE: Jon
+Processing:  ../episodesJSON/season_5/S05E02_the_house_of_black_and_white.json
+PEOPLE: Arya
+PEOPLE: Ternesio Terys
+PEOPLE: Arya Stark
+PEOPLE: Arya
+PEOPLE: Jaqen H'ghar
+PEOPLE: Braavos
+PEOPLE: White
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Jaqen H'ghar
+PEOPLE: Arya
+PEOPLE: Tyrion Lannister
+PEOPLE: Varys
+PEOPLE: Meereen
+PEOPLE: Volantis
+PEOPLE: Hand
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei Lannister
+PEOPLE: Cersei
+PEOPLE: unique Lannister
+PEOPLE: Cersei
+PEOPLE: Myrcella
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: Qyburn
+PEOPLE: Whisperers
+PEOPLE: Hand
+PEOPLE: Tommen
+PEOPLE: Tommen
+PEOPLE: Mace Tyrell
+PEOPLE: Coin
+PEOPLE: Ships
+PEOPLE: War
+PEOPLE: Pycelle
+PEOPLE: Kevan
+PEOPLE: Cersei
+PEOPLE: Small Council
+PEOPLE: Tommen
+PEOPLE: Bronn
+PEOPLE: Lollys Stokeworth
+PEOPLE: Lollys
+PEOPLE: Jaime
+PEOPLE: that Cersei
+PEOPLE: Lollys
+PEOPLE: Bronn
+PEOPLE: Jaime
+PEOPLE: Myrcella
+PEOPLE: Ellaria
+PEOPLE: Doran
+PEOPLE: Dorne
+PEOPLE: Areo Hotah
+PEOPLE: Doran
+PEOPLE: Myrcella
+PEOPLE: Trystane Martell
+PEOPLE: Doran
+PEOPLE: Oberyn
+PEOPLE: Dorne
+PEOPLE: Sand Snakes
+PEOPLE: Ellaria
+PEOPLE: Doran
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Renly Baratheon
+PEOPLE: Catelyn
+PEOPLE: Sansa
+PEOPLE: Littlefinger
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Podrick
+PEOPLE: Sansa
+PEOPLE: Brienne
+PEOPLE: _In_Meereen > Barristan Selmy
+PEOPLE: Grey Worm
+PEOPLE: Second Sons
+PEOPLE: Daario
+PEOPLE: this Harpy
+PEOPLE: Barristan
+PEOPLE: Viserys
+PEOPLE: Mad
+PEOPLE: Targaryen
+PEOPLE: Daenerys
+PEOPLE: Mossador
+PEOPLE: Mossador
+PEOPLE: Daenerys
+PEOPLE: Drogon
+PEOPLE: Drogon
+PEOPLE: Shireen Baratheon
+PEOPLE: Castle Black
+PEOPLE: Craster
+PEOPLE: Selyse
+PEOPLE: Shireen
+PEOPLE: Gilly
+PEOPLE: Stannis
+PEOPLE: Bear Island
+PEOPLE: Stark
+PEOPLE: Bear Island
+PEOPLE: Jon Snow
+PEOPLE: Jon
+PEOPLE: Lyanna Mormont
+PEOPLE: a Stark
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: Night
+PEOPLE: Winterfell
+PEOPLE: North
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: Janos Slynt
+PEOPLE: Snow
+PEOPLE: Thorne
+PEOPLE: Aemon
+PEOPLE: Jon
+PEOPLE: White
+PEOPLE: Arya
+PEOPLE: Pod
+PEOPLE: Brienne
+PEOPLE: Ellaria Sand
+PEOPLE: Dany
+Processing:  ../episodesJSON/season_5/S05E03_high_sparrow.json
+PEOPLE: > Tommen
+PEOPLE: Margaery
+PEOPLE: Cersei Lannister
+PEOPLE: Tommen Baratheon
+PEOPLE: Margaery Tyrell
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: Cersei
+PEOPLE: Casterly Rock
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Sparrows
+PEOPLE: Sparrows
+PEOPLE: Small Council
+PEOPLE: Sparrows
+PEOPLE: Cersei
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: High Septon
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: Qyburn
+PEOPLE: Qyburn
+PEOPLE: Gregor Clegane
+PEOPLE: Qyburn
+PEOPLE: Roose
+PEOPLE: Boltons
+PEOPLE: Bolton
+PEOPLE: North
+PEOPLE: Sansa Stark
+PEOPLE: Moat Cailin
+PEOPLE: Sansa
+PEOPLE: Littlefinger
+PEOPLE: Ramsay Bolton
+PEOPLE: Boltons
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Roose
+PEOPLE: Ramsay
+PEOPLE: Myranda
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Reek
+PEOPLE: Baelish
+PEOPLE: Ramsay
+PEOPLE: Littlefinger
+PEOPLE: Lannisters
+PEOPLE: that Tywin
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Sansa
+PEOPLE: _At_the_Wall >
+PEOPLE: Stannis Baratheon
+PEOPLE: Jon
+PEOPLE: Night
+PEOPLE: Castle Black
+PEOPLE: Night
+PEOPLE: Jon
+PEOPLE: Tormund
+PEOPLE: Stannis
+PEOPLE: Alliser Thorne
+PEOPLE: Eastwatch
+PEOPLE: Jon
+PEOPLE: Davos Seaworth
+PEOPLE: Jon
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Jon Snow
+PEOPLE: Jon
+PEOPLE: Snow
+PEOPLE: Greyguard
+PEOPLE: Slynt
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Janos
+PEOPLE: Alliser
+PEOPLE: Dolorous Edd
+PEOPLE: Slynt
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Robert Baratheon
+PEOPLE: Stannis Baratheon
+PEOPLE: Jon
+PEOPLE: Arya
+PEOPLE: Arya Stark
+PEOPLE: Jaqen H'ghar
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya Stark
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Needle
+PEOPLE: Jaqen
+PEOPLE: Waif
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: a Red Priestess
+PEOPLE: only Red Priest
+PEOPLE: Red Priestess
+PEOPLE: a Dragon
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: High Sparrow
+PEOPLE: Arya
+PEOPLE: Margaery
+PEOPLE: Varys
+Processing:  ../episodesJSON/season_5/S05E04_sons_of_the_harpy.json
+PEOPLE: a Small Council
+PEOPLE: Coin Mace Tyrell
+PEOPLE: Royal Fleet
+PEOPLE: Tyrells
+PEOPLE: Mace
+PEOPLE: Cersei
+PEOPLE: Meryn Trant
+PEOPLE: Pycelle
+PEOPLE: Small Council
+PEOPLE: Pycelle
+PEOPLE: Cersei
+PEOPLE: Five Kings
+PEOPLE: Silent Sisters
+PEOPLE: High Sparrow
+PEOPLE: Faith Militant
+PEOPLE: High Septon
+PEOPLE: Targaryens
+PEOPLE: Cersei
+PEOPLE: Faith Militant
+PEOPLE: Faith
+PEOPLE: High Sparrow
+PEOPLE: new Faith Militant
+PEOPLE: City Watch
+PEOPLE: Littlefinger
+PEOPLE: Olyvar
+PEOPLE: Loras
+PEOPLE: Faith Militant
+PEOPLE: Seven Pointed Star
+PEOPLE: Faith
+PEOPLE: Lancel
+PEOPLE: Loras Tyrell
+PEOPLE: Lancel
+PEOPLE: Loras
+PEOPLE: Margaery Tyrell
+PEOPLE: Loras
+PEOPLE: Loras
+PEOPLE: Cersei
+PEOPLE: Loras
+PEOPLE: High Sparrow
+PEOPLE: High Sparrow
+PEOPLE: Great Sept
+PEOPLE: High Sparrow
+PEOPLE: Kingsguard
+PEOPLE: Tommen
+PEOPLE: Faith Militant
+PEOPLE: Tommen
+PEOPLE: Tommen
+PEOPLE: Jaime Lannister
+PEOPLE: Bronn
+PEOPLE: a Pentoshi
+PEOPLE: Oldtown
+PEOPLE: past Tarth
+PEOPLE: Brienne
+PEOPLE: Dorne
+PEOPLE: Sunspear
+PEOPLE: Myrcella
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Tyrion
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: a Lannister
+PEOPLE: Dorne Jaime
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Sand Snakes
+PEOPLE: Sunspear
+PEOPLE: a peasant Nymeria Sand
+PEOPLE: Nym
+PEOPLE: Ellaria
+PEOPLE: Dorne
+PEOPLE: Ellaria
+PEOPLE: Cersei
+PEOPLE: Pentoshi
+PEOPLE: Bronn
+PEOPLE: Nymeria
+PEOPLE: Ellaria
+PEOPLE: Dorne
+PEOPLE: Nymeria
+PEOPLE: Tyene
+PEOPLE: Oberyn
+PEOPLE: Oberyn
+PEOPLE: Tyrion
+PEOPLE: Jorah Mormont
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Jorah Mormont
+PEOPLE: Cersei
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Melisandre
+PEOPLE: Jon Snow
+PEOPLE: Castle Black
+PEOPLE: Selyse
+PEOPLE: Selyse
+PEOPLE: Jon
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Light
+PEOPLE: Greyscale
+PEOPLE: Selyse
+PEOPLE: Melisandre
+PEOPLE: Winterfell
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Jon
+PEOPLE: Samwell
+PEOPLE: Roose Bolton
+PEOPLE: other minor Houses Jon
+PEOPLE: Jon
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: Winterfell
+PEOPLE: a Stark
+PEOPLE: Jon
+PEOPLE: Snow
+PEOPLE: Light
+PEOPLE: Jon
+PEOPLE: Melisandre
+PEOPLE: Melisandre
+PEOPLE: Snow
+PEOPLE: Melisandre
+PEOPLE: Jon Snow
+PEOPLE: Stannis
+PEOPLE: Castle Black
+PEOPLE: Castle Black
+PEOPLE: Shireen
+PEOPLE: Selyse
+PEOPLE: Stannis
+PEOPLE: Shireen
+PEOPLE: Shireen
+PEOPLE: Shireen
+PEOPLE: Shireen
+PEOPLE: Stannis
+PEOPLE: Valyria
+PEOPLE: Stannis
+PEOPLE: Shireen
+PEOPLE: Stannis
+PEOPLE: Shireen
+PEOPLE: Stannis
+PEOPLE: Sansa
+PEOPLE: Sansa Stark
+PEOPLE: Lyanna Stark
+PEOPLE: Robert Baratheon
+PEOPLE: Eddard Stark
+PEOPLE: Lyanna
+PEOPLE: Littlefinger
+PEOPLE: Lyanna
+PEOPLE: Lyanna
+PEOPLE: Robert
+PEOPLE: Rhaegar
+PEOPLE: Rhaegar
+PEOPLE: Rhaegar
+PEOPLE: Elia Martell
+PEOPLE: Rhaegar
+PEOPLE: Robert
+PEOPLE: Targaryen
+PEOPLE: Rhaegar
+PEOPLE: Sansa
+PEOPLE: Littlefinger
+PEOPLE: Cersei
+PEOPLE: Boltons
+PEOPLE: Westeros
+PEOPLE: Sansa
+PEOPLE: Stark
+PEOPLE: Sansa
+PEOPLE: Stannis
+PEOPLE: Littlefinger
+PEOPLE: Ramsay Bolton
+PEOPLE: Sansa
+PEOPLE: Boltons
+PEOPLE: Sansa
+PEOPLE: Littlefinger
+PEOPLE: Littlefinger
+PEOPLE: _In_Meereen > Dany
+PEOPLE: Daenerys Targaryen
+PEOPLE: Rhaegar Targaryen
+PEOPLE: Red Keep
+PEOPLE: Barristan
+PEOPLE: Rhaegar
+PEOPLE: Daenerys
+PEOPLE: Rhaegar
+PEOPLE: An injured Grey Worm
+PEOPLE: Sons
+PEOPLE: Rhaegar
+PEOPLE: Barristan
+PEOPLE: Rhaegar
+PEOPLE: Flea Bottom
+PEOPLE: Hizdahr
+PEOPLE: Daenerys
+PEOPLE: Barristan
+PEOPLE: Daario
+PEOPLE: Daenerys
+PEOPLE: Meereen
+PEOPLE: Barristan
+PEOPLE: Harpy
+PEOPLE: Unsullied
+PEOPLE: Harpy
+PEOPLE: Meereen
+PEOPLE: Grey Worm
+PEOPLE: Grey Worm
+PEOPLE: Harpy
+PEOPLE: Unsullied
+PEOPLE: that only Grey Worm
+PEOPLE: Harpy
+PEOPLE: Grey Worm
+PEOPLE: Grey Worm
+PEOPLE: Harpy
+PEOPLE: Faith Militant
+PEOPLE: aggressive Jaime
+PEOPLE: Bronn
+PEOPLE: Sand Snakes
+Processing:  ../episodesJSON/season_5/S05E05_kill_the_boy.json
+PEOPLE: Daenerys
+PEOPLE: Daario Naharis
+PEOPLE: Barristan Selmy
+PEOPLE: Daario
+PEOPLE: Sons
+PEOPLE: Hizdahr
+PEOPLE: Rhaegal
+PEOPLE: Viserion
+PEOPLE: Unsullied
+PEOPLE: Rhaegal
+PEOPLE: Daenerys
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Barristan Selmy
+PEOPLE: Harpy
+PEOPLE: Missandei
+PEOPLE: Grey Worm
+PEOPLE: Barristan
+PEOPLE: Missandei
+PEOPLE: Missandei
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Missandei
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Meereen
+PEOPLE: Meereen
+PEOPLE: Aemon Sam
+PEOPLE: Aemon
+PEOPLE: Sam
+PEOPLE: Aemon
+PEOPLE: Jon Snow
+PEOPLE: Aemon
+PEOPLE: Jon
+PEOPLE: Tormund Giantsbane
+PEOPLE: Night
+PEOPLE: White Walkers
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Tormund
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Night
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Edd
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Citadel
+PEOPLE: Night
+PEOPLE: Sam
+PEOPLE: Robert Baratheon
+PEOPLE: Sam
+PEOPLE: White Walker
+PEOPLE: Sam
+PEOPLE: Stannis
+PEOPLE: Sam
+PEOPLE: White Walkers
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Boltons
+PEOPLE: Selyse
+PEOPLE: Stannis
+PEOPLE: Sansa Stark
+PEOPLE: Podrick
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Catelyn Stark
+PEOPLE: Stark
+PEOPLE: Myranda
+PEOPLE: Ramsay
+PEOPLE: Myranda
+PEOPLE: Sansa
+PEOPLE: Myranda
+PEOPLE: Myranda
+PEOPLE: Myranda
+PEOPLE: Ramsay
+PEOPLE: this Myranda
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Jaime Lannister
+PEOPLE: Myranda
+PEOPLE: Myranda
+PEOPLE: Sansa
+PEOPLE: Myranda
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Reek
+PEOPLE: Sansa
+PEOPLE: Reek
+PEOPLE: Ramsay
+PEOPLE: Sansa
+PEOPLE: Reek
+PEOPLE: Ramsay
+PEOPLE: Sansa
+PEOPLE: Bran
+PEOPLE: Reek
+PEOPLE: Reek
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Roose Bolton
+PEOPLE: that Ramsay
+PEOPLE: Roose
+PEOPLE: Ramsay
+PEOPLE: Ramsay
+PEOPLE: Roose
+PEOPLE: Ramsay
+PEOPLE: Roose
+PEOPLE: Roose
+PEOPLE: that Stannis
+PEOPLE: Stannis
+PEOPLE: Iron Throne
+PEOPLE: Landing
+PEOPLE: North
+PEOPLE: Ramsay
+PEOPLE: Stannis
+PEOPLE: O <
+PEOPLE: > Tyrion
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Valyria
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Drogon
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Drogon
+PEOPLE: Stone Men
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Meereen
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Meereen
+PEOPLE: Tyrion
+PEOPLE: Boy
+PEOPLE: Bryan Cogman
+PEOPLE: Dany
+PEOPLE: Jon
+Processing:  ../episodesJSON/season_5/S05E06_unbowed,_unbent,_unbroken.json
+PEOPLE: > Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: surprising Arya
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Jaqen H'ghar
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Faceless Men
+PEOPLE: Jaqen
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Braavos
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Slaver
+PEOPLE: Tyrion Lannister
+PEOPLE: Jorah Mormont
+PEOPLE: Jorah
+PEOPLE: Volantis
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Westeros
+PEOPLE: Jorah
+PEOPLE: miserable Jorah
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Wall
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Jeor
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Daenerys Targaryen
+PEOPLE: Mad
+PEOPLE: Jorah
+PEOPLE: Daenerys
+PEOPLE: Iron Throne
+PEOPLE: Targaryens
+PEOPLE: Jorah
+PEOPLE: Malko
+PEOPLE: that Jorah
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Meereen
+PEOPLE: _In_Dorne > Bronn
+PEOPLE: Jaime
+PEOPLE: Martell
+PEOPLE: Bronn
+PEOPLE: Myrcella
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Sand Snakes
+PEOPLE: Ellaria
+PEOPLE: Myrcella
+PEOPLE: Trystane Martell
+PEOPLE: Areo Hotah
+PEOPLE: Doran
+PEOPLE: Areo
+PEOPLE: Areo
+PEOPLE: her intended Trystane Martell Jaime
+PEOPLE: Bronn
+PEOPLE: Myrcella
+PEOPLE: Jaime
+PEOPLE: Myrcella
+PEOPLE: Trystane
+PEOPLE: Bronn
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Myrcella
+PEOPLE: Nym
+PEOPLE: Sand Snakes
+PEOPLE: Petyr Baelish
+PEOPLE: Landing
+PEOPLE: Cersei
+PEOPLE: Lancel
+PEOPLE: Baelish
+PEOPLE: Cersei
+PEOPLE: Baelish
+PEOPLE: Robin
+PEOPLE: Sansa
+PEOPLE: Roose Bolton
+PEOPLE: Ramsay
+PEOPLE: Cersei
+PEOPLE: Boltons
+PEOPLE: Baelish
+PEOPLE: last remaining Stark
+PEOPLE: Boltons
+PEOPLE: Cersei
+PEOPLE: uncle Kevan Lannister
+PEOPLE: Lannister
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Warden
+PEOPLE: Cersei
+PEOPLE: Olenna Tyrell
+PEOPLE: Olenna
+PEOPLE: Cersei
+PEOPLE: Loras
+PEOPLE: Faith Militant
+PEOPLE: Loras
+PEOPLE: Olenna
+PEOPLE: Lannister Tyrell
+PEOPLE: High Septon
+PEOPLE: Loras
+PEOPLE: Margaery
+PEOPLE: High Sparrow
+PEOPLE: Olyvar
+PEOPLE: Loras
+PEOPLE: Loras
+PEOPLE: Margaery
+PEOPLE: Olyvar
+PEOPLE: Loras
+PEOPLE: High Sparrow
+PEOPLE: Margaery
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Myranda
+PEOPLE: Ramsay
+PEOPLE: that Myranda
+PEOPLE: Sansa
+PEOPLE: Myranda
+PEOPLE: Sansa
+PEOPLE: Reek
+PEOPLE: Sansa
+PEOPLE: Reek
+PEOPLE: t. Sansa
+PEOPLE: Ramsay
+PEOPLE: Reek
+PEOPLE: Reek
+PEOPLE: Theon Greyjoy
+PEOPLE: Roose Bolton
+PEOPLE: Ramsay
+PEOPLE: Reek
+PEOPLE: Ramsay
+PEOPLE: Reek
+PEOPLE: Unbroken
+PEOPLE: Bryan Cogman
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Trystane
+PEOPLE: Myrcella
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Sand Snakes
+Processing:  ../episodesJSON/season_5/S05E07_the_gift.json
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Egg
+PEOPLE: Aegon V
+PEOPLE: Aemon
+PEOPLE: Gilly
+PEOPLE: Wall
+PEOPLE: Samwell
+PEOPLE: Castle Black
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Ghost
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Reek
+PEOPLE: Ramsay
+PEOPLE: Sansa
+PEOPLE: Ramsay
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: North
+PEOPLE: Sansa
+PEOPLE: Theon Greyjoy
+PEOPLE: Sansa
+PEOPLE: Ramsay
+PEOPLE: Sansa
+PEOPLE: Stannis
+PEOPLE: Winterfell
+PEOPLE: Sansa
+PEOPLE: Ramsay
+PEOPLE: Roose Bolton
+PEOPLE: Sansa
+PEOPLE: Ramsay
+PEOPLE: Jon
+PEOPLE: that Reek
+PEOPLE: Sansa
+PEOPLE: Brienne
+PEOPLE: Winterfell
+PEOPLE: Sansa
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Castle Black
+PEOPLE: Castle Black
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Shireen
+PEOPLE: Stannis
+PEOPLE: Doran
+PEOPLE: Areo Hotah
+PEOPLE: Jaime
+PEOPLE: Myrcella
+PEOPLE: Trystane
+PEOPLE: Bronn
+PEOPLE: Dornishman
+PEOPLE: Sand Snakes
+PEOPLE: Nymeria
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Tyene
+PEOPLE: Long Farewell
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Tyene
+PEOPLE: Olenna
+PEOPLE: High Sparrow
+PEOPLE: Tyrell
+PEOPLE: High Sparrow
+PEOPLE: Westeros
+PEOPLE: Olenna
+PEOPLE: Petyr Baelish
+PEOPLE: Tommen
+PEOPLE: Margaery
+PEOPLE: overwhelmed Tommen
+PEOPLE: Olenna
+PEOPLE: Joffrey
+PEOPLE: Littlefinger
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Lancel
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Margaery
+PEOPLE: Loras
+PEOPLE: Margaery
+PEOPLE: Tommen
+PEOPLE: Cersei
+PEOPLE: Margaery
+PEOPLE: Cersei
+PEOPLE: Great Sept
+PEOPLE: High Sparrow
+PEOPLE: Brother Lancel
+PEOPLE: Cersei
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: Septas
+PEOPLE: Cersei
+PEOPLE: _In_Meereen > Jorah
+PEOPLE: Yezzan
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: Daario
+PEOPLE: Daario
+PEOPLE: Good Masters
+PEOPLE: Dany
+PEOPLE: Daario
+PEOPLE: Yezzan
+PEOPLE: a reluctant Daenerys
+PEOPLE: Hizdahr
+PEOPLE: that Meereen
+PEOPLE: Jorah
+PEOPLE: Yezzan
+PEOPLE: Dany
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Gift
+PEOPLE: Sansa
+PEOPLE: Theon
+Processing:  ../episodesJSON/season_5/S05E08_hardhome.json
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Westeros
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: Jorah
+PEOPLE: Qaggaz
+PEOPLE: Yezzan
+PEOPLE: Great Pit
+PEOPLE: Jorah
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Tyrion
+PEOPLE: Tywin
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: Tyrion
+PEOPLE: Slaver
+PEOPLE: Bay
+PEOPLE: Essos
+PEOPLE: Daenerys
+PEOPLE: that Meereen
+PEOPLE: Houses Targaryen
+PEOPLE: Stark
+PEOPLE: Great Houses
+PEOPLE: Daenerys
+PEOPLE: > Arya
+PEOPLE: Lanna
+PEOPLE: Jaqen H'ghar
+PEOPLE: Faceless Man
+PEOPLE: Jaqen
+PEOPLE: Jaqen
+PEOPLE: Arya Lanna
+PEOPLE: Septa Unella
+PEOPLE: an imprisoned Cersei
+PEOPLE: Qyburn
+PEOPLE: Qyburn
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Kevan Lannister
+PEOPLE: Kevan
+PEOPLE: Tommen
+PEOPLE: Sansa
+PEOPLE: Ramsay
+PEOPLE: Theon Greyjoy
+PEOPLE: Ramsay
+PEOPLE: no Theon
+PEOPLE: Reek
+PEOPLE: Ramsay
+PEOPLE: Reek
+PEOPLE: Sansa
+PEOPLE: Theon
+PEOPLE: Roose Bolton
+PEOPLE: Winterfell
+PEOPLE: Stannis
+PEOPLE: Winterfell
+PEOPLE: Baratheon
+PEOPLE: Stannis
+PEOPLE: > Gilly
+PEOPLE: Sam
+PEOPLE: Gilly
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Watch
+PEOPLE: Westeros
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Hardhome
+PEOPLE: Bones
+PEOPLE: Jon
+PEOPLE: Mance Rayder
+PEOPLE: Wildlings
+PEOPLE: Rayder
+PEOPLE: Snow
+PEOPLE: Thenn
+PEOPLE: warrior Loboda
+PEOPLE: Jon
+PEOPLE: a White Walker
+PEOPLE: Free Folk
+PEOPLE: Watch
+PEOPLE: Edd
+PEOPLE: Edd
+PEOPLE: White Walkers
+PEOPLE: Hardhome
+PEOPLE: Hardhome
+PEOPLE: Loboda
+PEOPLE: Karsi
+PEOPLE: Night
+PEOPLE: Hardhome
+PEOPLE: several White Walkers
+PEOPLE: Night
+PEOPLE: Jon
+PEOPLE: Loboda
+PEOPLE: a White Walker
+PEOPLE: Loboda
+PEOPLE: Jon Snow
+PEOPLE: Loboda
+PEOPLE: White Walker
+PEOPLE: Jon
+PEOPLE: Longclaw
+PEOPLE: Jon
+PEOPLE: Karsi
+PEOPLE: White Walkers
+PEOPLE: Night
+PEOPLE: Karsi
+PEOPLE: Hardhome
+PEOPLE: Arya
+PEOPLE: Sansa
+PEOPLE: White Walkers
+Processing:  ../episodesJSON/season_5/S05E09_the_dance_of_dragons.json
+PEOPLE: Jon
+PEOPLE: Castle Black
+PEOPLE: Hardhome
+PEOPLE: Castle Black
+PEOPLE: Alliser Thorne
+PEOPLE: Watch
+PEOPLE: Jon
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Ramsay Bolton
+PEOPLE: Winterfell
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Boltons
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Castle Black
+PEOPLE: Davos
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: Jon
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Davos
+PEOPLE: Matthos
+PEOPLE: Davos
+PEOPLE: Shireen
+PEOPLE: Davos
+PEOPLE: Shireen
+PEOPLE: Dragons
+PEOPLE: Westeros
+PEOPLE: Brother
+PEOPLE: Rhaenyra
+PEOPLE: Westeros
+PEOPLE: Shireen
+PEOPLE: Shireen
+PEOPLE: Shireen
+PEOPLE: Melisandre
+PEOPLE: Selyse
+PEOPLE: Light
+PEOPLE: Shireen
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Stannis
+PEOPLE: Shireen
+PEOPLE: Light
+PEOPLE: Stannis
+PEOPLE: Mother
+PEOPLE: Stannis
+PEOPLE: Selyse
+PEOPLE: Shireen
+PEOPLE: Jaime Lannister
+PEOPLE: Myrcella
+PEOPLE: Myrcella
+PEOPLE: Dorne
+PEOPLE: Doran
+PEOPLE: Myrcella
+PEOPLE: Doran
+PEOPLE: Lannister
+PEOPLE: Jaime
+PEOPLE: Doran
+PEOPLE: Jaime
+PEOPLE: Jaime
+PEOPLE: Doran
+PEOPLE: Doran
+PEOPLE: Myrcella
+PEOPLE: Doran
+PEOPLE: Tywin
+PEOPLE: Doran
+PEOPLE: Trystane
+PEOPLE: Jaime
+PEOPLE: Myrcella
+PEOPLE: Trystane
+PEOPLE: Ellaria
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Myrcella
+PEOPLE: Jaime
+PEOPLE: Bronn
+PEOPLE: Jaime
+PEOPLE: Trystane
+PEOPLE: Nymeria
+PEOPLE: Tyene Sand
+PEOPLE: Obara
+PEOPLE: Tyene
+PEOPLE: Areo
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Martells
+PEOPLE: Bronn
+PEOPLE: Bronn
+PEOPLE: Trystane
+PEOPLE: Areo
+PEOPLE: Doran
+PEOPLE: Doran
+PEOPLE: Jaime
+PEOPLE: Ellaria
+PEOPLE: Oberyn
+PEOPLE: Jaime
+PEOPLE: Targaryen
+PEOPLE: Myrcella
+PEOPLE: Jaime
+PEOPLE: Oberyn
+PEOPLE: Jaime
+PEOPLE: her Lanna
+PEOPLE: Braavos
+PEOPLE: Thin
+PEOPLE: Coin Mace Tyrell
+PEOPLE: Meryn
+PEOPLE: her Water Dancing
+PEOPLE: Tycho Nestoris
+PEOPLE: Tycho
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Thin Man
+PEOPLE: Meryn
+PEOPLE: Mace
+PEOPLE: Iron Bank
+PEOPLE: Arya
+PEOPLE: Brusco
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Meryn
+PEOPLE: different Braavosi
+PEOPLE: Braavos
+PEOPLE: Anara
+PEOPLE: Meryn
+PEOPLE: Meryn
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Jaqen H'ghar
+PEOPLE: Jaqen
+PEOPLE: Arya
+PEOPLE: Jaqen
+PEOPLE: Daenerys
+PEOPLE: Hizdahr zo Loraq
+PEOPLE: Hizdahr
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Jorah Mormont
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Norvosi
+PEOPLE: Jorah
+PEOPLE: his Dothraki
+PEOPLE: Jorah
+PEOPLE: a Meerenese Pit Fighter
+PEOPLE: Jorah
+PEOPLE: Harpy
+PEOPLE: Harpy
+PEOPLE: Hizdahr
+PEOPLE: Jorah
+PEOPLE: Daario
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: Dany
+PEOPLE: Drogon
+PEOPLE: Sons
+PEOPLE: Drogon
+PEOPLE: Drogon
+PEOPLE: Daenerys
+PEOPLE: Valahd
+PEOPLE: first Targaryen
+PEOPLE: Harpy
+PEOPLE: Missandei
+PEOPLE: Tyrion
+PEOPLE: Drogon
+PEOPLE: Stannis
+PEOPLE: Mace
+PEOPLE: Arya
+Processing:  ../episodesJSON/season_5/S05E10_mother's_mercy.json
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Selyse
+PEOPLE: Melisandre
+PEOPLE: Stannis
+PEOPLE: Bolton
+PEOPLE: mounted Bolton
+PEOPLE: Stannis
+PEOPLE: Stannis
+PEOPLE: a wounded Stannis
+PEOPLE: Brienne
+PEOPLE: Brienne
+PEOPLE: Ramsay
+PEOPLE: Baratheon
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Boltons
+PEOPLE: Winterfell
+PEOPLE: Myranda
+PEOPLE: Myranda
+PEOPLE: Ramsay
+PEOPLE: Myrnada
+PEOPLE: Bolton
+PEOPLE: Myranda
+PEOPLE: Sansa
+PEOPLE: Theon
+PEOPLE: > Arya
+PEOPLE: Meryn Trant
+PEOPLE: Meryn Trant
+PEOPLE: Braavosi
+PEOPLE: Meryn
+PEOPLE: Arya Stark
+PEOPLE: Meryn
+PEOPLE: White
+PEOPLE: Waif
+PEOPLE: Waif
+PEOPLE: Jaqen
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Jaqen
+PEOPLE: Jaqen
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Daenerys
+PEOPLE: both Jorah
+PEOPLE: Tyrion
+PEOPLE: Grey Worm
+PEOPLE: Unsullied
+PEOPLE: Tyrion
+PEOPLE: Meereen
+PEOPLE: Tyrion
+PEOPLE: Daario
+PEOPLE: Jorah
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: Drogon
+PEOPLE: Meereen
+PEOPLE: Daenerys
+PEOPLE: Dothraki
+PEOPLE: Ellaria
+PEOPLE: Myrcella
+PEOPLE: Myrcella
+PEOPLE: Trystane
+PEOPLE: Ellaria Sand
+PEOPLE: Tyene Sand
+PEOPLE: Myrcella
+PEOPLE: Jaime
+PEOPLE: Jamie
+PEOPLE: Jamie
+PEOPLE: Jaime
+PEOPLE: Ellaria
+PEOPLE: Cersei
+PEOPLE: Septa Unella
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Cersei
+PEOPLE: Pycelle
+PEOPLE: Qyburn
+PEOPLE: Qyburn
+PEOPLE: Cersei
+PEOPLE: Jon Snow
+PEOPLE: White Walkers
+PEOPLE: Wall
+PEOPLE: enough Dragonglass
+PEOPLE: Sam
+PEOPLE: Oldtown
+PEOPLE: Aemon
+PEOPLE: Jon
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Jon
+PEOPLE: Castle Black
+PEOPLE: Wildlings
+PEOPLE: Jon
+PEOPLE: Melisandre
+PEOPLE: Davos
+PEOPLE: Melisandre
+PEOPLE: Davos
+PEOPLE: Jon
+PEOPLE: Olly
+PEOPLE: Watch
+PEOPLE: his Brothers
+PEOPLE: Thorne
+PEOPLE: Watch Thorne
+PEOPLE: Jon Snow
+PEOPLE: Jon
+PEOPLE: Olly
+PEOPLE: Jon
+PEOPLE: Mercy
+PEOPLE: Dany
+PEOPLE: Cersei
+PEOPLE: Jon
+Processing:  ../episodesJSON/season_6/S06E01_the_red_woman.json
+PEOPLE: Ramsay
+PEOPLE: Wolkan
+PEOPLE: Myranda
+PEOPLE: Ramsay
+PEOPLE: Ramsay
+PEOPLE: Wolfswood
+PEOPLE: a frightened Sansa
+PEOPLE: Theon
+PEOPLE: Theon
+PEOPLE: Sansa
+PEOPLE: Bolton
+PEOPLE: Sansa
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Brienne
+PEOPLE: Podrick
+PEOPLE: Theon
+PEOPLE: Bolton
+PEOPLE: Sansa
+PEOPLE: Roose Bolton
+PEOPLE: Stannis Baratheon
+PEOPLE: Sansa
+PEOPLE: A Lannister
+PEOPLE: Bolton
+PEOPLE: Ramsay
+PEOPLE: Sansa
+PEOPLE: Roose
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: _In_Meereen > Varys
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: _In_the_Dothraki_Sea > Daenerys
+PEOPLE: Khal Moro
+PEOPLE: Jorah
+PEOPLE: Jorah
+PEOPLE: Dothraki
+PEOPLE: Daenerys
+PEOPLE: Dothraki
+PEOPLE: Khal
+PEOPLE: Khal Drogo
+PEOPLE: Khal
+PEOPLE: Daenerys
+PEOPLE: Moro
+PEOPLE: Vaes Dothrak
+PEOPLE: a Dosh
+PEOPLE: _In_Dorne > Doran
+PEOPLE: Ellaria
+PEOPLE: Doran
+PEOPLE: Doran
+PEOPLE: Ellaria
+PEOPLE: Caleotte
+PEOPLE: Myrcella
+PEOPLE: Tyene
+PEOPLE: Ellaria
+PEOPLE: Dorne
+PEOPLE: Doran
+PEOPLE: Trystane
+PEOPLE: Dorne
+PEOPLE: Cersei
+PEOPLE: Dorne
+PEOPLE: that Myrcella
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Myrcella
+PEOPLE: Margaery
+PEOPLE: High Sparrow
+PEOPLE: Loras
+PEOPLE: Obara
+PEOPLE: Nymeria
+PEOPLE: Nymeria
+PEOPLE: Nymeria
+PEOPLE: Jon
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Edd
+PEOPLE: Jon
+PEOPLE: Davos
+PEOPLE: Edd
+PEOPLE: bring Ghost
+PEOPLE: Melisandre
+PEOPLE: Jon
+PEOPLE: Bowen Marsh
+PEOPLE: Castle Black
+PEOPLE: Davos
+PEOPLE: Thorne
+PEOPLE: Edd
+PEOPLE: Jon
+PEOPLE: Thorne
+PEOPLE: Davos
+PEOPLE: Ghost
+PEOPLE: Edd
+PEOPLE: Jon
+PEOPLE: Wildlings
+PEOPLE: Edd
+PEOPLE: Watch
+PEOPLE: Jon Snow
+PEOPLE: Watch
+PEOPLE: Thorne
+PEOPLE: Melisandre
+PEOPLE: Davos
+PEOPLE: Davos
+PEOPLE: Thorne
+PEOPLE: Melisandre
+PEOPLE: Light
+PEOPLE: Melisandre
+PEOPLE: Red Woman
+PEOPLE: Thorne
+PEOPLE: Edd
+PEOPLE: Davos
+PEOPLE: Sansa
+PEOPLE: Theon
+Processing:  ../episodesJSON/season_6/S06E02_home.json
+PEOPLE: Bran Stark
+PEOPLE: Uncle Benjen
+PEOPLE: his Aunt Lyanna
+PEOPLE: Hodor
+PEOPLE: Wylis
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Leaf
+PEOPLE: Cersei
+PEOPLE: Gregor
+PEOPLE: Tommen
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: Tommen
+PEOPLE: Tommen
+PEOPLE: Cersei
+PEOPLE: High Sparrow
+PEOPLE: Tommen
+PEOPLE: Jaime
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: Jaime
+PEOPLE: High Sparrow
+PEOPLE: High Sparrow
+PEOPLE: Jaime
+PEOPLE: High Sparrow
+PEOPLE: Jaime
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: _In_Meereen > Missandei
+PEOPLE: Grey Worm
+PEOPLE: Rhaegal
+PEOPLE: Viserion
+PEOPLE: Daenerys
+PEOPLE: Missandei
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Varys
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Harald Karstark
+PEOPLE: Ramsay
+PEOPLE: Castle Black
+PEOPLE: Roose
+PEOPLE: entire North
+PEOPLE: Walda
+PEOPLE: Walda
+PEOPLE: Brienne
+PEOPLE: Sansa
+PEOPLE: Stark
+PEOPLE: Sansa
+PEOPLE: Yara Greyjoy
+PEOPLE: Deepwood Motte
+PEOPLE: Deepwood Motte
+PEOPLE: Ironborn
+PEOPLE: Balon
+PEOPLE: Yara
+PEOPLE: North
+PEOPLE: Balon
+PEOPLE: Yara
+PEOPLE: Theon
+PEOPLE: Balon
+PEOPLE: Northerners
+PEOPLE: Balon
+PEOPLE: Northerners
+PEOPLE: Balon
+PEOPLE: Balon
+PEOPLE: Pyke
+PEOPLE: Balon
+PEOPLE: Euron Greyjoy
+PEOPLE: Balon
+PEOPLE: Euron
+PEOPLE: Balon
+PEOPLE: Drowned God
+PEOPLE: Balon
+PEOPLE: Euron
+PEOPLE: Euron
+PEOPLE: Balon
+PEOPLE: Balon
+PEOPLE: a true Ironborn
+PEOPLE: Euron
+PEOPLE: Yara
+PEOPLE: Aeron Greyjoy
+PEOPLE: Salt Throne
+PEOPLE: Aeron
+PEOPLE: Kingsmoot
+PEOPLE: Yara
+PEOPLE: Aeron
+PEOPLE: Jon
+PEOPLE: Davos
+PEOPLE: Edd
+PEOPLE: Thorne
+PEOPLE: Wun Wun
+PEOPLE: Wun Wun
+PEOPLE: Tormund
+PEOPLE: Davos
+PEOPLE: reviving Jon
+PEOPLE: Light
+PEOPLE: Stannis Baratheon
+PEOPLE: Davos
+PEOPLE: Jon
+PEOPLE: High
+PEOPLE: Tormund
+PEOPLE: Melisandre
+PEOPLE: Davos
+PEOPLE: Jon
+PEOPLE: Dave Hill
+PEOPLE: Jaime
+PEOPLE: Watch
+PEOPLE: Ramsay Bolton
+PEOPLE: Balon Greyjoy
+Processing:  ../episodesJSON/season_6/S06E03_oathbreaker.json
+PEOPLE: Jon Snow
+PEOPLE: Jon
+PEOPLE: Davos
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Light
+PEOPLE: Stannis
+PEOPLE: That Was
+PEOPLE: Davos
+PEOPLE: Jon
+PEOPLE: Watch
+PEOPLE: dumbfounded Tormund
+PEOPLE: Jon
+PEOPLE: relieved Eddison Tollett
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Bowen
+PEOPLE: Neither
+PEOPLE: Yarwyck
+PEOPLE: Wildlings
+PEOPLE: Jon
+PEOPLE: Wildlings
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Edd
+PEOPLE: Edd
+PEOPLE: Brothers
+PEOPLE: O <
+PEOPLE: Sam
+PEOPLE: Sam
+PEOPLE: Samwell
+PEOPLE: Samwell
+PEOPLE: Oldtown
+PEOPLE: Oldtown
+PEOPLE: Samwell
+PEOPLE: Gilly
+PEOPLE: Samwell
+PEOPLE: Horn Hill
+PEOPLE: Samwell
+PEOPLE: Samwell
+PEOPLE: Gilly
+PEOPLE: Gilly
+PEOPLE: Samwell
+PEOPLE: B <
+PEOPLE: Bran
+PEOPLE: Robert
+PEOPLE: Targaryen Kingsguard
+PEOPLE: Tower
+PEOPLE: Northmen
+PEOPLE: Ned
+PEOPLE: Eddard
+PEOPLE: Arthur
+PEOPLE: Rhaegar
+PEOPLE: Eddard
+PEOPLE: Lyanna
+PEOPLE: Stark
+PEOPLE: Kingsguard
+PEOPLE: Arthur
+PEOPLE: Eddard
+PEOPLE: Dayne
+PEOPLE: Ned
+PEOPLE: Gerold
+PEOPLE: Arthur
+PEOPLE: Morning
+PEOPLE: Howland
+PEOPLE: Arthur
+PEOPLE: Bran
+PEOPLE: Eddard
+PEOPLE: Bran
+PEOPLE: Eddard
+PEOPLE: Ned
+PEOPLE: Bran
+PEOPLE: Bran
+PEOPLE: Little Bird Spies
+PEOPLE: Qyburn
+PEOPLE: Gregor Clegane
+PEOPLE: Cersei
+PEOPLE: North
+PEOPLE: Small Council
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: Council
+PEOPLE: Jaime
+PEOPLE: Gregor
+PEOPLE: Pycelle
+PEOPLE: Cersei
+PEOPLE: that Margaery
+PEOPLE: Pycelle
+PEOPLE: Cersei
+PEOPLE: Dorne
+PEOPLE: Tommen Baratheon
+PEOPLE: his Kingsguard
+PEOPLE: High Sparrow
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: Tommen
+PEOPLE: Tommen
+PEOPLE: High Sparrow
+PEOPLE: Seven
+PEOPLE: Varys
+PEOPLE: Unsullied
+PEOPLE: Vala
+PEOPLE: Varys
+PEOPLE: Sons
+PEOPLE: Varys
+PEOPLE: Tyrion
+PEOPLE: Missandei
+PEOPLE: Varys
+PEOPLE: Astapor
+PEOPLE: Sons
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Meereen
+PEOPLE: Tyrion
+PEOPLE: Vaes Dothrak
+PEOPLE: Daenerys
+PEOPLE: Meereen
+PEOPLE: a previous Great Khal
+PEOPLE: Daenerys
+PEOPLE: Savo
+PEOPLE: Dany
+PEOPLE: Vaes Dothrak
+PEOPLE: Daenerys
+PEOPLE: Khal Drogo
+PEOPLE: A blind Arya Stark
+PEOPLE: Jaqen
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Hound
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Waif
+PEOPLE: that Arya
+PEOPLE: Jaqen
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: Jaqen
+PEOPLE: Smalljon Umber
+PEOPLE: Ramsay Bolton
+PEOPLE: Winterfell
+PEOPLE: Smalljon
+PEOPLE: Ramsay
+PEOPLE: Greatjon Umber
+PEOPLE: Ramsay
+PEOPLE: late Roose Bolton
+PEOPLE: Smalljon
+PEOPLE: Smalljon
+PEOPLE: Ramsay
+PEOPLE: Roose
+PEOPLE: Osha
+PEOPLE: Rickon Stark
+PEOPLE: Osha
+PEOPLE: Rickon
+PEOPLE: Ramsay
+PEOPLE: Rickon
+PEOPLE: an Umber
+PEOPLE: Daenerys
+PEOPLE: Bran
+PEOPLE: High Sparrow
+PEOPLE: No One
+PEOPLE: Varys
+PEOPLE: Ramsay
+Processing:  ../episodesJSON/season_6/S06E04_book_of_the_stranger.json
+PEOPLE: High Sparrow
+PEOPLE: Margaery
+PEOPLE: High Sparrow
+PEOPLE: Margaery
+PEOPLE: Sparrow
+PEOPLE: Septa Unella
+PEOPLE: that Unella
+PEOPLE: High Sparrow
+PEOPLE: Margaery
+PEOPLE: Sparrow
+PEOPLE: Margaery
+PEOPLE: a dejected Loras
+PEOPLE: Loras
+PEOPLE: Margaery
+PEOPLE: Loras
+PEOPLE: Margaery
+PEOPLE: Sparrow
+PEOPLE: Grand
+PEOPLE: Pycelle
+PEOPLE: High Sparrow
+PEOPLE: Pycelle
+PEOPLE: Tommen
+PEOPLE: Sparrows
+PEOPLE: Margaery
+PEOPLE: Tommen
+PEOPLE: High Sparrow
+PEOPLE: High Sparrow
+PEOPLE: Cersei
+PEOPLE: a Small Council
+PEOPLE: Kevan
+PEOPLE: Olenna
+PEOPLE: Cersei
+PEOPLE: Council
+PEOPLE: High Sparrow
+PEOPLE: Margaery
+PEOPLE: Olenna
+PEOPLE: Sparrows
+PEOPLE: Council
+PEOPLE: Tyrells
+PEOPLE: Faith Militant
+PEOPLE: Margaery
+PEOPLE: Crown
+PEOPLE: Kevan
+PEOPLE: Lannister
+PEOPLE: Margaery
+PEOPLE: Olenna
+PEOPLE: Tyrell
+PEOPLE: Tyrell
+PEOPLE: Great Sept
+PEOPLE: Sparrows
+PEOPLE: Margaery
+PEOPLE: Tommen
+PEOPLE: Cersei
+PEOPLE: Olenna
+PEOPLE: Sparrows
+PEOPLE: Eddison Tollett
+PEOPLE: Jon Snow
+PEOPLE: Night
+PEOPLE: Jon
+PEOPLE: Podrick Payne
+PEOPLE: Jon
+PEOPLE: Starks
+PEOPLE: Sansa
+PEOPLE: Winterfell
+PEOPLE: Ramsay Bolton
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Sansa
+PEOPLE: Davos Seaworth
+PEOPLE: That Was
+PEOPLE: Davos
+PEOPLE: Stannis
+PEOPLE: Melisandre
+PEOPLE: Davos
+PEOPLE: Brienne
+PEOPLE: Stannis
+PEOPLE: Renly
+PEOPLE: Jon
+PEOPLE: Ramsay Bolton
+PEOPLE: Stark
+PEOPLE: Sansa
+PEOPLE: Sansa
+PEOPLE: Tormund
+PEOPLE: Ramsay
+PEOPLE: Sansa
+PEOPLE: Jon
+PEOPLE: Jon
+PEOPLE: Ramsay
+PEOPLE: Petyr Baelish
+PEOPLE: Arryn
+PEOPLE: Royce
+PEOPLE: Sansa
+PEOPLE: Ramsay Bolton
+PEOPLE: Bolton
+PEOPLE: Petyr
+PEOPLE: Sansa Stark
+PEOPLE: Royce
+PEOPLE: Petyr
+PEOPLE: Robin
+PEOPLE: Royce
+PEOPLE: Royce
+PEOPLE: Royce
+PEOPLE: Littlefinger
+PEOPLE: Petyr
+PEOPLE: Robin
+PEOPLE: Vale
+PEOPLE: North
+PEOPLE: Osha
+PEOPLE: her fellow captive Rickon Stark
+PEOPLE: Osha
+PEOPLE: Ramsay
+PEOPLE: Theon Greyjoy
+PEOPLE: Theon
+PEOPLE: Osha
+PEOPLE: Theon
+PEOPLE: Rickon
+PEOPLE: Bran Stark
+PEOPLE: Osha
+PEOPLE: Ramsay
+PEOPLE: Theon
+PEOPLE: Theon Greyjoy
+PEOPLE: Balon Greyjoy
+PEOPLE: Yara
+PEOPLE: Theon
+PEOPLE: Ramsay
+PEOPLE: Theon
+PEOPLE: Balon Greyjoy
+PEOPLE: Theon
+PEOPLE: Varys
+PEOPLE: Astapor
+PEOPLE: Volantis
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Tyrion
+PEOPLE: Yezzan zo Qaggaz
+PEOPLE: Yunkai'i Wise
+PEOPLE: Razdal
+PEOPLE: Volantene
+PEOPLE: Tyrion
+PEOPLE: Missandei
+PEOPLE: Tyrion
+PEOPLE: Meereen
+PEOPLE: Daenerys Targaryen
+PEOPLE: Missandei
+PEOPLE: Razdal
+PEOPLE: Tyrion
+PEOPLE: Harpy
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Meereen
+PEOPLE: Daenerys
+PEOPLE: Tyrion
+PEOPLE: Tyrion
+PEOPLE: Grey Worm
+PEOPLE: Grey Worm
+PEOPLE: Missandei
+PEOPLE: Jorah Mormont
+PEOPLE: Daario Naharis
+PEOPLE: Vaes Dothrak
+PEOPLE: Jorah
+PEOPLE: Daario
+PEOPLE: Akho
+PEOPLE: Daario
+PEOPLE: Iggo
+PEOPLE: Akho
+PEOPLE: Daario
+PEOPLE: Daario
+PEOPLE: Dany
+PEOPLE: their true Khaleesi
+PEOPLE: Dosh Khaleen
+PEOPLE: Daenerys
+PEOPLE: Dothraki
+PEOPLE: Dothraki
+PEOPLE: a Lhazareen
+PEOPLE: Ornela
+PEOPLE: Daenerys
+PEOPLE: Daenerys
+PEOPLE: Lhazareen
+PEOPLE: Vaes Dothrak
+PEOPLE: Meereen
+PEOPLE: a Khaleesi
+PEOPLE: Khalar
+PEOPLE: Khal Moro
+PEOPLE: Ahko
+PEOPLE: Daenerys
+PEOPLE: Moro
+PEOPLE: Daenerys
+PEOPLE: Khal Drogo
+PEOPLE: Jorah
+PEOPLE: Daario
+PEOPLE: Dothraki
+PEOPLE: Daenerys
+PEOPLE: Moro
+PEOPLE: Dany
+PEOPLE: a Dothraki
+PEOPLE: Iron Throne
+PEOPLE: Moro
+PEOPLE: Daenerys
+PEOPLE: Vaes Dothrak
+PEOPLE: Jorah
+PEOPLE: Daario
+PEOPLE: Stranger
+PEOPLE: Tyrion
+PEOPLE: Jorah
+PEOPLE: Daario
+PEOPLE: Jaime
+PEOPLE: Cersei
+PEOPLE: Jon
+PEOPLE: Sansa
+Processing:  ../episodesJSON/season_6/S06E05_the_door.json
+PEOPLE: Sansa
+PEOPLE: Sansa Stark
+PEOPLE: Petyr Baelish
+PEOPLE: Ramsay Bolton
+PEOPLE: Vale
+PEOPLE: Sansa
+PEOPLE: Ramsay
+PEOPLE: Baelish
+PEOPLE: Brienne
+PEOPLE: Sansa
+PEOPLE: her great uncle Brynden Tully
+PEOPLE: Riverrun
+PEOPLE: Tully
+PEOPLE: Sansa
+PEOPLE: Jon
+PEOPLE: Castle Black
+PEOPLE: Sansa
+PEOPLE: Riverrun
+PEOPLE: Ramsay
+PEOPLE: Jon
+PEOPLE: Littlefinger
+PEOPLE: Brienne
+PEOPLE: Brynden
+PEOPLE: Castle Black
+PEOPLE: Castle Black
+PEOPLE: Sansa
+PEOPLE: Stark
+PEOPLE: Waif
+PEOPLE: Arya
+PEOPLE: Jaqen H
+PEOPLE: Faceless Men
+PEOPLE: Arya
+PEOPLE: Jaqen
+PEOPLE: Many Faced God
+PEOPLE: Arya
+PEOPLE: Arya
+PEOPLE: War
+PEOPLE: Eddard
+PEOPLE: Sansa
+PEOPLE: Arya
+PEOPLE: Crane
+PEOPLE: Arya
+PEOPLE: Bianca
+PEOPLE: Jaqen
+PEOPLE: _In_the_Dothraki_Sea > Jorah
+PEOPLE: Daenerys
+PEOPLE: Westeros
+PEOPLE: Daenerys
+PEOPLE: Daario Naharis
+PEOPLE: Dothraki
+PEOPLE: Meereen
+PEOPLE: Tyrion
+PEOPLE: Meereenese
+PEOPLE: Tyrion
+PEOPLE: Slaver
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: Kinvara
+PEOPLE: Tyrion
+PEOPLE: Daenerys
+PEOPLE: That Was
+PEOPLE: Varys
+PEOPLE: Melisandre
+PEOPLE: Stannis Baratheon
+PEOPLE: Kinvara
+PEOPLE: Light
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Varys
+PEOPLE: Kingsmoot
+PEOPLE: Yara Greyjoy
+PEOPLE: Yara
+PEOPLE: An Ironborn
+PEOPLE: Yara
+PEOPLE: Theon Greyjoy
+PEOPLE: Yara
+PEOPLE: Euron Greyjoy
+PEOPLE: Theon
+PEOPLE: Yara
+PEOPLE: Euron
+PEOPLE: Balon
+PEOPLE: Balon
+PEOPLE: Euron
+PEOPLE: Balon
+PEOPLE: Euron
+PEOPLE: Yara
+PEOPLE: Ironborn
+PEOPLE: Euron
+PEOPLE: Ironborn
+PEOPLE: Daenerys Targaryen
+PEOPLE: Ironborn
+PEOPLE: Men
+PEOPLE: Euron
+PEOPLE: that Euron
+PEOPLE: Yara
+PEOPLE: Iron Islands
+PEOPLE: Euron
+PEOPLE: Euron
+PEOPLE: B <
+PEOPLE: Three
+PEOPLE: Leaf
+PEOPLE: Forest
+PEOPLE: a Dragonglass
+PEOPLE: first White Walker
+PEOPLE: White Walkers
+PEOPLE: Leaf
+PEOPLE: First Men
+PEOPLE: Bran
+PEOPLE: Weirwood
+PEOPLE: Bran
+PEOPLE: Army
+PEOPLE: Night
+PEOPLE: Bran
+PEOPLE: Night
+PEOPLE: Three
+PEOPLE: Night
+PEOPLE: Bran
+PEOPLE: White Walkers
+PEOPLE: Three
+PEOPLE: Bran
+PEOPLE: Raven
+PEOPLE: Meera
+PEOPLE: Hodor
+PEOPLE: White Walkers
+PEOPLE: Forest
+PEOPLE: Walkers
+PEOPLE: Walkers
+PEOPLE: Weirwood
+PEOPLE: Bran
+PEOPLE: frightened Hodor
+PEOPLE: Bran
+PEOPLE: Meera
+PEOPLE: Children
+PEOPLE: Bran
+PEOPLE: Meera
+PEOPLE: Hodor
+PEOPLE: Bran
+PEOPLE: Winterfell
+PEOPLE: Ned Stark
+PEOPLE: Rickard Stark
+PEOPLE: Bran
+PEOPLE: Hodor
+PEOPLE: Three
+PEOPLE: Raven
+PEOPLE: Bran
+PEOPLE: Hodor
+PEOPLE: Wylis
+PEOPLE: Hodor
+PEOPLE: Bran
+PEOPLE: Summer
+PEOPLE: Leaf
+PEOPLE: Three
+PEOPLE: Raven
+PEOPLE: Bran
+PEOPLE: Night
+PEOPLE: Hodor
+PEOPLE: Meera
+PEOPLE: Meera
+PEOPLE: Hodor
+PEOPLE: Wylis
+PEOPLE: present Hodor
+PEOPLE: Wylis
+PEOPLE: Meera
+PEOPLE: Hold
+PEOPLE: Hodor
+PEOPLE: Wylis
+PEOPLE: Hodor
+PEOPLE: Hodor
+PEOPLE: Hodor
+PEOPLE: Wylis
+PEOPLE: Hodor
+PEOPLE: Door
+PEOPLE: Bran
+PEOPLE: Brienne
+PEOPLE: Arya
