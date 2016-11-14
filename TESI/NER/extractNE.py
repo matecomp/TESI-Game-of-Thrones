@@ -39,12 +39,19 @@ def Json2Content(data_json):
 	paragraph = data_json['summary']
 	text = ""
 	for p in paragraph:
-		location = "<location: "+p['location']+">\n" 
+		location = p['location'] 
 		location = re.sub(r" +", "_", location)
+		location = re.sub(r" *'", "'", location)
+		location = '<location = "'+location+'">\n' 
 		text += location
 		text += preprocessing(p['content']) + '\n'
+		text += "</location>\n"
+	text += "<info>\n"
 	text += preprocessing(data_json['info']) + '\n'
+	text += "</info>\n"
+	text += "<plot>\n"
 	text += preprocessing(data_json['plot']) + '\n'
+	text += "</plot>\n"
 	return text
 
 def preprocessing(text):
@@ -119,7 +126,7 @@ def Chunker(tagged_sentences):
 	    {<DT|PRP\$>?<JJ>*<NNP|NNPS>+}   # chunk determiner/possessive, adjectives and noun
 	    }<VBD|IN>+{      # Chink sequences of VBD and IN
 	  ORGANIZATION:
-	  	{<NP>+<OF><NP>+}
+	  	{<NP>+<OF><DT>?<NP>+}
 	  HOUSES:
 	  	{<HOUSE><OF>?<NP>+}		# NP is better than anyway tag in this case
 	  """
@@ -172,12 +179,14 @@ def allNER(path):
 			print "Processing: ", episode
 			data_json = openJson(episode)
 			name = episode.split('/')[-1]
-			episode_name = '<episode: '+ name +'>\n\n'
+			episode_name = name[0:-4]
 			episode_name = re.sub(r" +", "_", episode_name)
+			episode_name = re.sub(r" *'", "'", episode_name)
+			episode_name = '<episode = "'+ episode_name +'">\n'
 			tempNE, tempText, tempExNE = extractNE(data_json)
 			NE.update(tempNE)
 			ExNE.update(tempExNE)
-			episode_text += episode_name + tempText + '\n'
+			episode_text += episode_name + tempText + '</episode>\n'
 
 	# #Verifico se as entidades removida por frequencia aparecem em mais de um capitulo
 	NE.update([n for n in ExNE if episode_text.count(n) > 1])
@@ -211,6 +220,8 @@ def markNER(text, NE):
 
 
 def pre_NCE_Classifier(marked_text):
+	# callback = lambda pat: pat.group(0).split(" ","_")
+	# marked_text = re.sub(r"([A-Z]) ([A-Z])", callback, marked_text)
 	valid_text = ""
 	for line in marked_text.split('\n'):
 		if len(line) > 60:
@@ -253,7 +264,7 @@ def normalizeNER(text, NE):
 					buffer.append(temp_word)
 					temp_word = re.sub(r" +$", "", temp_word)
 					FLAG3 = True if any(temp_word in n for n in NE) else False
-					normalize_text += " <" + temp_word + "> " if FLAG3 else temp_word.lower() + " "
+					normalize_text += " [" + temp_word + "] " if FLAG3 else temp_word.lower() + " "
 				if word.isupper():
 					temp_word = word + " "
 				else:
@@ -263,8 +274,10 @@ def normalizeNER(text, NE):
 
 	normalize_text = re.sub(r" +$", "", normalize_text)
 	normalize_text = re.sub(r" +", " ", normalize_text)
-	normalize_text = re.sub(r" +'"," '", normalize_text)
+	normalize_text = re.sub(r" +'","'", normalize_text)
 	normalize_text = re.sub(r" +'S"," 'S", normalize_text)
+	normalize_text = re.sub(r"< ","<", normalize_text)
+	normalize_text = re.sub(r" >",">", normalize_text)
 
 	return normalize_text
 
@@ -306,7 +319,8 @@ def train(path="../episodesJSON/", loadNE=False, loadMARK=False, loadNORM=False,
 		episode_text = readfile("../DATASET/episode_text.txt")
 	else:
 		NE, episode_text = allNER(path)
-		saveCSV('ENTITIES/Naive-NER.csv', NE)
+		NE = loadCSV("ENTITIES/Naive-NER.csv")
+		# saveCSV('ENTITIES/Naive-NER.csv', NE)
 		savefile("../DATASET/episode_text.txt", episode_text)
 	NE = removeSubstring(NE)
 	NE = sorted(NE)

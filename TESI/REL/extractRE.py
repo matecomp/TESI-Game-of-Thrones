@@ -27,7 +27,7 @@ def loadCSV(archive):
 def Subtree2Text(subtree):
 	text = ""
 	for word in subtree.flatten()[:]:
-		if word[0] != '>' and word[0] != '<':
+		if word[0] != ']' and word[0] != '[':
 			text += word[0] + " "
 	text = text[0:-1]
 	return text
@@ -46,9 +46,9 @@ def TaggerText(text):
 		aux = []
 		for word,tag in sent:
 			aux_word = word.lower()
-			if aux_word == "<":
+			if aux_word == "[":
 				tag = "OPENS"
-			if aux_word == ">":
+			if aux_word == "]":
 				tag = "LOCKS"
 			aux.append((word,tag))
 		temp.append(aux)
@@ -73,28 +73,40 @@ def Chunker(tagged_sentences):
 		for subtree in tree.subtrees():
 			if subtree.label() == "REL":
 				relation = Subtree2Text(subtree)
-				print relation
+				# print relation
 				if relation not in RE:
 					RE.add(relation)
 	return RE
 
 
 
-def extractRE(text, NE):
-	tagged_sentences = TaggerText(text)
-	RE = Chunker(tagged_sentences)
+import xml.etree.ElementTree as ET
+def extractRE(path, NE):
+	f = open(path)
+	raw_text = f.read()
+	f.close()
+	episodes = ET.fromstring(raw_text)
+	RE = set()
+	for episode in episodes:
+		episode_name = " "+episode.attrib['id']
+		for chapter in episode:
+			if chapter.tag == 'location':
+				chapter_name = " "+chapter.attrib['id']
+			tagged_sentences = TaggerText(chapter.text)
+			tempRE = Chunker(tagged_sentences)
+			RE.update([(r + episode_name + chapter_name).encode('utf-8') for r in tempRE])
 	return RE
+
+
 
 if __name__ == '__main__':
 
-	f = open("../DATASET/normalizeNE.txt")
-	normalize_text = f.read()
-	f.close()
+	path = "../DATASET/normalizeNE.txt"
 
 	NE = loadCSV("../NER/ENTITIES/Naive-NER.csv")
-
 	print len(NE)
-	RE = extractRE(normalize_text, NE)
+
+	RE = extractRE(path, NE)
 	# for relation in RE:
 		# print relation , '\n\n'
 	print len(RE)

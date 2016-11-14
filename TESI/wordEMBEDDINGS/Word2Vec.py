@@ -280,11 +280,11 @@ def load(filename,name,numpy=False):
 
 if __name__ == '__main__':
 
-	vocabulary_size = 12000
-	# word2vec("embeddings_data.zip",vocabulary_size, 50001)
-	final_embeddings = load("wordspace/better_words_vector.json", "final_embeddings", numpy=True)
-	y_pred = load("wordspace/words_labels.json", "y_pred", numpy=True)
-	words = read_data("embeddings_data.zip")
+	vocabulary_size = 8500
+	word2vec("novo_dado.zip",vocabulary_size, 50001)
+	# final_embeddings = load("wordspace/better_words_vector.json", "final_embeddings", numpy=True)
+	# y_pred = load("wordspace/words_labels.json", "y_pred", numpy=True)
+	words = read_data("novo_dado.zip")
 	data, count, dictionary, reverse_dictionary = build_dataset(words, vocabulary_size)
 	del words
 	# y_pred = saveTSNE()

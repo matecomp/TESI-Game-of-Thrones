@@ -214,6 +214,7 @@ def search(words, shape, dictionary, weight, matrix, matrix_trans=None, svd=None
 	ids = [dictionary[word] for word in words]
 	consult[ids] = weight
 	
+	#Transforms words in dim = docs to dim = n_components
 	if svd is not None:
 		consult = consult.dot(matrix_trans)
 
@@ -247,10 +248,16 @@ if __name__ == '__main__':
 
 	print "Search on matrix-tfidf:"
 	print shape
-	wordlist = ["joffrey","kill","eddard","cry"]
+	wordlist = ["hodor","bran","walkers"]
 	search(wordlist, shape, dictionary, 1.0, matrix_tfidf)
 	svd, terms_k, docs_k = build_svd(matrix_tfidf)
-
+	
+	print "\n\n"
+	print "In new k space:"
+	n, m = terms_k.shape
+	print "terms_k: ", n, "x", m
+	m, n = docs_k.shape
+	print "docs_k: ", n, "x", m
 	print "\n\n"
 	
 	print "Search on SVD matrix:"
