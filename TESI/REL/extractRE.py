@@ -9,7 +9,7 @@ def saveCSV(name, values):
 	#Etapas para criar o arquivo csv e escrever todo conteudo em N neste arquivo
 	target_file = open(name, "wb")
 	open_file_object = csv.writer(target_file)
-	open_file_object.writerow(["NER"])
+	open_file_object.writerow(["RELATION;EPISODE;LOCATION"])
 	for item in values:
 		open_file_object.writerow([item,])
 	target_file.close()
@@ -26,8 +26,11 @@ def loadCSV(archive):
 #Remove os caracteres especiais adicionado no objeto subtree do NLTK
 def Subtree2Text(subtree):
 	text = ""
+	flag = False
 	for word in subtree.flatten()[:]:
-		if word[0] != ']' and word[0] != '[':
+		if word[1] == 'OPENS': flag = True
+		if word[1] == 'LOCKS': flag = False
+		if word[0] != ']' and word[0] != '[' and (flag or "VB" in word[1]):
 			text += word[0] + " "
 	text = text[0:-1]
 	return text
@@ -73,7 +76,7 @@ def Chunker(tagged_sentences):
 		for subtree in tree.subtrees():
 			if subtree.label() == "REL":
 				relation = Subtree2Text(subtree)
-				# print relation
+				print relation
 				if relation not in RE:
 					RE.add(relation)
 	return RE
@@ -88,13 +91,14 @@ def extractRE(path, NE):
 	episodes = ET.fromstring(raw_text)
 	RE = set()
 	for episode in episodes:
-		episode_name = " "+episode.attrib['id']
+		episode_name = " ; "+episode.attrib['id']
 		for chapter in episode:
 			if chapter.tag == 'location':
-				chapter_name = " "+chapter.attrib['id']
+				chapter_name = " ; "+chapter.attrib['id']
 			tagged_sentences = TaggerText(chapter.text)
 			tempRE = Chunker(tagged_sentences)
-			RE.update([(r + episode_name + chapter_name).encode('utf-8') for r in tempRE])
+			labels = re.sub(",", "", episode_name + chapter_name)
+			RE.update([(r + labels).encode('utf-8') for r in tempRE])
 	return RE
 
 
