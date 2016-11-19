@@ -110,11 +110,21 @@ def Subtree2Text(subtree):
 	text = text[0:-1]
 	return text
 
+NEType = dict()
+NEType['PEOPLE'] = list()
+NEType['LOCATION'] = list()
+NEType['ORGANIZATION'] = list()
+NEType['HOUSES'] = list()
+
 #Remove as entidades que estao contidas em outra entidade
 def removeSubstring(string_list):
 	words = set()
 	for s in string_list:
 		if not any([s+' ' in word or ' '+s in word or (' ' in s and s in word and s != word) or s in words for word in string_list]):
+			if s in NEType['PEOPLE']: s = 'PEOPLE: '+ s
+			elif s in NEType['LOCATION']: s = 'LOCATION: '+ s
+			elif s in NEType['ORGANIZATION']: s = 'ORGANIZATION: '+ s
+			elif s in NEType['HOUSES']: s = 'HOUSES: '+ s
 			words.add(s)
 	return words
 
@@ -125,25 +135,32 @@ def Chunker(tagged_sentences):
 	  NP:
 	    {<DT|PRP\$>?<JJ>*<NNP|NNPS>+}   # chunk determiner/possessive, adjectives and noun
 	    }<VBD|IN>+{      # Chink sequences of VBD and IN
+	  PEOPLE:
+	  	{<STATUS><NP>+}
+	  	}<STATUS>{
+	  LOCATION:
+	  	{<LOC><DA><NP><,>?}
+	  	}<LOC><DA>{
+	  	}<,>{
 	  ORGANIZATION:
 	  	{<NP>+<OF><DT>?<NP>+}
 	  HOUSES:
 	  	{<HOUSE><OF>?<NP>+}		# NP is better than anyway tag in this case
 	  """
-	# PEOPLE:
-	#   	{<STATUS><NP>+}
-	#   LOCATION:
-	#   	{<LOC><DA><NP\+|.*>}
 	cp = nltk.RegexpParser(grammar)
 	NE = set()
 	
 	for sent in tagged_sentences:
 		tree = cp.parse(sent)
 		for subtree in tree.subtrees():
-			if subtree.label() != "S":
+			classNE = subtree.label()
+			if classNE != "S" and classNE != "NP":
 				entity = Subtree2Text(subtree)
+				NEType[classNE].append(entity)
+
 				if entity not in NE:
 					NE.add(entity)
+
 	return NE
 
 def extractNE(data_json):
@@ -152,9 +169,9 @@ def extractNE(data_json):
 	NE_aux = Chunker(tagged_sentences)
 	NE = set()
 	ExNE = set()
-	NE.add(data_json["title"])
-	NE.add("Season " + data_json["season"])
-	NE.add("Episode " + data_json["episode"])
+	NE.add("TITLE: " + data_json["title"])
+	NE.add("SEASON: " + data_json["season"])
+	NE.add("EPISODE: " + data_json["episode"])
 
 	#Remove entidades que apareceram uma unica vez
 	for n in NE_aux:
@@ -313,15 +330,17 @@ def train(path="../episodesJSON/", loadNE=False, loadMARK=False, loadNORM=False,
 
 	#Carrega as entidades nomeadas e o corpus de GoT
 	if loadNE:
-		NE = loadCSV("ENTITIES/Naive-NER.csv")
+		NE = loadCSV("ENTITIES/NER.csv")
 		episode_text = readfile("../DATASET/episode_text.txt")
 	else:
 		NE, episode_text = allNER(path)
 		saveCSV('ENTITIES/NER.csv', NE)
 		episode_text = "<data>\n" + episode_text + "\n</data>\n"
 		savefile("../DATASET/episode_text.txt", episode_text)
-	NE = removeSubstring(NE)
-	NE = sorted(NE)
+	# NE = sorted(NE)
+	# NE = removeSubstring(NE)
+	# print NE
+
 	if prints:
 		print "NE and RawText done!"
 		print "Entiites: " , len(NE)
@@ -362,7 +381,7 @@ def train(path="../episodesJSON/", loadNE=False, loadMARK=False, loadNORM=False,
 if __name__ == '__main__':
 	#Pasta de onde os textos serao obtidos
 	mypath = "../episodesJSON/"
-	loadNE = False
+	loadNE = True
 	loadMARK = False
 	loadNORM = False
 	loadNCE = False
